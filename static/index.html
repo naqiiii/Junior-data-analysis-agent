@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Autonomous Data Analyst</h1>
+            <p>Upload your dataset and ask a question. The AI agent team will analyze it for you.</p>
+        </header>
+
+        <main>
+            <section class="card upload-section">
+                <form id="analyze-form">
+                    <div class="file-upload">
+                        <label for="file-input" class="file-label">
+                            <span id="file-name">Choose a CSV, TSV, or DOCX file</span>
+                            <input type="file" id="file-input" name="file" accept=".csv,.tsv,.docx" required>
+                        </label>
+                    </div>
+                    <div class="query-input">
+                        <textarea id="query" name="query" placeholder="E.g., What is the correlation between these variables?" required></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn" class="btn-glow">
+                        <span>Run Analysis</span>
+                    </button>
+                </form>
+            </section>
+
+            <section id="status-section" class="card hidden">
+                <div class="loader"></div>
+                <h3 id="status-text">Queued...</h3>
+                <p id="elapsed-time">Elapsed: 0.0s</p>
+            </section>
+
+            <section id="results-section" class="hidden">
+                <!-- Dataset Info -->
+                <div class="card" id="dataset-info-card">
+                    <h2>Dataset Overview</h2>
+                    <div id="dataset-info" class="info-grid"></div>
+                </div>
+
+                <!-- Analysis Plan -->
+                <div class="card" id="plan-card">
+                    <h2>Analysis Plan</h2>
+                    <ul id="plan-list"></ul>
+                </div>
+
+                <!-- Steps -->
+                <div id="steps-container"></div>
+
+                <!-- Final Insights -->
+                <div class="card glass-highlight" id="insights-card">
+                    <h2>Final Insights</h2>
+                    <div id="final-insights"></div>
+                </div>
+            </section>
+            
+            <section id="error-section" class="card error-card hidden">
+                <h2>Error</h2>
+                <p id="error-text"></p>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

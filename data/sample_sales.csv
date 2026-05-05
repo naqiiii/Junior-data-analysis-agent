@@ -1,0 +1,1201 @@
+order_id,date,region,sales_channel,customer_segment,category,product_name,unit_price,quantity,discount_pct,discount_amount,revenue,cost,profit,profit_margin_pct,customer_satisfaction,returned
+ORD-10042,2023-01-01,East,Online,Budget,Sports,Yoga Mat,395.97,1,20.0,79.19,316.78,260.26,56.52,17.84,4.0,False
+ORD-10410,2023-01-02,North,Online,Budget,Home & Garden,Lamp,105.52,1,5.0,5.28,100.24,52.23,48.01,47.9,4.0,False
+ORD-11005,2023-01-02,Central,Wholesale,Premium,Books,Novel,13.96,1,0.0,0.0,13.96,10.08,3.88,27.79,4.0,False
+ORD-10816,2023-01-02,South,Retail,Budget,Home & Garden,Sofa,537.46,1,25.0,134.37,403.09,381.0,22.09,5.48,3.0,False
+ORD-10935,2023-01-02,Central,Direct Sales,Budget,Beauty,Shampoo,65.24,1,5.0,3.26,61.98,32.52,29.46,47.53,3.0,False
+ORD-11153,2023-01-03,North,Retail,Premium,Sports,Running Shoes,227.2,2,0.0,0.0,454.4,282.04,172.36,37.93,1.0,False
+ORD-10209,2023-01-03,East,Direct Sales,Premium,Electronics,Headphones,686.2,1,0.0,0.0,686.2,350.99,335.21,48.85,4.0,False
+ORD-10439,2023-01-03,North,Retail,Premium,Beauty,Lipstick,74.62,1,0.0,0.0,74.62,39.1,35.52,47.6,4.0,False
+ORD-10465,2023-01-03,Central,Direct Sales,Standard,Home & Garden,Plant Pot,152.36,1,5.0,7.62,144.74,74.75,69.99,48.36,4.0,False
+ORD-10136,2023-01-04,East,Wholesale,Standard,Clothing,Jeans,44.99,1,0.0,0.0,44.99,22.7,22.29,49.54,4.0,False
+ORD-11137,2023-01-04,South,Retail,Standard,Books,Python Guide,41.78,1,10.0,4.18,37.6,20.66,16.94,45.05,2.0,False
+ORD-10840,2023-01-04,North,Wholesale,Standard,Books,Self Help,38.39,1,5.0,1.92,36.47,22.91,13.56,37.18,2.0,False
+ORD-10983,2023-01-04,West,Direct Sales,Premium,Sports,Running Shoes,379.84,2,15.0,113.95,645.73,386.58,259.15,40.13,2.0,False
+ORD-10002,2023-01-04,West,Retail,Standard,Beauty,Sunscreen,94.16,1,10.0,9.42,84.74,42.95,41.79,49.32,3.0,False
+ORD-10018,2023-01-04,North,Retail,Budget,Electronics,Tablet,633.93,1,5.0,31.7,602.23,449.41,152.82,25.38,2.0,True
+ORD-10508,2023-01-05,East,Retail,Budget,Electronics,Tablet,1087.1,1,25.0,271.77,815.33,588.77,226.56,27.79,4.0,False
+ORD-10743,2023-01-05,Central,Retail,Standard,Beauty,Face Cream,80.79,3,20.0,48.47,193.9,172.78,21.12,10.89,2.0,False
+ORD-10945,2023-01-05,Central,Retail,Premium,Beauty,Perfume,90.89,2,20.0,36.36,145.42,97.59,47.83,32.89,4.0,False
+ORD-10800,2023-01-06,East,Online,Standard,Books,Cook Book,38.17,1,0.0,0.0,38.17,27.08,11.09,29.05,5.0,False
+ORD-11075,2023-01-06,North,Online,Premium,Home & Garden,Blender,189.25,1,20.0,37.85,151.4,102.89,48.51,32.04,5.0,False
+ORD-10970,2023-01-06,East,Retail,Premium,Home & Garden,Sofa,102.7,2,10.0,20.54,184.86,149.02,35.84,19.39,3.0,True
+ORD-10360,2023-01-07,West,Wholesale,Standard,Books,Cook Book,19.07,1,25.0,4.77,14.3,12.64,1.66,11.61,3.0,False
+ORD-10110,2023-01-08,Central,Wholesale,Premium,Clothing,Dress,194.47,1,20.0,38.89,155.58,124.23,31.35,20.15,3.0,False
+ORD-10643,2023-01-08,North,Retail,Budget,Books,Cook Book,54.51,1,0.0,0.0,54.51,25.55,28.96,53.13,2.0,False
+ORD-10835,2023-01-09,East,Retail,Standard,Clothing,Jacket,198.1,2,15.0,59.43,336.77,222.44,114.33,33.95,3.0,False
+ORD-10244,2023-01-09,Central,Direct Sales,Budget,Home & Garden,Coffee Maker,699.98,1,,175.0,524.98,498.67,26.31,5.01,4.0,True
+ORD-10151,2023-01-10,North,Direct Sales,Budget,Beauty,Sunscreen,85.19,1,15.0,12.78,72.41,57.39,15.02,20.74,3.0,False
+ORD-10386,2023-01-10,East,Online,Standard,Sports,Yoga Mat,474.67,1,5.0,23.73,450.94,218.75,232.19,51.49,2.0,False
+ORD-10507,2023-01-10,East,Direct Sales,Premium,Sports,Bicycle,506.3,1,15.0,75.94,430.36,325.48,104.88,24.37,4.0,False
+ORD-10730,2023-01-10,Central,Direct Sales,Budget,Home & Garden,Plant Pot,431.52,1,0.0,0.0,431.52,242.23,189.29,43.87,3.0,False
+ORD-10059,2023-01-10,West,Wholesale,Premium,Books,Self Help,58.33,4,25.0,58.33,174.99,164.7,10.29,5.88,4.0,False
+ORD-10517,2023-01-11,East,Direct Sales,Budget,Home & Garden,Plant Pot,246.77,2,5.0,24.68,468.86,238.76,230.1,49.08,3.0,False
+ORD-10060,2023-01-11,North,Online,Premium,Clothing,T-Shirt,73.0,1,5.0,3.65,69.35,51.49,17.86,25.75,3.0,False
+ORD-10784,2023-01-12,West,Retail,Standard,Electronics,Tablet,1224.93,1,20.0,244.99,979.94,805.65,174.29,17.79,3.0,True
+ORD-10272,2023-01-12,East,Online,Budget,Home & Garden,Coffee Maker,34.92,1,0.0,0.0,34.92,22.18,12.74,36.48,3.0,False
+ORD-11156,2023-01-12,West,Retail,Premium,Electronics,Laptop,991.33,1,15.0,148.7,842.63,685.53,157.1,18.64,3.0,False
+ORD-10318,2023-01-13,South,Retail,Premium,Beauty,Sunscreen,112.64,1,20.0,22.53,90.11,74.88,15.23,16.9,4.0,False
+ORD-10420,2023-01-13,East,Direct Sales,Premium,Beauty,Sunscreen,102.59,1,0.0,0.0,102.59,51.52,51.07,49.78,4.0,False
+ORD-10037,2023-01-13,South,Retail,Premium,Sports,Yoga Mat,164.18,1,20.0,32.84,131.34,111.39,19.95,15.19,3.0,False
+ORD-11071,2023-01-14,North,Direct Sales,Premium,Books,Python Guide,25.63,1,0.0,0.0,25.63,13.15,12.48,48.69,4.0,False
+ORD-10721,2023-01-15,East,Wholesale,Standard,Books,Cook Book,47.42,3,0.0,0.0,142.26,82.54,59.72,41.98,3.0,False
+ORD-10100,2023-01-15,West,Retail,Budget,Beauty,Face Cream,30.02,2,10.0,6.0,54.04,38.15,15.89,29.4,3.0,True
+ORD-10704,2023-01-15,Central,Retail,Premium,Sports,Yoga Mat,419.13,1,15.0,62.87,356.26,195.72,160.54,45.06,4.0,False
+ORD-10185,2023-01-15,South,Wholesale,Budget,Sports,Yoga Mat,376.59,1,0.0,0.0,376.59,268.0,108.59,28.84,5.0,False
+ORD-10040,2023-01-15,Central,Direct Sales,Budget,Home & Garden,Sofa,277.0,1,15.0,41.55,235.45,128.04,107.41,45.62,5.0,False
+ORD-11174,2023-01-15,North,Wholesale,Standard,Sports,Dumbbell Set,199.1,1,5.0,9.96,189.14,123.31,65.83,34.8,2.0,False
+ORD-10595,2023-01-15,East,Direct Sales,Premium,Home & Garden,Plant Pot,260.67,1,0.0,0.0,260.67,156.45,104.22,39.98,4.0,False
+ORD-10900,2023-01-15,South,Online,Premium,Home & Garden,Blender,154.14,1,20.0,30.83,123.31,114.27,9.04,7.33,5.0,False
+ORD-10599,2023-01-16,East,Wholesale,Standard,Books,Python Guide,33.82,1,25.0,8.46,25.36,21.72,3.64,14.35,4.0,False
+ORD-10173,2023-01-16,West,Wholesale,Budget,Electronics,Laptop,1364.43,1,0.0,0.0,1364.43,836.49,527.94,38.69,3.0,False
+ORD-10715,2023-01-16,West,Direct Sales,Premium,Electronics,Tablet,973.51,1,0.0,0.0,973.51,517.25,456.26,46.87,4.0,False
+ORD-10658,2023-01-17,East,Retail,Standard,Beauty,Lipstick,139.67,1,0.0,0.0,139.67,89.43,50.24,35.97,3.0,False
+ORD-10008,2023-01-17,South,Wholesale,Premium,Beauty,Sunscreen,145.19,2,5.0,14.52,275.86,157.21,118.65,43.01,4.0,False
+ORD-10573,2023-01-17,North,Wholesale,Premium,Clothing,Jeans,122.49,1,0.0,0.0,122.49,62.52,59.97,48.96,4.0,False
+ORD-10522,2023-01-17,North,Online,Premium,Electronics,Smart Watch,256.61,1,0.0,0.0,256.61,176.64,79.97,31.16,3.0,False
+ORD-10613,2023-01-18,South,Wholesale,Standard,Sports,Bicycle,429.72,1,15.0,64.46,365.26,214.9,150.36,41.17,2.0,False
+ORD-11143,2023-01-18,Central,Direct Sales,Premium,Books,Business Strategy,12.79,1,10.0,1.28,11.51,6.68,4.83,41.96,4.0,False
+ORD-10511,2023-01-18,South,Direct Sales,Standard,Electronics,Laptop,906.59,1,5.0,45.33,861.26,529.55,331.71,38.51,4.0,False
+ORD-10107,2023-01-18,North,Online,Standard,Beauty,Perfume,91.67,4,25.0,91.67,275.01,206.24,68.77,25.01,4.0,False
+ORD-11094,2023-01-19,West,Wholesale,Premium,Sports,Running Shoes,442.09,1,20.0,88.42,353.67,253.02,100.65,28.46,3.0,False
+ORD-10377,2023-01-19,East,Direct Sales,Standard,Books,Self Help,42.54,1,20.0,8.51,34.03,23.28,10.75,31.59,3.0,False
+ORD-10575,2023-01-19,South,Direct Sales,Budget,Sports,Tennis Racket,579.32,2,15.0,173.8,984.84,772.4,212.44,21.57,3.0,True
+ORD-11177,2023-01-20,South,Wholesale,Standard,Home & Garden,Coffee Maker,543.35,1,20.0,108.67,434.68,342.71,91.97,21.16,4.0,False
+ORD-10337,2023-01-20,West,Wholesale,Premium,Sports,Yoga Mat,506.92,3,25.0,380.19,1140.57,996.06,144.51,12.67,3.0,True
+ORD-10724,2023-01-20,South,Online,Budget,Electronics,Tablet,1113.97,1,15.0,167.1,946.87,567.88,378.99,40.03,4.0,False
+ORD-10814,2023-01-21,North,Online,Standard,Sports,Bicycle,360.33,1,10.0,36.03,324.3,200.52,123.78,38.17,3.0,False
+ORD-10961,2023-01-21,North,Direct Sales,Standard,Sports,Yoga Mat,406.7,4,0.0,0.0,1626.8,756.67,870.13,53.49,3.0,False
+ORD-10394,2023-01-21,East,Direct Sales,Standard,Sports,Yoga Mat,393.56,2,0.0,0.0,787.12,385.5,401.62,51.02,5.0,False
+ORD-10426,2023-01-21,East,Direct Sales,Budget,Home & Garden,Coffee Maker,784.58,1,0.0,0.0,784.58,490.15,294.43,37.53,4.0,False
+ORD-10430,2023-01-21,West,Retail,Budget,Beauty,Lipstick,27.01,1,5.0,1.35,25.66,19.34,6.32,24.63,2.0,False
+ORD-11049,2023-01-21,South,Online,Budget,Home & Garden,Lamp,469.12,1,25.0,117.28,351.84,315.57,36.27,10.31,2.0,False
+ORD-10662,2023-01-21,Central,Online,Standard,Sports,Yoga Mat,596.12,1,0.0,0.0,596.12,404.35,191.77,32.17,2.0,False
+ORD-10562,2023-01-22,Central,Online,Standard,Sports,Running Shoes,315.64,4,25.0,315.64,946.92,713.68,233.24,24.63,2.0,False
+ORD-10690,2023-01-22,South,Direct Sales,Standard,Clothing,Jeans,151.22,2,25.0,75.61,226.83,160.97,65.86,29.03,3.0,False
+ORD-10137,2023-01-22,Central,Wholesale,Premium,Sports,Yoga Mat,297.53,1,20.0,59.51,238.02,149.27,88.75,37.29,3.0,False
+ORD-10167,2023-01-22,East,Retail,Premium,Books,Business Strategy,19.06,1,5.0,0.95,18.11,12.81,5.3,29.27,3.0,False
+ORD-10035,2023-01-22,East,Retail,Standard,Sports,Running Shoes,314.04,1,0.0,0.0,314.04,167.57,146.47,46.64,3.0,False
+ORD-10164,2023-01-23,Central,Online,Standard,Electronics,Smart Watch,604.42,1,25.0,151.1,453.32,283.48,169.84,37.47,3.0,False
+ORD-10568,2023-01-23,South,Direct Sales,Budget,Sports,Tennis Racket,343.38,1,20.0,68.68,274.7,233.01,41.69,15.18,3.0,False
+ORD-10861,2023-01-23,West,Retail,Budget,Clothing,Jacket,90.58,2,15.0,27.17,153.99,88.34,65.65,42.63,3.0,False
+ORD-10452,2023-01-24,East,Direct Sales,Standard,Clothing,Sneakers,68.57,2,25.0,34.28,102.86,82.21,20.65,20.08,4.0,False
+ORD-10411,2023-01-24,Central,Wholesale,Budget,Home & Garden,Plant Pot,396.53,1,0.0,0.0,396.53,225.37,171.16,43.16,3.0,False
+ORD-10794,2023-01-24,West,Wholesale,Standard,Sports,Yoga Mat,599.36,1,15.0,89.9,509.46,404.24,105.22,20.65,4.0,False
+ORD-10196,2023-01-24,Central,Direct Sales,Budget,Clothing,Jeans,184.67,1,0.0,0.0,184.67,115.27,69.4,37.58,2.0,True
+ORD-11097,2023-01-25,Central,Online,Premium,Electronics,Tablet,164.47,1,5.0,8.22,156.25,122.16,34.09,21.82,3.0,False
+ORD-10727,2023-01-25,Central,Retail,Standard,Books,Business Strategy,40.34,1,10.0,4.03,36.31,19.14,17.17,47.29,3.0,False
+ORD-10899,2023-01-25,East,Direct Sales,Premium,Electronics,Headphones,194.09,1,0.0,0.0,194.09,111.08,83.01,42.77,5.0,False
+ORD-10128,2023-01-27,West,Wholesale,Budget,Home & Garden,Coffee Maker,611.46,1,20.0,122.29,489.17,404.31,84.86,17.35,3.0,False
+ORD-10990,2023-01-27,Central,Online,Budget,Clothing,Jacket,85.67,1,5.0,4.28,81.39,50.53,30.86,37.92,4.0,False
+ORD-10120,2023-01-27,East,Online,Premium,Clothing,Sneakers,170.9,1,10.0,17.09,153.81,98.17,55.64,36.17,3.0,False
+ORD-10252,2023-01-28,South,Online,Budget,Home & Garden,Lamp,635.49,1,15.0,95.32,540.17,365.58,174.59,32.32,5.0,False
+ORD-10762,2023-01-28,East,Direct Sales,Premium,Books,Python Guide,46.17,1,25.0,11.54,34.63,32.36,2.27,6.56,4.0,False
+ORD-10653,2023-01-28,South,Retail,Budget,Books,Novel,55.39,3,0.0,0.0,166.17,122.64,43.53,26.2,3.0,False
+ORD-10434,2023-01-28,East,Online,Premium,Electronics,Headphones,389.53,1,0.0,0.0,389.53,290.36,99.17,25.46,3.0,False
+ORD-11056,2023-01-28,East,Direct Sales,Standard,Books,Business Strategy,18.72,1,5.0,0.94,17.78,8.94,8.84,49.72,,False
+ORD-11169,2023-01-28,South,Wholesale,Standard,Sports,Dumbbell Set,272.45,1,0.0,0.0,272.45,180.36,92.09,33.8,4.0,False
+ORD-10866,2023-01-28,East,Retail,Standard,Clothing,Sneakers,187.98,1,5.0,9.4,178.58,119.07,59.51,33.32,2.0,False
+ORD-10641,2023-01-29,West,Online,Premium,Books,Cook Book,41.8,1,15.0,6.27,35.53,27.26,8.27,23.28,3.0,False
+ORD-11018,2023-01-29,East,Direct Sales,Premium,Clothing,Jacket,125.84,1,5.0,6.29,119.55,86.82,32.73,27.38,4.0,False
+ORD-10628,2023-01-30,South,Online,Premium,Home & Garden,Sofa,37.64,1,0.0,0.0,37.64,27.82,9.82,26.09,5.0,False
+ORD-10025,2023-01-30,South,Retail,Standard,Sports,Bicycle,459.44,1,5.0,22.97,436.47,217.36,219.11,50.2,2.0,False
+ORD-10308,2023-01-30,East,Direct Sales,Budget,Beauty,Face Cream,21.43,1,5.0,1.07,20.36,11.23,9.13,44.84,2.0,False
+ORD-10367,2023-01-30,North,Retail,Premium,Sports,Tennis Racket,79.93,1,5.0,4.0,75.93,46.8,29.13,38.36,3.0,False
+ORD-10026,2023-01-30,Central,Direct Sales,Budget,Electronics,Laptop,541.16,1,0.0,0.0,541.16,394.46,146.7,27.11,4.0,False
+ORD-11166,2023-01-30,Central,Online,Premium,Beauty,Sunscreen,26.71,1,5.0,1.34,25.37,18.56,6.81,26.84,2.0,True
+ORD-10546,2023-01-31,Central,Online,Standard,Electronics,Headphones,1421.33,1,0.0,0.0,1421.33,928.98,492.35,34.64,4.0,False
+ORD-11029,2023-01-31,Central,Direct Sales,Premium,Electronics,Tablet,211.54,3,0.0,0.0,634.62,445.92,188.7,29.73,4.0,False
+ORD-11034,2023-01-31,North,Wholesale,Premium,Home & Garden,Lamp,346.31,1,0.0,0.0,346.31,199.0,147.31,42.54,3.0,False
+ORD-10928,2023-01-31,Central,Retail,Premium,Electronics,Headphones,563.68,1,5.0,28.18,535.5,353.15,182.35,34.05,4.0,False
+ORD-10810,2023-02-01,West,Direct Sales,Premium,Electronics,Smartphone,764.48,1,0.0,0.0,764.48,536.06,228.42,29.88,4.0,False
+ORD-10327,2023-02-01,North,Retail,Premium,Electronics,Headphones,1237.65,1,0.0,0.0,1237.65,879.33,358.32,28.95,3.0,False
+ORD-11182,2023-02-01,East,Online,Budget,Books,Cook Book,35.12,1,5.0,1.76,33.36,23.57,9.79,29.35,3.0,False
+ORD-10220,2023-02-01,Central,Wholesale,Premium,Sports,Bicycle,143.69,1,0.0,0.0,143.69,70.56,73.13,50.89,5.0,False
+ORD-10607,2023-02-01,Central,Direct Sales,Premium,Sports,Running Shoes,183.8,1,10.0,18.38,165.42,86.17,79.25,47.91,3.0,False
+ORD-10122,2023-02-01,East,Direct Sales,Budget,Beauty,Sunscreen,149.53,1,0.0,0.0,149.53,101.78,47.75,31.93,3.0,False
+ORD-10995,2023-02-01,South,Wholesale,Standard,Beauty,Perfume,145.71,1,25.0,36.43,109.28,68.28,41.0,37.52,3.0,False
+ORD-10402,2023-02-02,North,Direct Sales,Standard,Books,Novel,44.61,1,0.0,0.0,44.61,26.89,17.72,39.72,2.0,False
+ORD-10959,2023-02-02,Central,Retail,Premium,Books,Self Help,14.08,1,15.0,2.11,11.97,6.45,5.52,46.12,3.0,False
+ORD-10793,2023-02-02,South,Retail,Budget,Home & Garden,Sofa,474.06,1,0.0,0.0,474.06,226.83,247.23,52.15,4.0,False
+ORD-10828,2023-02-03,East,Direct Sales,Budget,Home & Garden,Coffee Maker,143.13,1,20.0,28.63,114.5,101.54,12.96,11.32,2.0,False
+ORD-10328,2023-02-03,North,Wholesale,Premium,Books,Self Help,20.29,1,0.0,0.0,20.29,10.77,9.52,46.92,3.0,False
+ORD-10180,2023-02-03,West,Retail,Budget,Sports,Dumbbell Set,98.31,1,0.0,0.0,98.31,67.75,30.56,31.09,3.0,False
+ORD-10366,2023-02-03,Central,Wholesale,Premium,Books,Novel,49.03,1,0.0,0.0,49.03,34.16,14.87,30.33,5.0,False
+ORD-10243,2023-02-04,North,Direct Sales,Premium,Beauty,Face Cream,96.22,1,5.0,4.81,91.41,44.0,47.41,51.87,,False
+ORD-10092,2023-02-05,West,Retail,Budget,Sports,Yoga Mat,518.59,1,0.0,0.0,518.59,350.18,168.41,32.47,3.0,False
+ORD-10506,2023-02-05,East,Wholesale,Standard,Sports,Dumbbell Set,413.8,1,5.0,20.69,393.11,271.41,121.7,30.96,3.0,False
+ORD-10030,2023-02-05,Central,Wholesale,Premium,Sports,Yoga Mat,495.36,2,15.0,148.61,842.11,447.89,394.22,46.81,1.0,False
+ORD-11057,2023-02-05,East,Retail,Premium,Books,Self Help,30.37,1,0.0,0.0,30.37,21.84,8.53,28.09,5.0,False
+ORD-10064,2023-02-05,Central,Direct Sales,Budget,Electronics,Tablet,635.31,1,15.0,95.3,540.01,440.15,99.86,18.49,4.0,False
+ORD-11155,2023-02-06,North,Direct Sales,Standard,Sports,Yoga Mat,233.87,2,20.0,93.55,374.19,342.52,31.67,8.46,3.0,False
+ORD-11014,2023-02-06,Central,Retail,Premium,Clothing,Dress,35.5,2,0.0,0.0,71.0,37.92,33.08,46.59,3.0,False
+ORD-10642,2023-02-06,West,Retail,Budget,Clothing,Sneakers,66.78,1,5.0,3.34,63.44,48.43,15.01,23.66,3.0,True
+ORD-10525,2023-02-06,Central,Wholesale,Budget,Home & Garden,Coffee Maker,668.55,2,0.0,0.0,1337.1,831.05,506.05,37.85,4.0,False
+ORD-10757,2023-02-07,West,Direct Sales,Budget,Beauty,Perfume,26.41,1,10.0,2.64,23.77,13.02,10.75,45.23,3.0,True
+ORD-10194,2023-02-07,Central,Retail,Standard,Books,Business Strategy,46.88,1,10.0,4.69,42.19,24.25,17.94,42.52,2.0,False
+ORD-10427,2023-02-07,East,Direct Sales,Budget,Beauty,Sunscreen,101.91,1,15.0,15.29,86.62,56.2,30.42,35.12,4.0,False
+ORD-10187,2023-02-07,South,Direct Sales,Standard,Home & Garden,Lamp,147.46,1,25.0,36.87,110.59,93.2,17.39,15.72,4.0,False
+ORD-11157,2023-02-08,East,Online,Premium,Home & Garden,Lamp,69.47,1,10.0,6.95,62.52,45.3,17.22,27.54,4.0,False
+ORD-10405,2023-02-08,South,Direct Sales,Standard,Electronics,Laptop,709.08,2,0.0,0.0,1418.16,950.29,467.87,32.99,2.0,False
+ORD-10097,2023-02-08,South,Direct Sales,Budget,Books,Business Strategy,47.62,2,0.0,0.0,95.24,65.42,29.82,31.31,2.0,False
+ORD-11021,2023-02-09,South,Online,Standard,Clothing,T-Shirt,132.62,1,15.0,19.89,112.73,67.03,45.7,40.54,4.0,False
+ORD-10699,2023-02-09,Central,Online,Standard,Sports,Tennis Racket,526.06,1,,131.51,394.55,362.46,32.09,8.13,2.0,True
+ORD-11060,2023-02-09,East,Direct Sales,Premium,Beauty,Shampoo,114.98,3,5.0,17.25,327.69,214.43,113.26,34.56,3.0,False
+ORD-10929,2023-02-10,Central,Online,Budget,Books,Novel,37.21,1,0.0,0.0,37.21,24.66,12.55,33.73,3.0,False
+ORD-10775,2023-02-10,North,Wholesale,Standard,Beauty,Sunscreen,115.24,2,20.0,46.1,184.38,139.53,44.85,24.32,4.0,False
+ORD-10170,2023-02-10,East,Wholesale,Premium,Books,Novel,43.26,1,20.0,8.65,34.61,24.12,10.49,30.31,3.0,False
+ORD-10160,2023-02-10,West,Direct Sales,Budget,Books,Python Guide,38.58,1,0.0,0.0,38.58,26.27,12.31,31.91,3.0,True
+ORD-10895,2023-02-12,West,Direct Sales,Standard,Clothing,Jacket,79.07,1,0.0,0.0,79.07,37.59,41.48,52.46,3.0,False
+ORD-10957,2023-02-12,East,Online,Premium,Beauty,Shampoo,16.3,1,0.0,0.0,16.3,9.0,7.3,44.79,4.0,False
+ORD-10966,2023-02-12,West,Retail,Standard,Home & Garden,Sofa,639.99,1,25.0,160.0,479.99,418.48,61.51,12.81,3.0,False
+ORD-10306,2023-02-12,Central,Direct Sales,Standard,Sports,Dumbbell Set,71.07,2,20.0,28.43,113.71,87.31,26.4,23.22,3.0,False
+ORD-10538,2023-02-12,West,Retail,Premium,Books,Self Help,34.68,1,15.0,5.2,29.48,25.94,3.54,12.01,3.0,False
+ORD-10778,2023-02-12,South,Retail,Standard,Electronics,Headphones,1376.11,2,0.0,0.0,2752.22,1731.55,1020.67,37.09,4.0,False
+ORD-10270,2023-02-13,West,Online,Standard,Home & Garden,Coffee Maker,665.88,1,20.0,133.18,532.7,366.59,166.11,31.18,3.0,True
+ORD-10355,2023-02-13,North,Retail,Budget,Home & Garden,Plant Pot,743.82,1,0.0,0.0,743.82,543.23,200.59,26.97,4.0,False
+ORD-10015,2023-02-13,North,Retail,Budget,Home & Garden,Blender,304.7,1,0.0,0.0,304.7,186.72,117.98,38.72,3.0,False
+ORD-10254,2023-02-13,West,Direct Sales,Premium,Home & Garden,Plant Pot,755.9,1,20.0,151.18,604.72,477.97,126.75,20.96,2.0,False
+ORD-10256,2023-02-14,East,Wholesale,Premium,Home & Garden,Lamp,630.28,1,0.0,0.0,630.28,294.56,335.72,53.27,3.0,False
+ORD-10316,2023-02-14,West,Wholesale,Standard,Books,Business Strategy,55.04,1,15.0,8.26,46.78,29.34,17.44,37.28,,False
+ORD-10938,2023-02-14,Central,Online,Premium,Sports,Tennis Racket,415.83,1,25.0,103.96,311.87,191.45,120.42,38.61,5.0,False
+ORD-11067,2023-02-15,East,Online,Premium,Beauty,Shampoo,105.07,3,0.0,0.0,315.21,236.12,79.09,25.09,4.0,False
+ORD-10994,2023-02-16,West,Online,Budget,Clothing,Jeans,156.13,1,5.0,7.81,148.32,89.57,58.75,39.61,3.0,False
+ORD-10824,2023-02-16,Central,Wholesale,Standard,Books,Business Strategy,58.65,2,10.0,11.73,105.57,86.84,18.73,17.74,2.0,True
+ORD-10912,2023-02-16,North,Retail,Premium,Electronics,Smartphone,1064.54,1,0.0,0.0,1064.54,712.66,351.88,33.05,3.0,False
+ORD-10191,2023-02-16,West,Wholesale,Standard,Sports,Bicycle,254.43,1,0.0,0.0,254.43,140.08,114.35,44.94,4.0,False
+ORD-10976,2023-02-16,North,Wholesale,Standard,Clothing,Jacket,63.25,1,15.0,9.49,53.76,34.44,19.32,35.94,3.0,False
+ORD-10428,2023-02-17,North,Retail,Standard,Clothing,Sneakers,187.06,1,20.0,37.41,149.65,105.06,44.59,29.8,2.0,False
+ORD-10597,2023-02-17,North,Direct Sales,Budget,Beauty,Sunscreen,51.34,1,0.0,0.0,51.34,27.43,23.91,46.57,3.0,False
+ORD-10247,2023-02-17,East,Online,Budget,Clothing,Jeans,197.14,2,0.0,0.0,394.28,226.84,167.44,42.47,4.0,False
+ORD-10090,2023-02-17,East,Online,Budget,Clothing,Jeans,70.77,1,20.0,14.15,56.62,47.78,8.84,15.61,2.0,False
+ORD-10683,2023-02-17,West,Retail,Standard,Home & Garden,Coffee Maker,724.49,2,15.0,217.35,1231.63,1080.15,151.48,12.3,2.0,False
+ORD-11113,2023-02-18,Central,Wholesale,Budget,Home & Garden,Sofa,791.41,1,0.0,0.0,791.41,590.45,200.96,25.39,5.0,False
+ORD-10971,2023-02-18,South,Wholesale,Budget,Electronics,Laptop,692.74,1,25.0,173.19,519.55,473.8,45.75,8.81,4.0,False
+ORD-10848,2023-02-18,Central,Retail,Premium,Electronics,Tablet,487.05,1,25.0,121.76,365.29,219.27,146.02,39.97,4.0,False
+ORD-10020,2023-02-18,South,Direct Sales,Standard,Sports,Bicycle,444.52,1,5.0,22.23,422.29,318.35,103.94,24.61,2.0,True
+ORD-10696,2023-02-18,North,Retail,Budget,Home & Garden,Plant Pot,450.75,4,0.0,0.0,1803.0,839.3,963.7,53.45,5.0,False
+ORD-10624,2023-02-19,West,Wholesale,Budget,Home & Garden,Lamp,313.2,1,0.0,0.0,313.2,151.42,161.78,51.65,2.0,False
+ORD-10926,2023-02-19,North,Retail,Standard,Beauty,Lipstick,17.09,1,0.0,0.0,17.09,10.63,6.46,37.8,3.0,True
+ORD-10874,2023-02-20,Central,Online,Standard,Sports,Tennis Racket,166.83,1,5.0,8.34,158.49,108.2,50.29,31.73,4.0,False
+ORD-10268,2023-02-20,East,Direct Sales,Premium,Sports,Bicycle,426.05,1,0.0,0.0,426.05,270.79,155.26,36.44,3.0,False
+ORD-10797,2023-02-20,East,Direct Sales,Budget,Home & Garden,Blender,465.96,1,25.0,116.49,349.47,301.15,48.32,13.83,3.0,False
+ORD-10625,2023-02-20,East,Wholesale,Standard,Books,Cook Book,51.77,1,10.0,5.18,46.59,29.18,17.41,37.37,3.0,False
+ORD-10096,2023-02-21,West,Online,Premium,Books,Python Guide,41.59,1,15.0,6.24,35.35,22.37,12.98,36.72,4.0,False
+ORD-10933,2023-02-21,West,Online,Standard,Home & Garden,Lamp,700.43,1,15.0,105.06,595.37,359.56,235.81,39.61,3.0,True
+ORD-10984,2023-02-21,South,Direct Sales,Standard,Electronics,Tablet,319.49,4,0.0,0.0,1277.96,616.5,661.46,51.76,5.0,False
+ORD-10146,2023-02-22,Central,Retail,Premium,Sports,Bicycle,435.18,2,25.0,217.59,652.77,525.27,127.5,19.53,3.0,False
+ORD-10883,2023-02-23,West,Wholesale,Premium,Home & Garden,Plant Pot,724.86,1,0.0,0.0,724.86,485.58,239.28,33.01,2.0,False
+ORD-10319,2023-02-23,North,Direct Sales,Budget,Electronics,Tablet,814.58,1,10.0,81.46,733.12,579.35,153.77,20.97,3.0,False
+ORD-10498,2023-02-23,North,Online,Standard,Books,Cook Book,45.97,2,0.0,0.0,91.94,43.56,48.38,52.62,3.0,False
+ORD-10644,2023-02-24,Central,Retail,Budget,Electronics,Headphones,348.86,1,0.0,0.0,348.86,223.02,125.84,36.07,2.0,True
+ORD-10739,2023-02-24,South,Direct Sales,Premium,Sports,Bicycle,531.97,2,0.0,0.0,1063.94,697.46,366.48,34.45,2.0,False
+ORD-10393,2023-02-24,Central,Online,Standard,Books,Business Strategy,44.75,1,0.0,0.0,44.75,33.24,11.51,25.72,3.0,False
+ORD-10361,2023-02-24,West,Retail,Premium,Books,Business Strategy,22.83,4,0.0,0.0,91.32,54.34,36.98,40.49,3.0,False
+ORD-10852,2023-02-25,West,Wholesale,Budget,Home & Garden,Coffee Maker,213.37,2,5.0,21.34,405.4,251.96,153.44,37.85,5.0,False
+ORD-11110,2023-02-25,Central,Direct Sales,Budget,Home & Garden,Plant Pot,583.41,1,20.0,116.68,466.73,268.76,197.97,42.42,3.0,False
+ORD-10111,2023-02-25,Central,Direct Sales,Budget,Beauty,Lipstick,97.86,1,15.0,14.68,83.18,70.49,12.69,15.26,5.0,False
+ORD-11053,2023-02-25,West,Online,Premium,Books,Cook Book,30.95,1,0.0,0.0,30.95,18.7,12.25,39.58,3.0,False
+ORD-10577,2023-02-25,South,Retail,Budget,Books,Cook Book,49.71,1,0.0,0.0,49.71,35.45,14.26,28.69,4.0,False
+ORD-10021,2023-02-25,North,Online,Standard,Books,Business Strategy,45.66,2,15.0,13.7,77.62,56.47,21.15,27.25,3.0,False
+ORD-10339,2023-02-26,North,Retail,Budget,Home & Garden,Coffee Maker,746.83,1,0.0,0.0,746.83,487.65,259.18,34.7,3.0,False
+ORD-10395,2023-02-26,South,Online,Premium,Books,Self Help,48.24,1,0.0,0.0,48.24,28.98,19.26,39.93,3.0,False
+ORD-10782,2023-02-27,South,Retail,Premium,Home & Garden,Coffee Maker,729.04,1,5.0,36.45,692.59,369.17,323.42,46.7,3.0,False
+ORD-10619,2023-02-27,East,Wholesale,Standard,Clothing,Sneakers,173.06,1,0.0,0.0,173.06,112.01,61.05,35.28,3.0,False
+ORD-10034,2023-02-27,West,Direct Sales,Budget,Home & Garden,Blender,412.88,1,0.0,0.0,412.88,221.08,191.8,46.45,3.0,True
+ORD-10012,2023-02-27,North,Wholesale,Budget,Sports,Running Shoes,582.51,2,,174.75,990.27,852.62,137.65,13.9,3.0,False
+ORD-11171,2023-02-28,South,Direct Sales,Budget,Clothing,T-Shirt,174.43,1,25.0,43.61,130.82,101.28,29.54,22.58,2.0,True
+ORD-10593,2023-02-28,East,Retail,Premium,Books,Business Strategy,13.3,1,10.0,1.33,11.97,6.43,5.54,46.28,2.0,True
+ORD-11069,2023-02-28,South,Direct Sales,Budget,Books,Python Guide,21.03,1,20.0,4.21,16.82,14.88,1.94,11.53,4.0,False
+ORD-10109,2023-02-28,East,Direct Sales,Standard,Home & Garden,Blender,794.58,1,15.0,119.19,675.39,489.59,185.8,27.51,4.0,False
+ORD-10622,2023-03-01,East,Online,Budget,Clothing,Sneakers,152.95,1,10.0,15.29,137.66,98.42,39.24,28.51,5.0,False
+ORD-10221,2023-03-01,South,Wholesale,Budget,Sports,Yoga Mat,407.4,1,25.0,101.85,305.55,295.09,10.46,3.42,5.0,False
+ORD-10780,2023-03-01,West,Online,Premium,Beauty,Face Cream,76.35,1,20.0,15.27,61.08,40.56,20.52,33.6,3.0,True
+ORD-10864,2023-03-02,Central,Direct Sales,Budget,Home & Garden,Blender,666.68,1,0.0,0.0,666.68,455.06,211.62,31.74,3.0,False
+ORD-11196,2023-03-02,West,Retail,Budget,Home & Garden,Blender,732.86,1,10.0,73.29,659.57,449.92,209.65,31.79,3.0,False
+ORD-10988,2023-03-02,South,Direct Sales,Budget,Electronics,Smartphone,1080.57,1,10.0,108.06,972.51,586.03,386.48,39.74,4.0,False
+ORD-10407,2023-03-02,North,Direct Sales,Standard,Sports,Bicycle,174.39,2,,52.32,296.46,171.3,125.16,42.22,3.0,False
+ORD-10646,2023-03-03,North,Retail,Standard,Home & Garden,Blender,415.46,1,0.0,0.0,415.46,196.46,219.0,52.71,4.0,False
+ORD-10771,2023-03-03,West,Direct Sales,Standard,Clothing,Jeans,103.56,1,0.0,0.0,103.56,67.01,36.55,35.29,3.0,False
+ORD-10309,2023-03-03,North,Wholesale,Budget,Sports,Tennis Racket,479.08,1,,0.0,479.08,287.19,191.89,40.05,3.0,True
+ORD-11100,2023-03-03,South,Retail,Budget,Books,Self Help,16.92,5,25.0,21.15,63.45,44.41,19.04,30.01,3.0,False
+ORD-10680,2023-03-04,West,Retail,Budget,Clothing,Jacket,151.28,4,10.0,60.51,544.61,313.02,231.59,42.52,4.0,False
+ORD-10844,2023-03-04,East,Direct Sales,Standard,Beauty,Face Cream,139.8,4,10.0,55.92,503.28,347.47,155.81,30.96,3.0,False
+ORD-10116,2023-03-04,North,Direct Sales,Standard,Sports,Dumbbell Set,548.78,2,5.0,54.88,1042.68,806.64,236.04,22.64,4.0,False
+ORD-10764,2023-03-05,West,Online,Budget,Books,Novel,32.56,1,0.0,0.0,32.56,23.0,9.56,29.36,3.0,False
+ORD-10391,2023-03-05,North,Direct Sales,Standard,Electronics,Laptop,1335.27,2,20.0,534.11,2136.43,1847.42,289.01,13.53,4.0,False
+ORD-10838,2023-03-05,East,Direct Sales,Premium,Books,Cook Book,30.34,1,0.0,0.0,30.34,17.79,12.55,41.36,3.0,False
+ORD-10618,2023-03-06,North,Wholesale,Standard,Beauty,Sunscreen,61.77,1,0.0,0.0,61.77,42.02,19.75,31.97,4.0,False
+ORD-10310,2023-03-06,Central,Wholesale,Premium,Books,Self Help,37.77,1,15.0,5.67,32.1,19.59,12.51,38.97,2.0,False
+ORD-10117,2023-03-06,North,Online,Standard,Clothing,Sneakers,95.28,3,5.0,14.29,271.55,202.89,68.66,25.28,4.0,False
+ORD-10849,2023-03-07,West,Wholesale,Budget,Electronics,Laptop,996.89,2,0.0,0.0,1993.78,988.15,1005.63,50.44,4.0,False
+ORD-10842,2023-03-07,Central,Retail,Budget,Clothing,T-Shirt,45.42,1,0.0,0.0,45.42,22.96,22.46,49.45,3.0,False
+ORD-10338,2023-03-08,North,Wholesale,Budget,Sports,Bicycle,310.88,1,5.0,15.54,295.34,220.93,74.41,25.19,3.0,False
+ORD-10127,2023-03-08,North,Direct Sales,Premium,Electronics,Laptop,694.7,1,15.0,104.2,590.5,318.61,271.89,46.04,3.0,False
+ORD-11042,2023-03-08,South,Wholesale,Standard,Books,Cook Book,51.63,2,15.0,15.49,87.77,73.31,14.46,16.47,3.0,False
+ORD-11176,2023-03-09,South,Direct Sales,Standard,Sports,Dumbbell Set,443.39,3,5.0,66.51,1263.66,902.74,360.92,28.56,2.0,False
+ORD-10989,2023-03-09,East,Direct Sales,Budget,Beauty,Perfume,123.39,1,20.0,24.68,98.71,82.56,16.15,16.36,3.0,True
+ORD-10610,2023-03-10,South,Wholesale,Budget,Home & Garden,Lamp,678.89,1,0.0,0.0,678.89,466.18,212.71,31.33,3.0,True
+ORD-10647,2023-03-10,South,Direct Sales,Premium,Home & Garden,Plant Pot,383.94,1,0.0,0.0,383.94,222.63,161.31,42.01,3.0,True
+ORD-10909,2023-03-10,South,Direct Sales,Budget,Beauty,Face Cream,112.41,4,15.0,67.45,382.19,232.07,150.12,39.28,2.0,False
+ORD-10576,2023-03-10,West,Online,Standard,Books,Business Strategy,36.67,2,25.0,18.34,55.0,35.88,19.12,34.76,3.0,False
+ORD-10749,2023-03-10,West,Wholesale,Standard,Clothing,Sneakers,49.05,1,25.0,12.26,36.79,22.35,14.44,39.25,5.0,False
+ORD-10539,2023-03-11,West,Direct Sales,Budget,Home & Garden,Coffee Maker,333.82,1,0.0,0.0,333.82,191.38,142.44,42.67,3.0,False
+ORD-10665,2023-03-12,West,Online,Standard,Home & Garden,Blender,306.11,1,25.0,76.53,229.58,159.83,69.75,30.38,2.0,False
+ORD-10010,2023-03-12,West,Direct Sales,Standard,Home & Garden,Plant Pot,56.48,2,5.0,5.65,107.31,59.6,47.71,44.46,2.0,False
+ORD-11131,2023-03-12,South,Direct Sales,Standard,Books,Cook Book,23.7,4,0.0,0.0,94.8,69.78,25.02,26.39,3.0,False
+ORD-10300,2023-03-13,West,Retail,Premium,Books,Cook Book,14.39,1,0.0,0.0,14.39,6.62,7.77,54.0,3.0,False
+ORD-10280,2023-03-13,Central,Retail,Standard,Beauty,Perfume,78.41,2,10.0,15.68,141.14,102.72,38.42,27.22,2.0,False
+ORD-10000,2023-03-13,North,Wholesale,Premium,Beauty,Face Cream,62.44,4,5.0,12.49,237.27,167.24,70.03,29.51,2.0,False
+ORD-10179,2023-03-13,East,Retail,Premium,Clothing,Jeans,167.83,1,5.0,8.39,159.44,118.14,41.3,25.9,4.0,False
+ORD-11032,2023-03-14,South,Online,Premium,Books,Cook Book,57.45,1,15.0,8.62,48.83,32.44,16.39,33.57,3.0,True
+ORD-10815,2023-03-14,East,Direct Sales,Premium,Home & Garden,Sofa,497.27,2,0.0,0.0,994.54,710.97,283.57,28.51,3.0,False
+ORD-10760,2023-03-14,North,Wholesale,Budget,Books,Python Guide,49.64,1,20.0,9.93,39.71,29.4,10.31,25.96,5.0,False
+ORD-11019,2023-03-14,North,Wholesale,Premium,Electronics,Laptop,1002.47,2,20.0,400.99,1603.95,1262.25,341.7,21.3,3.0,True
+ORD-11127,2023-03-15,East,Retail,Premium,Clothing,Jacket,90.8,1,10.0,9.08,81.72,45.22,36.5,44.66,2.0,False
+ORD-11016,2023-03-15,South,Retail,Premium,Electronics,Laptop,959.27,2,10.0,191.85,1726.69,1083.91,642.78,37.23,3.0,False
+ORD-10009,2023-03-15,South,Direct Sales,Standard,Sports,Dumbbell Set,278.09,1,25.0,69.52,208.57,166.45,42.12,20.19,3.0,False
+ORD-10925,2023-03-15,North,Online,Budget,Home & Garden,Lamp,698.68,3,15.0,314.41,1781.63,1207.08,574.55,32.25,3.0,False
+ORD-10697,2023-03-15,East,Wholesale,Premium,Home & Garden,Sofa,694.23,1,15.0,104.13,590.1,479.02,111.08,18.82,3.0,True
+ORD-10598,2023-03-15,West,Direct Sales,Premium,Books,Self Help,50.17,3,5.0,7.53,142.98,86.02,56.96,39.84,3.0,False
+ORD-10489,2023-03-16,South,Direct Sales,Standard,Electronics,Tablet,684.56,3,5.0,102.68,1951.0,1252.56,698.44,35.8,4.0,False
+ORD-10946,2023-03-16,West,Direct Sales,Premium,Home & Garden,Blender,390.11,1,10.0,39.01,351.1,223.67,127.43,36.29,2.0,False
+ORD-11025,2023-03-16,North,Direct Sales,Budget,Books,Business Strategy,29.89,1,10.0,2.99,26.9,17.78,9.12,33.9,3.0,True
+ORD-10206,2023-03-16,Central,Direct Sales,Standard,Home & Garden,Coffee Maker,50.86,1,15.0,7.63,43.23,26.41,16.82,38.91,3.0,False
+ORD-11106,2023-03-17,South,Wholesale,Budget,Home & Garden,Lamp,187.27,1,0.0,0.0,187.27,96.61,90.66,48.41,4.0,False
+ORD-11117,2023-03-17,East,Retail,Budget,Electronics,Smart Watch,465.32,1,0.0,0.0,465.32,235.52,229.8,49.39,3.0,False
+ORD-10118,2023-03-17,Central,Retail,Premium,Sports,Yoga Mat,51.0,1,15.0,7.65,43.35,28.71,14.64,33.77,4.0,False
+ORD-10200,2023-03-17,North,Direct Sales,Premium,Sports,Yoga Mat,142.96,1,20.0,28.59,114.37,65.9,48.47,42.38,5.0,False
+ORD-10325,2023-03-17,Central,Online,Premium,Beauty,Lipstick,108.95,1,15.0,16.34,92.61,54.51,38.1,41.14,2.0,True
+ORD-10677,2023-03-17,West,Wholesale,Standard,Home & Garden,Blender,58.93,1,0.0,0.0,58.93,40.05,18.88,32.04,2.0,False
+ORD-10404,2023-03-18,West,Wholesale,Budget,Beauty,Perfume,28.3,2,20.0,11.32,45.28,33.11,12.17,26.88,3.0,False
+ORD-10461,2023-03-18,North,Retail,Budget,Clothing,T-Shirt,189.32,1,20.0,37.86,151.46,109.6,41.86,27.64,3.0,False
+ORD-10818,2023-03-18,South,Direct Sales,Standard,Sports,Yoga Mat,598.41,1,25.0,149.6,448.81,430.38,18.43,4.11,4.0,False
+ORD-10076,2023-03-19,West,Direct Sales,Premium,Electronics,Laptop,891.46,1,0.0,0.0,891.46,577.72,313.74,35.19,4.0,False
+ORD-10716,2023-03-20,South,Direct Sales,Budget,Beauty,Face Cream,93.67,2,15.0,28.1,159.24,137.51,21.73,13.65,3.0,False
+ORD-11046,2023-03-20,South,Retail,Budget,Electronics,Headphones,1431.52,2,0.0,0.0,2863.04,2067.44,795.6,27.79,4.0,False
+ORD-10691,2023-03-20,West,Retail,Premium,Books,Cook Book,27.27,1,0.0,0.0,27.27,20.28,6.99,25.63,4.0,False
+ORD-10948,2023-03-20,East,Direct Sales,Premium,Clothing,Dress,188.2,1,15.0,28.23,159.97,131.17,28.8,18.0,4.0,False
+ORD-10897,2023-03-20,North,Online,Budget,Books,Python Guide,50.42,2,10.0,10.08,90.76,57.01,33.75,37.19,2.0,False
+ORD-10698,2023-03-21,East,Retail,Premium,Books,Novel,37.64,1,5.0,1.88,35.76,18.43,17.33,48.46,2.0,False
+ORD-10323,2023-03-21,North,Retail,Premium,Home & Garden,Blender,86.59,1,0.0,0.0,86.59,52.47,34.12,39.4,3.0,True
+ORD-10813,2023-03-22,South,Direct Sales,Standard,Sports,Running Shoes,354.25,1,0.0,0.0,354.25,257.32,96.93,27.36,3.0,False
+ORD-10051,2023-03-23,Central,Direct Sales,Budget,Books,Cook Book,21.21,1,25.0,5.3,15.91,11.05,4.86,30.55,4.0,False
+ORD-10400,2023-03-23,North,Retail,Budget,Books,Python Guide,49.04,1,0.0,0.0,49.04,22.92,26.12,53.26,3.0,True
+ORD-10157,2023-03-24,North,Online,Standard,Home & Garden,Plant Pot,786.43,1,0.0,0.0,786.43,447.76,338.67,43.06,4.0,False
+ORD-10678,2023-03-24,East,Retail,Premium,Clothing,Sneakers,20.0,1,0.0,0.0,20.0,12.14,7.86,39.3,3.0,False
+ORD-10744,2023-03-24,North,Retail,Standard,Home & Garden,Sofa,108.98,1,5.0,5.45,103.53,67.13,36.4,35.16,2.0,False
+ORD-10858,2023-03-25,East,Wholesale,Standard,Sports,Tennis Racket,341.92,1,15.0,51.29,290.63,239.94,50.69,17.44,2.0,True
+ORD-10370,2023-03-25,East,Online,Standard,Beauty,Face Cream,94.99,1,0.0,0.0,94.99,49.36,45.63,48.04,4.0,False
+ORD-10347,2023-03-25,North,Direct Sales,Budget,Sports,Bicycle,424.89,1,5.0,21.24,403.65,248.39,155.26,38.46,2.0,False
+ORD-10007,2023-03-25,Central,Retail,Budget,Beauty,Face Cream,33.87,1,5.0,1.69,32.18,24.88,7.3,22.68,3.0,False
+ORD-10197,2023-03-25,South,Retail,Standard,Sports,Bicycle,577.62,1,15.0,86.64,490.98,331.78,159.2,32.42,4.0,False
+ORD-11004,2023-03-26,West,Direct Sales,Budget,Electronics,Smartphone,1327.08,1,0.0,0.0,1327.08,734.73,592.35,44.64,3.0,False
+ORD-11114,2023-03-27,South,Retail,Standard,Beauty,Lipstick,115.64,1,0.0,0.0,115.64,70.72,44.92,38.84,4.0,False
+ORD-10726,2023-03-27,South,Wholesale,Standard,Books,Business Strategy,23.54,1,15.0,3.53,20.01,11.03,8.98,44.88,5.0,False
+ORD-10494,2023-03-27,Central,Wholesale,Standard,Electronics,Headphones,262.68,2,0.0,0.0,525.36,363.07,162.29,30.89,4.0,False
+ORD-10259,2023-03-27,East,Direct Sales,Premium,Home & Garden,Sofa,476.67,1,0.0,0.0,476.67,339.98,136.69,28.68,4.0,False
+ORD-10346,2023-03-27,North,Direct Sales,Standard,Beauty,Face Cream,86.23,1,20.0,17.25,68.98,47.2,21.78,31.57,2.0,False
+ORD-10901,2023-03-27,South,Online,Budget,Beauty,Face Cream,19.58,1,0.0,0.0,19.58,9.49,10.09,51.53,4.0,False
+ORD-10444,2023-03-28,Central,Wholesale,Standard,Clothing,Sneakers,154.23,1,20.0,30.85,123.38,113.73,9.65,7.82,2.0,True
+ORD-10712,2023-03-28,South,Direct Sales,Standard,Electronics,Laptop,964.91,1,0.0,0.0,964.91,456.09,508.82,52.73,3.0,True
+ORD-10329,2023-03-28,North,Online,Standard,Electronics,Tablet,1414.42,1,0.0,0.0,1414.42,688.3,726.12,51.34,3.0,False
+ORD-10885,2023-03-29,North,Wholesale,Budget,Electronics,Headphones,1362.82,1,0.0,0.0,1362.82,746.88,615.94,45.2,4.0,False
+ORD-10348,2023-03-29,East,Online,Premium,Electronics,Tablet,470.68,1,15.0,70.6,400.08,243.9,156.18,39.04,3.0,False
+ORD-11073,2023-03-30,Central,Direct Sales,Premium,Books,Business Strategy,48.29,1,20.0,9.66,38.63,35.72,2.91,7.53,3.0,False
+ORD-10700,2023-03-30,East,Retail,Standard,Home & Garden,Sofa,222.86,1,15.0,33.43,189.43,138.51,50.92,26.88,,False
+ORD-11145,2023-03-31,East,Direct Sales,Budget,Sports,Yoga Mat,548.73,1,0.0,0.0,548.73,326.58,222.15,40.48,3.0,False
+ORD-10588,2023-03-31,West,Wholesale,Premium,Clothing,Jacket,164.8,1,10.0,16.48,148.32,84.58,63.74,42.97,3.0,True
+ORD-10472,2023-03-31,Central,Wholesale,Budget,Books,Cook Book,30.94,1,0.0,0.0,30.94,20.71,10.23,33.06,2.0,False
+ORD-10211,2023-04-01,Central,Online,Premium,Sports,Yoga Mat,538.29,2,20.0,215.32,861.26,594.86,266.4,30.93,5.0,False
+ORD-10862,2023-04-02,South,Wholesale,Budget,Clothing,Jacket,159.1,1,5.0,7.96,151.14,103.93,47.21,31.24,4.0,False
+ORD-11048,2023-04-02,East,Wholesale,Premium,Home & Garden,Plant Pot,487.21,1,0.0,0.0,487.21,242.84,244.37,50.16,5.0,False
+ORD-10648,2023-04-02,West,Online,Premium,Clothing,T-Shirt,27.9,1,0.0,0.0,27.9,16.28,11.62,41.65,4.0,False
+ORD-10073,2023-04-02,South,Wholesale,Premium,Home & Garden,Coffee Maker,781.41,1,15.0,117.21,664.2,427.34,236.86,35.66,4.0,False
+ORD-10954,2023-04-02,North,Online,Standard,Books,Python Guide,44.13,1,25.0,11.03,33.1,25.54,7.56,22.84,4.0,False
+ORD-10868,2023-04-02,East,Direct Sales,Budget,Books,Cook Book,46.95,1,25.0,11.74,35.21,25.09,10.12,28.74,4.0,False
+ORD-10657,2023-04-02,West,Retail,Premium,Books,Business Strategy,10.61,1,25.0,2.65,7.96,5.91,2.05,25.75,5.0,False
+ORD-10315,2023-04-02,East,Online,Budget,Electronics,Smart Watch,1129.1,1,0.0,0.0,1129.1,803.95,325.15,28.8,5.0,False
+ORD-10672,2023-04-02,West,Online,Premium,Electronics,Smartphone,948.03,1,20.0,189.61,758.42,520.91,237.51,31.32,3.0,False
+ORD-10450,2023-04-02,Central,Retail,Standard,Beauty,Perfume,99.93,1,0.0,0.0,99.93,62.36,37.57,37.6,5.0,False
+ORD-10245,2023-04-02,Central,Wholesale,Premium,Sports,Dumbbell Set,484.3,5,20.0,484.3,1937.2,1344.45,592.75,30.6,3.0,True
+ORD-10890,2023-04-02,West,Retail,Standard,Beauty,Lipstick,51.49,3,5.0,7.72,146.75,107.45,39.3,26.78,3.0,False
+ORD-10383,2023-04-03,West,Direct Sales,Premium,Clothing,Jacket,47.43,5,15.0,35.57,201.58,172.67,28.91,14.34,2.0,False
+ORD-10707,2023-04-03,East,Retail,Standard,Sports,Bicycle,183.88,1,0.0,0.0,183.88,136.83,47.05,25.59,3.0,False
+ORD-10510,2023-04-03,East,Direct Sales,Premium,Clothing,T-Shirt,161.92,1,25.0,40.48,121.44,85.51,35.93,29.59,4.0,False
+ORD-10131,2023-04-03,East,Wholesale,Standard,Clothing,Jacket,161.06,1,0.0,0.0,161.06,102.53,58.53,36.34,2.0,False
+ORD-11013,2023-04-03,South,Retail,Budget,Books,Python Guide,57.53,1,25.0,14.38,43.15,42.85,0.3,0.7,,False
+ORD-10911,2023-04-04,South,Direct Sales,Budget,Beauty,Perfume,66.45,2,15.0,19.93,112.97,80.99,31.98,28.31,,False
+ORD-10558,2023-04-05,Central,Direct Sales,Budget,Books,Python Guide,17.72,1,15.0,2.66,15.06,11.41,3.65,24.24,2.0,False
+ORD-10556,2023-04-05,South,Retail,Premium,Beauty,Lipstick,108.78,1,0.0,0.0,108.78,61.17,47.61,43.77,3.0,True
+ORD-11058,2023-04-05,Central,Retail,Budget,Books,Novel,19.81,1,10.0,1.98,17.83,14.04,3.79,21.26,4.0,False
+ORD-10075,2023-04-05,West,Direct Sales,Standard,Sports,Dumbbell Set,124.64,1,15.0,18.7,105.94,65.45,40.49,38.22,5.0,False
+ORD-10927,2023-04-06,West,Retail,Premium,Beauty,Lipstick,91.66,1,15.0,13.75,77.91,62.9,15.01,19.27,3.0,False
+ORD-10163,2023-04-06,Central,Wholesale,Premium,Books,Business Strategy,34.06,1,20.0,6.81,27.25,15.86,11.39,41.8,4.0,False
+ORD-10412,2023-04-07,North,Wholesale,Budget,Beauty,Shampoo,74.32,2,5.0,7.43,141.21,106.67,34.54,24.46,4.0,False
+ORD-10504,2023-04-07,East,Retail,Premium,Electronics,Headphones,1029.05,1,15.0,154.36,874.69,571.86,302.83,34.62,3.0,False
+ORD-10710,2023-04-07,South,Direct Sales,Standard,Home & Garden,Lamp,336.16,1,20.0,67.23,268.93,171.98,96.95,36.05,2.0,False
+ORD-10541,2023-04-08,West,Direct Sales,Standard,Electronics,Laptop,1439.33,2,15.0,431.8,2446.86,1296.75,1150.11,47.0,3.0,False
+ORD-10526,2023-04-08,North,Retail,Budget,Sports,Running Shoes,322.53,1,20.0,64.51,258.02,175.81,82.21,31.86,4.0,False
+ORD-10875,2023-04-08,East,Wholesale,Standard,Home & Garden,Blender,474.98,2,10.0,95.0,854.96,660.43,194.53,22.75,4.0,False
+ORD-10589,2023-04-08,Central,Online,Standard,Electronics,Headphones,169.33,1,0.0,0.0,169.33,118.57,50.76,29.98,4.0,False
+ORD-10563,2023-04-08,Central,Direct Sales,Budget,Beauty,Face Cream,13.27,2,0.0,0.0,26.54,15.59,10.95,41.26,3.0,False
+ORD-10518,2023-04-08,West,Wholesale,Budget,Electronics,Headphones,1099.98,1,25.0,275.0,824.98,526.85,298.13,36.14,2.0,False
+ORD-11000,2023-04-09,North,Online,Budget,Beauty,Sunscreen,100.83,4,5.0,20.17,383.15,199.82,183.33,47.85,5.0,False
+ORD-10894,2023-04-10,West,Wholesale,Budget,Beauty,Shampoo,124.9,1,20.0,24.98,99.92,69.35,30.57,30.59,,False
+ORD-11189,2023-04-10,West,Direct Sales,Standard,Electronics,Smart Watch,504.25,1,10.0,50.42,453.83,232.95,220.88,48.67,3.0,False
+ORD-10155,2023-04-10,South,Retail,Standard,Beauty,Shampoo,32.5,1,25.0,8.12,24.38,17.4,6.98,28.63,3.0,False
+ORD-10846,2023-04-11,South,Direct Sales,Premium,Sports,Running Shoes,345.15,2,5.0,34.52,655.78,475.46,180.32,27.5,4.0,False
+ORD-10702,2023-04-11,North,Direct Sales,Standard,Electronics,Laptop,988.74,1,0.0,0.0,988.74,662.27,326.47,33.02,3.0,True
+ORD-10751,2023-04-12,North,Retail,Premium,Clothing,T-Shirt,60.03,1,25.0,15.01,45.02,37.96,7.06,15.68,3.0,False
+ORD-10804,2023-04-12,West,Wholesale,Budget,Sports,Tennis Racket,146.69,5,20.0,146.69,586.76,545.93,40.83,6.96,4.0,False
+ORD-10513,2023-04-12,North,Wholesale,Standard,Sports,Tennis Racket,88.66,1,10.0,8.87,79.79,41.01,38.78,48.6,3.0,False
+ORD-10177,2023-04-13,South,Wholesale,Budget,Home & Garden,Lamp,270.03,1,25.0,67.51,202.52,181.78,20.74,10.24,4.0,False
+ORD-10656,2023-04-13,South,Online,Premium,Electronics,Tablet,1049.91,1,20.0,209.98,839.93,650.45,189.48,22.56,3.0,False
+ORD-10352,2023-04-13,West,Online,Standard,Home & Garden,Coffee Maker,476.73,1,25.0,119.18,357.55,301.47,56.08,15.68,4.0,False
+ORD-11159,2023-04-13,North,Wholesale,Standard,Home & Garden,Coffee Maker,607.01,1,10.0,60.7,546.31,310.32,235.99,43.2,4.0,False
+ORD-10785,2023-04-14,West,Online,Standard,Books,Novel,41.82,1,5.0,2.09,39.73,22.2,17.53,44.12,3.0,False
+ORD-11017,2023-04-14,Central,Wholesale,Budget,Electronics,Laptop,215.29,2,0.0,0.0,430.58,300.5,130.08,30.21,2.0,False
+ORD-11001,2023-04-14,East,Wholesale,Budget,Sports,Tennis Racket,359.5,1,25.0,89.88,269.62,198.24,71.38,26.47,3.0,False
+ORD-10753,2023-04-15,West,Direct Sales,Premium,Sports,Bicycle,576.92,1,5.0,28.85,548.07,356.0,192.07,35.04,3.0,False
+ORD-10822,2023-04-16,Central,Retail,Premium,Electronics,Laptop,245.9,1,10.0,24.59,221.31,127.58,93.73,42.35,2.0,False
+ORD-10054,2023-04-16,East,Direct Sales,Standard,Books,Novel,23.26,1,0.0,0.0,23.26,17.26,6.0,25.8,4.0,False
+ORD-10286,2023-04-16,East,Direct Sales,Premium,Clothing,Sneakers,180.94,1,0.0,0.0,180.94,92.99,87.95,48.61,3.0,False
+ORD-10590,2023-04-16,South,Online,Budget,Home & Garden,Sofa,600.17,1,0.0,0.0,600.17,405.73,194.44,32.4,4.0,False
+ORD-10250,2023-04-17,North,Retail,Standard,Sports,Tennis Racket,49.2,1,0.0,0.0,49.2,36.72,12.48,25.37,2.0,False
+ORD-10078,2023-04-17,East,Online,Budget,Sports,Bicycle,229.68,2,0.0,0.0,459.36,208.7,250.66,54.57,3.0,False
+ORD-10893,2023-04-17,West,Direct Sales,Premium,Sports,Dumbbell Set,357.14,1,10.0,35.71,321.43,248.95,72.48,22.55,4.0,False
+ORD-10960,2023-04-17,West,Direct Sales,Premium,Books,Business Strategy,41.57,1,0.0,0.0,41.57,25.54,16.03,38.56,3.0,False
+ORD-10497,2023-04-18,South,Wholesale,Budget,Electronics,Smartphone,167.02,1,0.0,0.0,167.02,101.58,65.44,39.18,3.0,False
+ORD-10701,2023-04-18,South,Retail,Standard,Clothing,Jeans,71.77,1,0.0,0.0,71.77,39.9,31.87,44.41,3.0,False
+ORD-10384,2023-04-18,North,Online,Standard,Clothing,Jacket,117.19,2,10.0,23.44,210.94,142.1,68.84,32.63,3.0,False
+ORD-10999,2023-04-18,Central,Wholesale,Premium,Beauty,Lipstick,18.6,2,10.0,3.72,33.48,27.24,6.24,18.64,3.0,False
+ORD-10792,2023-04-18,West,Direct Sales,Standard,Books,Business Strategy,54.41,1,5.0,2.72,51.69,39.19,12.5,24.18,3.0,False
+ORD-10358,2023-04-19,North,Direct Sales,Premium,Sports,Yoga Mat,204.0,1,0.0,0.0,204.0,135.63,68.37,33.51,3.0,False
+ORD-11103,2023-04-19,North,Online,Standard,Beauty,Perfume,74.12,1,0.0,0.0,74.12,50.08,24.04,32.43,5.0,True
+ORD-10903,2023-04-19,West,Wholesale,Premium,Clothing,T-Shirt,119.12,1,20.0,23.82,95.3,83.4,11.9,12.49,3.0,False
+ORD-10455,2023-04-19,South,Retail,Premium,Clothing,Dress,59.71,1,10.0,5.97,53.74,40.05,13.69,25.47,3.0,False
+ORD-10389,2023-04-19,North,Retail,Premium,Clothing,Dress,112.82,3,0.0,0.0,338.46,202.77,135.69,40.09,2.0,False
+ORD-10779,2023-04-19,West,Wholesale,Standard,Beauty,Shampoo,91.03,1,0.0,0.0,91.03,45.24,45.79,50.3,4.0,False
+ORD-10330,2023-04-20,West,Direct Sales,Premium,Books,Business Strategy,32.61,3,15.0,14.67,83.16,53.3,29.86,35.91,3.0,False
+ORD-10019,2023-04-20,North,Retail,Standard,Electronics,Tablet,235.8,1,25.0,58.95,176.85,129.11,47.74,26.99,4.0,False
+ORD-11063,2023-04-21,West,Retail,Budget,Clothing,Jeans,35.8,1,20.0,7.16,28.64,21.67,6.97,24.34,3.0,False
+ORD-11044,2023-04-21,North,Online,Budget,Clothing,Dress,92.49,1,5.0,4.62,87.87,69.27,18.6,21.17,4.0,False
+ORD-10134,2023-04-21,Central,Direct Sales,Standard,Books,Novel,34.63,1,10.0,3.46,31.17,22.16,9.01,28.91,3.0,False
+ORD-10305,2023-04-21,Central,Online,Premium,Electronics,Laptop,1232.33,1,10.0,123.23,1109.1,855.79,253.31,22.84,4.0,False
+ORD-10291,2023-04-22,West,Wholesale,Premium,Beauty,Face Cream,77.41,1,20.0,15.48,61.93,37.74,24.19,39.06,4.0,False
+ORD-10001,2023-04-22,West,Online,Premium,Electronics,Smart Watch,360.59,1,0.0,0.0,360.59,255.97,104.62,29.01,4.0,False
+ORD-10633,2023-04-22,North,Retail,Budget,Beauty,Shampoo,146.39,2,20.0,58.56,234.22,133.82,100.4,42.87,2.0,False
+ORD-10982,2023-04-22,East,Retail,Premium,Books,Self Help,35.0,1,20.0,7.0,28.0,22.25,5.75,20.54,3.0,False
+ORD-10106,2023-04-23,East,Retail,Budget,Sports,Bicycle,31.53,1,15.0,4.73,26.8,14.72,12.08,45.07,4.0,False
+ORD-10049,2023-04-23,South,Online,Premium,Books,Python Guide,10.46,1,20.0,2.09,8.37,6.79,1.58,18.88,4.0,False
+ORD-11083,2023-04-23,South,Online,Standard,Home & Garden,Coffee Maker,415.45,1,0.0,0.0,415.45,250.59,164.86,39.68,4.0,False
+ORD-10218,2023-04-23,North,Wholesale,Standard,Beauty,Lipstick,34.04,1,5.0,1.7,32.34,15.51,16.83,52.04,2.0,False
+ORD-10282,2023-04-23,West,Retail,Premium,Books,Novel,18.18,2,0.0,0.0,36.36,23.93,12.43,34.19,4.0,False
+ORD-11168,2023-04-23,Central,Retail,Standard,Electronics,Tablet,1324.03,1,15.0,198.6,1125.43,904.36,221.07,19.64,3.0,False
+ORD-10523,2023-04-24,West,Wholesale,Premium,Sports,Bicycle,597.38,2,15.0,179.21,1015.55,724.54,291.01,28.66,3.0,False
+ORD-10941,2023-04-25,South,Direct Sales,Premium,Books,Business Strategy,22.03,1,15.0,3.3,18.73,15.37,3.36,17.94,2.0,False
+ORD-10341,2023-04-25,East,Retail,Budget,Beauty,Shampoo,102.1,5,15.0,76.58,433.92,237.11,196.81,45.36,4.0,False
+ORD-10372,2023-04-25,South,Retail,Budget,Electronics,Headphones,1088.45,1,0.0,0.0,1088.45,629.62,458.83,42.15,4.0,False
+ORD-10129,2023-04-25,South,Retail,Budget,Sports,Tennis Racket,33.36,1,25.0,8.34,25.02,20.92,4.1,16.39,3.0,False
+ORD-10551,2023-04-26,West,Online,Budget,Electronics,Tablet,1134.38,1,10.0,113.44,1020.94,798.24,222.7,21.81,4.0,False
+ORD-10099,2023-04-27,Central,Online,Premium,Sports,Running Shoes,535.43,1,10.0,53.54,481.89,259.75,222.14,46.1,5.0,False
+ORD-10799,2023-04-27,East,Retail,Premium,Home & Garden,Lamp,59.98,2,20.0,23.99,95.97,76.28,19.69,20.52,4.0,False
+ORD-10877,2023-04-27,West,Retail,Standard,Sports,Running Shoes,261.44,1,5.0,13.07,248.37,187.03,61.34,24.7,2.0,False
+ORD-10227,2023-04-28,West,Direct Sales,Budget,Electronics,Tablet,219.42,1,20.0,43.88,175.54,138.03,37.51,21.37,2.0,False
+ORD-10993,2023-04-28,North,Retail,Premium,Clothing,Dress,79.64,1,0.0,0.0,79.64,45.3,34.34,43.12,4.0,False
+ORD-10451,2023-04-29,East,Online,Premium,Clothing,Dress,128.63,1,25.0,32.16,96.47,88.95,7.52,7.8,5.0,False
+ORD-10053,2023-04-29,Central,Online,Premium,Home & Garden,Sofa,467.6,1,0.0,0.0,467.6,262.0,205.6,43.97,4.0,False
+ORD-10102,2023-04-29,Central,Retail,Standard,Sports,Bicycle,73.78,5,0.0,0.0,368.9,207.43,161.47,43.77,4.0,False
+ORD-11148,2023-04-29,North,Online,Budget,Books,Business Strategy,36.73,1,0.0,0.0,36.73,18.36,18.37,50.01,3.0,True
+ORD-10557,2023-04-29,Central,Retail,Budget,Sports,Tennis Racket,106.99,2,5.0,10.7,203.28,118.49,84.79,41.71,2.0,False
+ORD-10229,2023-04-30,South,Online,Standard,Sports,Running Shoes,309.91,1,25.0,77.48,232.43,179.89,52.54,22.6,3.0,False
+ORD-10942,2023-04-30,West,Direct Sales,Budget,Beauty,Lipstick,104.23,2,20.0,41.69,166.77,118.63,48.14,28.87,4.0,False
+ORD-10907,2023-04-30,West,Retail,Budget,Sports,Bicycle,500.7,1,0.0,0.0,500.7,288.28,212.42,42.42,3.0,True
+ORD-10936,2023-04-30,North,Wholesale,Budget,Electronics,Tablet,922.19,2,25.0,461.1,1383.28,1250.58,132.7,9.59,3.0,False
+ORD-11090,2023-04-30,East,Retail,Standard,Beauty,Face Cream,127.1,1,15.0,19.07,108.03,64.41,43.62,40.38,3.0,False
+ORD-11181,2023-04-30,South,Retail,Budget,Clothing,Jeans,82.46,3,0.0,0.0,247.38,179.79,67.59,27.32,2.0,True
+ORD-10737,2023-05-01,North,Direct Sales,Budget,Books,Self Help,30.48,1,0.0,0.0,30.48,16.1,14.38,47.18,3.0,True
+ORD-10608,2023-05-01,East,Online,Standard,Beauty,Sunscreen,127.51,1,0.0,0.0,127.51,66.82,60.69,47.6,3.0,False
+ORD-10550,2023-05-01,East,Wholesale,Budget,Electronics,Tablet,548.3,1,10.0,54.83,493.47,341.68,151.79,30.76,2.0,False
+ORD-10115,2023-05-01,East,Retail,Standard,Home & Garden,Coffee Maker,656.62,1,25.0,164.16,492.46,327.51,164.95,33.5,4.0,False
+ORD-11093,2023-05-02,Central,Wholesale,Budget,Books,Python Guide,44.85,1,20.0,8.97,35.88,32.01,3.87,10.79,4.0,False
+ORD-11165,2023-05-02,South,Wholesale,Standard,Home & Garden,Sofa,529.32,1,0.0,0.0,529.32,380.7,148.62,28.08,4.0,False
+ORD-10422,2023-05-02,North,Retail,Budget,Home & Garden,Lamp,93.27,4,20.0,74.62,298.46,200.95,97.51,32.67,4.0,False
+ORD-10161,2023-05-02,Central,Direct Sales,Premium,Beauty,Sunscreen,69.56,1,10.0,6.96,62.6,36.36,26.24,41.92,2.0,False
+ORD-10738,2023-05-02,Central,Wholesale,Standard,Sports,Tennis Racket,116.71,1,0.0,0.0,116.71,54.99,61.72,52.88,4.0,False
+ORD-10891,2023-05-03,Central,Online,Standard,Beauty,Perfume,58.65,1,0.0,0.0,58.65,27.32,31.33,53.42,4.0,False
+ORD-10770,2023-05-03,North,Direct Sales,Standard,Sports,Bicycle,151.56,1,0.0,0.0,151.56,85.14,66.42,43.82,3.0,False
+ORD-11111,2023-05-03,North,Online,Budget,Clothing,T-Shirt,164.43,1,10.0,16.44,147.99,95.9,52.09,35.2,3.0,True
+ORD-10278,2023-05-03,North,Retail,Standard,Sports,Tennis Racket,223.88,1,0.0,0.0,223.88,103.82,120.06,53.63,4.0,False
+ORD-10664,2023-05-03,South,Retail,Standard,Beauty,Shampoo,90.8,1,10.0,9.08,81.72,62.31,19.41,23.75,4.0,False
+ORD-10601,2023-05-03,East,Direct Sales,Standard,Beauty,Face Cream,134.41,1,20.0,26.88,107.53,78.6,28.93,26.9,4.0,False
+ORD-10669,2023-05-03,Central,Retail,Premium,Sports,Running Shoes,358.55,1,15.0,53.78,304.77,242.97,61.8,20.28,5.0,False
+ORD-10265,2023-05-04,West,Direct Sales,Premium,Beauty,Face Cream,58.69,1,10.0,5.87,52.82,36.37,16.45,31.14,4.0,False
+ORD-11040,2023-05-04,South,Retail,Budget,Electronics,Tablet,703.06,4,0.0,0.0,2812.24,1418.12,1394.12,49.57,3.0,False
+ORD-10228,2023-05-04,North,Direct Sales,Budget,Beauty,Face Cream,56.79,2,0.0,0.0,113.58,54.74,58.84,51.8,3.0,False
+ORD-11072,2023-05-04,East,Wholesale,Premium,Beauty,Sunscreen,146.72,1,20.0,29.34,117.38,107.16,10.22,8.71,4.0,False
+ORD-10139,2023-05-05,East,Online,Standard,Sports,Bicycle,76.0,1,0.0,0.0,76.0,44.71,31.29,41.17,3.0,False
+ORD-10939,2023-05-05,West,Online,Standard,Books,Python Guide,19.67,1,5.0,0.98,18.69,10.38,8.31,44.46,3.0,False
+ORD-11030,2023-05-05,West,Retail,Budget,Clothing,Jacket,73.39,1,20.0,14.68,58.71,36.77,21.94,37.37,2.0,False
+ORD-11133,2023-05-05,North,Retail,Budget,Electronics,Headphones,340.62,2,10.0,68.12,613.12,328.77,284.35,46.38,3.0,False
+ORD-10543,2023-05-05,North,Online,Budget,Home & Garden,Blender,558.67,1,0.0,0.0,558.67,315.73,242.94,43.49,3.0,False
+ORD-10830,2023-05-06,South,Wholesale,Budget,Sports,Yoga Mat,358.9,1,0.0,0.0,358.9,177.02,181.88,50.68,2.0,False
+ORD-11120,2023-05-06,South,Wholesale,Standard,Books,Python Guide,15.34,4,0.0,0.0,61.36,28.72,32.64,53.19,2.0,False
+ORD-10955,2023-05-06,West,Retail,Budget,Home & Garden,Plant Pot,204.23,1,20.0,40.85,163.38,106.2,57.18,35.0,3.0,True
+ORD-10313,2023-05-06,South,Online,Premium,Beauty,Face Cream,69.57,1,0.0,0.0,69.57,39.05,30.52,43.87,4.0,False
+ORD-10219,2023-05-07,West,Direct Sales,Budget,Sports,Dumbbell Set,343.65,1,5.0,17.18,326.47,240.18,86.29,26.43,4.0,False
+ORD-10996,2023-05-07,East,Wholesale,Budget,Home & Garden,Sofa,291.27,1,20.0,58.25,233.02,145.22,87.8,37.68,2.0,False
+ORD-11138,2023-05-07,South,Online,Budget,Electronics,Laptop,955.23,2,0.0,0.0,1910.46,1078.72,831.74,43.54,3.0,False
+ORD-10661,2023-05-07,North,Direct Sales,Budget,Books,Self Help,24.44,1,5.0,1.22,23.22,17.74,5.48,23.6,4.0,False
+ORD-10515,2023-05-08,West,Retail,Standard,Electronics,Smart Watch,1379.54,2,0.0,0.0,2759.08,1907.83,851.25,30.85,4.0,False
+ORD-11128,2023-05-08,South,Online,Standard,Electronics,Tablet,1083.18,1,15.0,162.48,920.7,588.27,332.43,36.11,4.0,False
+ORD-10345,2023-05-08,West,Online,Standard,Beauty,Lipstick,70.98,2,5.0,7.1,134.86,69.0,65.86,48.84,4.0,False
+ORD-10314,2023-05-08,Central,Direct Sales,Premium,Clothing,T-Shirt,197.78,1,15.0,29.67,168.11,140.45,27.66,16.45,2.0,False
+ORD-10301,2023-05-08,South,Retail,Standard,Books,Self Help,16.64,1,0.0,0.0,16.64,10.93,5.71,34.31,3.0,False
+ORD-10748,2023-05-08,East,Online,Premium,Clothing,Jacket,61.33,1,0.0,0.0,61.33,30.64,30.69,50.04,3.0,False
+ORD-10071,2023-05-09,East,Direct Sales,Standard,Sports,Dumbbell Set,149.1,1,10.0,14.91,134.19,70.91,63.28,47.16,3.0,False
+ORD-10847,2023-05-09,West,Direct Sales,Premium,Electronics,Laptop,447.68,1,15.0,67.15,380.53,318.85,61.68,16.21,3.0,False
+ORD-10373,2023-05-10,West,Direct Sales,Standard,Beauty,Lipstick,148.78,1,25.0,37.2,111.58,71.6,39.98,35.83,4.0,False
+ORD-10920,2023-05-11,Central,Retail,Premium,Electronics,Headphones,1417.02,1,20.0,283.4,1133.62,902.4,231.22,20.4,3.0,False
+ORD-10464,2023-05-11,Central,Online,Standard,Books,Self Help,46.4,1,0.0,0.0,46.4,26.96,19.44,41.9,4.0,False
+ORD-10733,2023-05-12,West,Wholesale,Standard,Beauty,Perfume,44.77,1,0.0,0.0,44.77,25.89,18.88,42.17,3.0,False
+ORD-10141,2023-05-12,South,Retail,Premium,Home & Garden,Sofa,645.55,1,0.0,0.0,645.55,306.33,339.22,52.55,3.0,False
+ORD-10379,2023-05-13,East,Online,Standard,Sports,Yoga Mat,445.12,1,0.0,0.0,445.12,208.34,236.78,53.19,5.0,False
+ORD-10735,2023-05-13,South,Wholesale,Premium,Electronics,Smartphone,179.58,1,0.0,0.0,179.58,107.89,71.69,39.92,2.0,False
+ORD-11180,2023-05-13,East,Online,Standard,Sports,Tennis Racket,275.84,1,0.0,0.0,275.84,160.35,115.49,41.87,4.0,False
+ORD-10973,2023-05-13,Central,Direct Sales,Standard,Beauty,Sunscreen,11.81,1,0.0,0.0,11.81,8.33,3.48,29.47,3.0,True
+ORD-10578,2023-05-13,Central,Wholesale,Standard,Electronics,Headphones,1424.46,1,15.0,213.67,1210.79,838.73,372.06,30.73,3.0,False
+ORD-10759,2023-05-14,Central,Online,Budget,Home & Garden,Blender,421.01,1,0.0,0.0,421.01,191.74,229.27,54.46,3.0,False
+ORD-10992,2023-05-15,South,Retail,Standard,Beauty,Sunscreen,12.93,1,0.0,0.0,12.93,6.04,6.89,53.29,4.0,False
+ORD-10311,2023-05-15,East,Direct Sales,Standard,Electronics,Laptop,1068.31,1,0.0,0.0,1068.31,490.56,577.75,54.08,4.0,False
+ORD-10199,2023-05-16,East,Online,Budget,Books,Cook Book,47.5,1,25.0,11.88,35.62,34.17,1.45,4.07,3.0,False
+ORD-10080,2023-05-16,East,Direct Sales,Premium,Clothing,Jacket,51.18,1,5.0,2.56,48.62,29.15,19.47,40.05,5.0,False
+ORD-11178,2023-05-16,North,Online,Standard,Beauty,Sunscreen,78.57,1,,11.79,66.78,43.24,23.54,35.25,2.0,False
+ORD-10873,2023-05-16,North,Retail,Standard,Home & Garden,Lamp,775.42,1,5.0,38.77,736.65,465.61,271.04,36.79,4.0,False
+ORD-10811,2023-05-16,Central,Direct Sales,Budget,Electronics,Tablet,1094.51,2,20.0,437.8,1751.22,1512.27,238.95,13.64,4.0,False
+ORD-10016,2023-05-16,South,Direct Sales,Budget,Sports,Yoga Mat,106.03,2,0.0,0.0,212.06,100.17,111.89,52.76,4.0,False
+ORD-11115,2023-05-16,West,Wholesale,Premium,Electronics,Headphones,616.53,1,0.0,0.0,616.53,352.07,264.46,42.89,3.0,False
+ORD-10481,2023-05-16,West,Retail,Premium,Beauty,Perfume,120.08,1,5.0,6.0,114.08,63.35,50.73,44.47,3.0,False
+ORD-10193,2023-05-16,North,Online,Standard,Home & Garden,Plant Pot,738.29,1,0.0,0.0,738.29,409.08,329.21,44.59,1.0,False
+ORD-10189,2023-05-17,East,Retail,Standard,Sports,Running Shoes,90.11,5,0.0,0.0,450.55,316.14,134.41,29.83,4.0,False
+ORD-10540,2023-05-17,Central,Retail,Premium,Sports,Yoga Mat,546.88,1,0.0,0.0,546.88,345.83,201.05,36.76,4.0,False
+ORD-10216,2023-05-17,East,Direct Sales,Premium,Clothing,T-Shirt,68.36,1,25.0,17.09,51.27,43.75,7.52,14.67,3.0,False
+ORD-10081,2023-05-17,North,Retail,Budget,Clothing,Dress,28.15,1,0.0,0.0,28.15,17.95,10.2,36.23,4.0,False
+ORD-11023,2023-05-19,Central,Wholesale,Standard,Beauty,Lipstick,103.31,1,0.0,0.0,103.31,60.18,43.13,41.75,3.0,False
+ORD-10249,2023-05-19,North,Retail,Premium,Electronics,Smart Watch,537.77,1,25.0,134.44,403.33,279.68,123.65,30.66,3.0,True
+ORD-10056,2023-05-20,Central,Retail,Standard,Books,Cook Book,38.85,1,5.0,1.94,36.91,19.76,17.15,46.46,,False
+ORD-10728,2023-05-20,Central,Online,Budget,Sports,Running Shoes,572.11,2,15.0,171.63,972.59,791.26,181.33,18.64,2.0,True
+ORD-10213,2023-05-20,Central,Direct Sales,Premium,Books,Cook Book,30.47,1,25.0,7.62,22.85,17.7,5.15,22.54,2.0,False
+ORD-11121,2023-05-21,South,Direct Sales,Budget,Clothing,T-Shirt,77.67,1,0.0,0.0,77.67,53.2,24.47,31.51,2.0,False
+ORD-10947,2023-05-21,East,Wholesale,Budget,Electronics,Smart Watch,911.71,2,0.0,0.0,1823.42,930.78,892.64,48.95,3.0,False
+ORD-10231,2023-05-21,Central,Retail,Standard,Home & Garden,Blender,484.48,1,10.0,48.45,436.03,231.33,204.7,46.95,4.0,False
+ORD-10052,2023-05-21,Central,Direct Sales,Budget,Clothing,Jacket,78.57,1,5.0,3.93,74.64,50.67,23.97,32.11,4.0,False
+ORD-10514,2023-05-22,West,Wholesale,Premium,Electronics,Smartphone,1148.87,3,0.0,0.0,3446.61,1840.53,1606.08,46.6,3.0,False
+ORD-10631,2023-05-22,East,Wholesale,Premium,Home & Garden,Lamp,234.5,1,0.0,0.0,234.5,126.16,108.34,46.2,3.0,False
+ORD-11144,2023-05-22,South,Direct Sales,Budget,Electronics,Tablet,672.19,1,25.0,168.05,504.14,332.16,171.98,34.11,3.0,True
+ORD-10033,2023-05-22,North,Online,Budget,Books,Self Help,58.59,4,20.0,46.87,187.49,123.16,64.33,34.31,4.0,False
+ORD-10975,2023-05-22,West,Wholesale,Standard,Books,Python Guide,29.0,1,10.0,2.9,26.1,16.43,9.67,37.05,3.0,False
+ORD-10652,2023-05-22,South,Direct Sales,Budget,Sports,Tennis Racket,67.02,1,5.0,3.35,63.67,49.89,13.78,21.64,4.0,False
+ORD-10375,2023-05-22,North,Wholesale,Standard,Electronics,Headphones,629.25,1,15.0,94.39,534.86,381.15,153.71,28.74,3.0,False
+ORD-10072,2023-05-22,South,Retail,Premium,Beauty,Sunscreen,17.24,1,25.0,4.31,12.93,10.55,2.38,18.41,4.0,False
+ORD-10204,2023-05-23,Central,Direct Sales,Premium,Beauty,Lipstick,62.26,1,5.0,3.11,59.15,40.05,19.1,32.29,3.0,False
+ORD-10425,2023-05-23,North,Direct Sales,Premium,Clothing,Sneakers,194.33,2,20.0,77.73,310.93,209.04,101.89,32.77,3.0,False
+ORD-10713,2023-05-23,North,Retail,Standard,Sports,Bicycle,77.94,1,25.0,19.48,58.46,49.66,8.8,15.05,3.0,False
+ORD-11007,2023-05-23,South,Wholesale,Premium,Electronics,Smart Watch,954.17,1,0.0,0.0,954.17,698.33,255.84,26.81,2.0,False
+ORD-10965,2023-05-23,South,Retail,Budget,Home & Garden,Blender,434.61,1,15.0,65.19,369.42,312.95,56.47,15.29,4.0,False
+ORD-10263,2023-05-24,Central,Retail,Standard,Home & Garden,Lamp,199.54,1,20.0,39.91,159.63,94.35,65.28,40.89,3.0,False
+ORD-10364,2023-05-24,North,Wholesale,Standard,Home & Garden,Sofa,205.62,1,10.0,20.56,185.06,130.22,54.84,29.63,4.0,False
+ORD-11039,2023-05-25,Central,Wholesale,Premium,Electronics,Tablet,1271.34,1,5.0,63.57,1207.77,724.41,483.36,40.02,3.0,False
+ORD-10987,2023-05-26,East,Retail,Premium,Books,Business Strategy,51.0,1,5.0,2.55,48.45,30.57,17.88,36.9,2.0,True
+ORD-10210,2023-05-27,West,Retail,Standard,Beauty,Shampoo,51.04,2,15.0,15.31,86.77,46.33,40.44,46.61,2.0,False
+ORD-10168,2023-05-27,East,Online,Budget,Sports,Bicycle,355.32,2,5.0,35.53,675.11,349.59,325.52,48.22,3.0,False
+ORD-10889,2023-05-28,West,Online,Budget,Books,Novel,15.16,1,0.0,0.0,15.16,9.41,5.75,37.93,5.0,False
+ORD-10616,2023-05-29,East,Direct Sales,Standard,Books,Cook Book,12.41,1,10.0,1.24,11.17,9.15,2.02,18.08,1.0,False
+ORD-10005,2023-05-29,South,Online,Premium,Home & Garden,Plant Pot,312.1,1,5.0,15.61,296.49,213.96,82.53,27.84,3.0,False
+ORD-10287,2023-05-29,Central,Retail,Standard,Sports,Dumbbell Set,236.9,2,10.0,47.38,426.42,280.47,145.95,34.23,3.0,False
+ORD-10755,2023-05-29,South,Direct Sales,Premium,Clothing,Dress,50.9,1,0.0,0.0,50.9,29.2,21.7,42.63,4.0,False
+ORD-10138,2023-05-29,West,Direct Sales,Budget,Home & Garden,Plant Pot,178.06,1,20.0,35.61,142.45,89.15,53.3,37.42,,True
+ORD-11141,2023-05-29,South,Retail,Standard,Beauty,Perfume,75.67,2,25.0,37.84,113.5,76.28,37.22,32.79,4.0,False
+ORD-10855,2023-05-30,South,Direct Sales,Standard,Sports,Yoga Mat,123.16,1,15.0,18.47,104.69,62.98,41.71,39.84,,False
+ORD-10424,2023-05-31,East,Retail,Budget,Books,Python Guide,40.75,2,5.0,4.08,77.42,52.42,25.0,32.29,3.0,False
+ORD-11125,2023-05-31,East,Direct Sales,Standard,Sports,Yoga Mat,562.51,2,0.0,0.0,1125.02,782.89,342.13,30.41,3.0,True
+ORD-10871,2023-06-01,Central,Online,Premium,Home & Garden,Sofa,672.62,3,0.0,0.0,2017.86,1020.47,997.39,49.43,2.0,False
+ORD-10152,2023-06-01,South,Retail,Premium,Books,Python Guide,31.58,1,0.0,0.0,31.58,16.9,14.68,46.49,4.0,False
+ORD-11006,2023-06-01,Central,Wholesale,Standard,Sports,Bicycle,252.88,1,5.0,12.64,240.24,124.68,115.56,48.1,3.0,False
+ORD-10214,2023-06-01,South,Online,Budget,Books,Self Help,24.72,3,15.0,11.12,63.04,50.36,12.68,20.11,4.0,False
+ORD-10240,2023-06-01,South,Online,Standard,Sports,Yoga Mat,46.28,1,20.0,9.26,37.02,24.02,13.0,35.12,2.0,False
+ORD-10659,2023-06-01,West,Retail,Standard,Books,Novel,52.4,1,5.0,2.62,49.78,25.08,24.7,49.62,2.0,False
+ORD-10438,2023-06-02,West,Wholesale,Budget,Clothing,Jeans,144.0,2,0.0,0.0,288.0,184.58,103.42,35.91,3.0,False
+ORD-10949,2023-06-03,South,Direct Sales,Budget,Clothing,T-Shirt,22.92,2,20.0,9.17,36.67,21.18,15.49,42.24,4.0,False
+ORD-10703,2023-06-04,North,Wholesale,Premium,Electronics,Headphones,1208.08,1,0.0,0.0,1208.08,700.48,507.6,42.02,3.0,False
+ORD-11130,2023-06-04,South,Direct Sales,Budget,Clothing,Jacket,118.47,1,5.0,5.92,112.55,66.72,45.83,40.72,3.0,False
+ORD-11095,2023-06-04,North,Direct Sales,Premium,Beauty,Face Cream,98.39,1,20.0,19.68,78.71,51.62,27.09,34.42,3.0,False
+ORD-10531,2023-06-04,East,Online,Budget,Beauty,Face Cream,80.88,1,0.0,0.0,80.88,38.12,42.76,52.87,4.0,True
+ORD-10045,2023-06-05,Central,Wholesale,Standard,Books,Python Guide,37.76,1,0.0,0.0,37.76,19.73,18.03,47.75,4.0,False
+ORD-11099,2023-06-05,East,Online,Premium,Beauty,Face Cream,133.19,1,0.0,0.0,133.19,80.22,52.97,39.77,4.0,False
+ORD-10829,2023-06-05,Central,Online,Premium,Electronics,Tablet,910.6,2,0.0,0.0,1821.2,894.47,926.73,50.89,3.0,False
+ORD-10870,2023-06-06,West,Retail,Standard,Clothing,Jeans,81.19,1,5.0,4.06,77.13,47.32,29.81,38.65,3.0,False
+ORD-11170,2023-06-06,North,Retail,Premium,Books,Self Help,36.77,1,5.0,1.84,34.93,18.71,16.22,46.44,4.0,False
+ORD-10171,2023-06-06,North,Online,Standard,Home & Garden,Sofa,658.78,1,10.0,65.88,592.9,370.95,221.95,37.43,4.0,False
+ORD-11064,2023-06-07,East,Wholesale,Premium,Sports,Running Shoes,148.05,1,10.0,14.8,133.25,84.4,48.85,36.66,4.0,False
+ORD-10380,2023-06-07,North,Retail,Standard,Beauty,Lipstick,88.72,4,5.0,17.74,337.14,178.36,158.78,47.1,3.0,False
+ORD-10742,2023-06-08,North,Retail,Standard,Sports,Running Shoes,501.42,2,20.0,200.57,802.27,543.88,258.39,32.21,2.0,False
+ORD-11041,2023-06-08,North,Online,Standard,Sports,Bicycle,445.25,1,0.0,0.0,445.25,277.62,167.63,37.65,4.0,True
+ORD-10062,2023-06-09,East,Online,Budget,Electronics,Smartphone,919.58,1,0.0,0.0,919.58,583.48,336.1,36.55,4.0,False
+ORD-10913,2023-06-09,Central,Online,Standard,Clothing,Jeans,169.93,1,25.0,42.48,127.45,119.53,7.92,6.21,4.0,False
+ORD-11104,2023-06-09,North,Wholesale,Premium,Clothing,Dress,112.32,1,15.0,16.85,95.47,70.63,24.84,26.02,3.0,False
+ORD-10878,2023-06-10,West,Direct Sales,Standard,Sports,Tennis Racket,539.95,2,0.0,0.0,1079.9,587.64,492.26,45.58,2.0,False
+ORD-10736,2023-06-10,West,Online,Premium,Beauty,Face Cream,17.86,1,0.0,0.0,17.86,13.0,4.86,27.21,4.0,False
+ORD-10968,2023-06-11,Central,Retail,Standard,Beauty,Sunscreen,102.66,1,0.0,0.0,102.66,64.47,38.19,37.2,4.0,False
+ORD-10548,2023-06-11,West,Retail,Standard,Electronics,Tablet,976.97,2,0.0,0.0,1953.94,1303.65,650.29,33.28,3.0,False
+ORD-10845,2023-06-11,North,Wholesale,Standard,Electronics,Smartphone,1226.94,1,25.0,306.74,920.2,584.15,336.05,36.52,3.0,True
+ORD-10972,2023-06-12,Central,Online,Premium,Sports,Dumbbell Set,92.98,1,0.0,0.0,92.98,61.71,31.27,33.63,2.0,False
+ORD-10095,2023-06-12,West,Retail,Standard,Clothing,Sneakers,191.01,4,0.0,0.0,764.04,475.26,288.78,37.8,3.0,False
+ORD-10725,2023-06-12,North,Direct Sales,Budget,Books,Self Help,10.69,1,0.0,0.0,10.69,5.5,5.19,48.55,4.0,False
+ORD-10098,2023-06-12,North,Wholesale,Budget,Beauty,Shampoo,22.77,1,20.0,4.55,18.22,10.64,7.58,41.6,2.0,False
+ORD-10554,2023-06-12,South,Direct Sales,Premium,Home & Garden,Plant Pot,663.27,2,0.0,0.0,1326.54,961.73,364.81,27.5,2.0,True
+ORD-10359,2023-06-13,South,Retail,Budget,Beauty,Shampoo,27.06,1,10.0,2.71,24.35,17.71,6.64,27.27,2.0,False
+ORD-11024,2023-06-13,North,Retail,Budget,Beauty,Face Cream,32.87,1,0.0,0.0,32.87,16.79,16.08,48.92,3.0,False
+ORD-10826,2023-06-13,North,Wholesale,Standard,Clothing,T-Shirt,61.85,1,0.0,0.0,61.85,32.59,29.26,47.31,4.0,False
+ORD-10239,2023-06-13,West,Online,Budget,Sports,Bicycle,510.62,1,25.0,127.66,382.96,356.76,26.2,6.84,3.0,False
+ORD-10592,2023-06-14,North,Wholesale,Budget,Beauty,Lipstick,22.4,1,5.0,1.12,21.28,10.6,10.68,50.19,2.0,False
+ORD-10769,2023-06-15,South,Online,Budget,Sports,Yoga Mat,598.38,1,10.0,59.84,538.54,326.92,211.62,39.3,4.0,False
+ORD-10512,2023-06-15,West,Direct Sales,Budget,Beauty,Perfume,74.45,2,10.0,14.89,134.01,91.42,42.59,31.78,4.0,False
+ORD-10087,2023-06-15,West,Online,Standard,Sports,Running Shoes,208.41,2,10.0,41.68,375.14,190.48,184.66,49.22,3.0,True
+ORD-10340,2023-06-15,Central,Online,Standard,Home & Garden,Lamp,196.07,1,10.0,19.61,176.46,111.4,65.06,36.87,3.0,False
+ORD-10951,2023-06-15,South,Direct Sales,Premium,Home & Garden,Sofa,224.83,2,0.0,0.0,449.66,216.22,233.44,51.91,3.0,False
+ORD-10768,2023-06-16,East,Online,Budget,Sports,Running Shoes,397.78,1,25.0,99.44,298.34,223.81,74.53,24.98,3.0,False
+ORD-10486,2023-06-16,North,Retail,Standard,Beauty,Face Cream,24.77,1,0.0,0.0,24.77,17.26,7.51,30.32,4.0,False
+ORD-11009,2023-06-16,East,Retail,Standard,Beauty,Sunscreen,98.21,2,,19.64,176.78,134.56,42.22,23.88,3.0,False
+ORD-10493,2023-06-16,Central,Retail,Standard,Clothing,Sneakers,47.38,1,15.0,7.11,40.27,30.07,10.2,25.33,4.0,False
+ORD-10645,2023-06-16,West,Wholesale,Budget,Electronics,Smartphone,1443.21,1,20.0,288.64,1154.57,754.18,400.39,34.68,3.0,False
+ORD-10603,2023-06-16,Central,Direct Sales,Premium,Clothing,T-Shirt,148.51,2,25.0,74.25,222.77,205.3,17.47,7.84,4.0,False
+ORD-10604,2023-06-17,Central,Online,Budget,Books,Business Strategy,37.63,1,20.0,7.53,30.1,18.55,11.55,38.37,3.0,False
+ORD-11122,2023-06-19,South,Wholesale,Budget,Books,Cook Book,16.12,1,15.0,2.42,13.7,7.85,5.85,42.7,4.0,False
+ORD-10583,2023-06-19,West,Online,Premium,Home & Garden,Sofa,766.16,1,5.0,38.31,727.85,369.89,357.96,49.18,4.0,False
+ORD-10273,2023-06-19,Central,Retail,Budget,Clothing,Jeans,66.76,1,0.0,0.0,66.76,40.86,25.9,38.8,3.0,False
+ORD-10442,2023-06-19,North,Retail,Budget,Electronics,Tablet,981.58,1,25.0,245.4,736.18,546.36,189.82,25.78,4.0,False
+ORD-10363,2023-06-19,Central,Direct Sales,Premium,Clothing,Sneakers,128.29,2,20.0,51.32,205.26,183.52,21.74,10.59,3.0,False
+ORD-10591,2023-06-20,North,Wholesale,Premium,Sports,Running Shoes,465.52,2,0.0,0.0,931.04,590.35,340.69,36.59,4.0,False
+ORD-10149,2023-06-20,East,Wholesale,Budget,Beauty,Shampoo,55.85,1,0.0,0.0,55.85,40.05,15.8,28.29,3.0,True
+ORD-11135,2023-06-20,North,Online,Standard,Books,Business Strategy,19.6,1,0.0,0.0,19.6,14.34,5.26,26.84,2.0,False
+ORD-10261,2023-06-21,East,Direct Sales,Standard,Electronics,Headphones,893.66,1,25.0,223.41,670.25,511.65,158.6,23.66,4.0,False
+ORD-10067,2023-06-22,West,Retail,Standard,Electronics,Tablet,606.29,1,20.0,121.26,485.03,289.92,195.11,40.23,3.0,True
+ORD-10817,2023-06-22,Central,Wholesale,Budget,Books,Novel,46.87,1,25.0,11.72,35.15,32.38,2.77,7.88,3.0,False
+ORD-11045,2023-06-23,Central,Wholesale,Standard,Clothing,Sneakers,91.28,1,0.0,0.0,91.28,45.42,45.86,50.24,3.0,False
+ORD-10819,2023-06-23,West,Direct Sales,Premium,Beauty,Sunscreen,75.1,2,20.0,30.04,120.16,70.4,49.76,41.41,3.0,False
+ORD-10863,2023-06-23,South,Direct Sales,Budget,Electronics,Laptop,672.89,1,0.0,0.0,672.89,306.67,366.22,54.42,3.0,False
+ORD-10910,2023-06-25,East,Online,Premium,Sports,Bicycle,534.55,3,15.0,240.55,1363.1,1162.53,200.57,14.71,4.0,False
+ORD-10495,2023-06-25,West,Online,Premium,Sports,Tennis Racket,265.21,5,0.0,0.0,1326.05,862.43,463.62,34.96,3.0,False
+ORD-10615,2023-06-25,North,Wholesale,Budget,Clothing,Dress,38.97,2,0.0,0.0,77.94,50.13,27.81,35.68,,False
+ORD-10388,2023-06-25,West,Wholesale,Standard,Home & Garden,Sofa,456.43,1,0.0,0.0,456.43,259.75,196.68,43.09,5.0,False
+ORD-10416,2023-06-25,Central,Retail,Standard,Books,Novel,13.33,1,20.0,2.67,10.66,6.6,4.06,38.09,3.0,False
+ORD-10032,2023-06-25,South,Wholesale,Standard,Electronics,Smart Watch,1422.93,1,5.0,71.15,1351.78,861.78,490.0,36.25,3.0,False
+ORD-10292,2023-06-25,East,Retail,Budget,Home & Garden,Sofa,557.89,1,25.0,139.47,418.42,284.61,133.81,31.98,3.0,False
+ORD-10188,2023-06-26,East,Retail,Standard,Books,Python Guide,31.21,1,15.0,4.68,26.53,22.79,3.74,14.1,3.0,False
+ORD-10103,2023-06-26,East,Retail,Premium,Electronics,Headphones,1428.79,5,25.0,1785.99,5357.96,4829.41,528.55,9.86,3.0,False
+ORD-10369,2023-06-26,West,Retail,Standard,Books,Cook Book,14.79,1,15.0,2.22,12.57,9.5,3.07,24.42,4.0,False
+ORD-10876,2023-06-27,East,Online,Standard,Beauty,Sunscreen,115.99,1,10.0,11.6,104.39,52.43,51.96,49.77,4.0,False
+ORD-10475,2023-06-27,North,Wholesale,Budget,Beauty,Face Cream,45.14,2,15.0,13.54,76.74,55.83,20.91,27.25,3.0,False
+ORD-11081,2023-06-27,Central,Online,Premium,Electronics,Smartphone,1309.24,2,15.0,392.77,2225.71,1778.98,446.73,20.07,4.0,False
+ORD-10183,2023-06-27,South,Retail,Standard,Clothing,Jacket,183.52,1,5.0,9.18,174.34,104.65,69.69,39.97,3.0,False
+ORD-10950,2023-06-28,West,Wholesale,Standard,Electronics,Smart Watch,1351.38,5,25.0,1689.22,5067.68,3636.7,1430.98,28.24,4.0,False
+ORD-10205,2023-06-28,South,Direct Sales,Standard,Home & Garden,Sofa,150.24,1,25.0,37.56,112.68,97.31,15.37,13.64,3.0,False
+ORD-10271,2023-06-28,West,Retail,Budget,Home & Garden,Sofa,659.83,2,25.0,329.92,989.74,794.75,194.99,19.7,4.0,False
+ORD-10808,2023-06-29,East,Retail,Budget,Electronics,Headphones,1091.13,1,5.0,54.56,1036.57,581.12,455.45,43.94,4.0,False
+ORD-10686,2023-06-29,East,Online,Standard,Home & Garden,Lamp,631.09,1,15.0,94.66,536.43,464.27,72.16,13.45,2.0,False
+ORD-10832,2023-06-29,Central,Wholesale,Budget,Books,Self Help,25.32,2,20.0,10.13,40.51,23.65,16.86,41.62,2.0,False
+ORD-11183,2023-06-29,Central,Online,Budget,Electronics,Tablet,604.04,3,5.0,90.61,1721.51,821.98,899.53,52.25,3.0,True
+ORD-10746,2023-06-30,South,Wholesale,Budget,Books,Business Strategy,52.94,1,0.0,0.0,52.94,30.8,22.14,41.82,2.0,False
+ORD-10055,2023-06-30,Central,Direct Sales,Standard,Beauty,Face Cream,98.36,2,0.0,0.0,196.72,118.19,78.53,39.92,3.0,False
+ORD-11102,2023-06-30,North,Wholesale,Standard,Books,Python Guide,49.25,1,0.0,0.0,49.25,34.28,14.97,30.4,3.0,False
+ORD-10335,2023-07-01,East,Online,Premium,Beauty,Perfume,104.28,4,20.0,83.42,333.7,199.45,134.25,40.23,4.0,False
+ORD-10480,2023-07-01,North,Retail,Standard,Beauty,Lipstick,18.72,1,15.0,2.81,15.91,12.95,2.96,18.6,3.0,False
+ORD-10006,2023-07-01,West,Wholesale,Premium,Books,Self Help,19.98,1,15.0,3.0,16.98,12.54,4.44,26.15,3.0,False
+ORD-10036,2023-07-01,South,Retail,Budget,Electronics,Tablet,1376.16,1,0.0,0.0,1376.16,679.09,697.07,50.65,4.0,False
+ORD-10777,2023-07-01,North,Direct Sales,Budget,Books,Novel,19.75,2,10.0,3.95,35.55,26.66,8.89,25.01,4.0,False
+ORD-10436,2023-07-03,North,Online,Budget,Electronics,Smart Watch,832.9,2,0.0,0.0,1665.8,1115.82,549.98,33.02,5.0,False
+ORD-10524,2023-07-04,North,Direct Sales,Budget,Clothing,Dress,31.46,2,0.0,0.0,62.92,39.62,23.3,37.03,4.0,False
+ORD-10530,2023-07-04,South,Direct Sales,Budget,Sports,Tennis Racket,305.41,1,10.0,30.54,274.87,224.53,50.34,18.31,4.0,False
+ORD-10174,2023-07-05,North,Retail,Budget,Electronics,Smartphone,1373.74,1,15.0,206.06,1167.68,666.36,501.32,42.93,3.0,False
+ORD-10860,2023-07-05,South,Direct Sales,Premium,Home & Garden,Lamp,498.41,1,0.0,0.0,498.41,250.23,248.18,49.79,4.0,True
+ORD-10962,2023-07-06,North,Online,Premium,Sports,Dumbbell Set,536.97,1,10.0,53.7,483.27,332.48,150.79,31.2,3.0,False
+ORD-10304,2023-07-07,South,Direct Sales,Budget,Home & Garden,Sofa,70.02,1,20.0,14.0,56.02,46.4,9.62,17.17,4.0,False
+ORD-10453,2023-07-07,East,Retail,Standard,Sports,Dumbbell Set,431.92,2,20.0,172.77,691.07,522.78,168.29,24.35,3.0,False
+ORD-10502,2023-07-07,South,Online,Standard,Books,Cook Book,26.76,1,,2.68,24.08,17.76,6.32,26.25,3.0,False
+ORD-10487,2023-07-07,East,Direct Sales,Budget,Home & Garden,Blender,772.65,1,15.0,115.9,656.75,469.0,187.75,28.59,3.0,False
+ORD-10061,2023-07-08,South,Direct Sales,Budget,Electronics,Smart Watch,901.68,3,10.0,270.5,2434.54,1782.1,652.44,26.8,3.0,False
+ORD-10773,2023-07-08,Central,Direct Sales,Premium,Books,Self Help,10.27,2,20.0,4.11,16.43,14.01,2.42,14.73,5.0,False
+ORD-11012,2023-07-08,West,Retail,Budget,Books,Python Guide,39.03,3,20.0,23.42,93.67,76.3,17.37,18.54,4.0,False
+ORD-10772,2023-07-08,South,Wholesale,Budget,Home & Garden,Plant Pot,575.75,1,0.0,0.0,575.75,296.68,279.07,48.47,3.0,False
+ORD-10312,2023-07-08,East,Online,Standard,Books,Cook Book,22.88,1,0.0,0.0,22.88,16.26,6.62,28.93,4.0,False
+ORD-10752,2023-07-08,Central,Wholesale,Premium,Sports,Bicycle,166.08,1,,0.0,166.08,94.22,71.86,43.27,3.0,False
+ORD-11098,2023-07-08,South,Retail,Premium,Beauty,Shampoo,61.68,1,,3.08,58.6,34.12,24.48,41.77,1.0,False
+ORD-10741,2023-07-08,East,Retail,Standard,Beauty,Perfume,84.98,1,25.0,21.25,63.73,47.26,16.47,25.84,,False
+ORD-10471,2023-07-09,North,Online,Standard,Sports,Bicycle,347.1,3,5.0,52.07,989.23,484.91,504.32,50.98,3.0,True
+ORD-11038,2023-07-10,West,Direct Sales,Premium,Books,Self Help,13.64,1,0.0,0.0,13.64,7.57,6.07,44.5,4.0,False
+ORD-11089,2023-07-10,South,Online,Premium,Clothing,Jacket,172.84,1,,25.93,146.91,86.5,60.41,41.12,5.0,False
+ORD-11031,2023-07-10,West,Online,Budget,Electronics,Smartphone,633.49,5,20.0,633.49,2533.96,2075.61,458.35,18.09,3.0,True
+ORD-10908,2023-07-11,South,Online,Premium,Clothing,Dress,50.28,2,0.0,0.0,100.56,62.06,38.5,38.29,3.0,False
+ORD-10879,2023-07-11,West,Direct Sales,Budget,Books,Python Guide,19.53,1,0.0,0.0,19.53,10.79,8.74,44.75,4.0,False
+ORD-11087,2023-07-11,West,Retail,Budget,Sports,Bicycle,451.64,1,15.0,67.75,383.89,237.42,146.47,38.15,3.0,False
+ORD-11050,2023-07-11,West,Wholesale,Budget,Sports,Yoga Mat,39.49,1,15.0,5.92,33.57,27.01,6.56,19.54,2.0,True
+ORD-10195,2023-07-11,North,Retail,Premium,Sports,Tennis Racket,126.42,1,20.0,25.28,101.14,72.78,28.36,28.04,3.0,False
+ORD-10126,2023-07-11,West,Wholesale,Budget,Electronics,Tablet,852.22,2,10.0,170.44,1534.0,1049.21,484.79,31.6,4.0,False
+ORD-10629,2023-07-12,North,Online,Budget,Sports,Running Shoes,204.32,2,0.0,0.0,408.64,278.64,130.0,31.81,3.0,False
+ORD-10225,2023-07-12,East,Direct Sales,Standard,Beauty,Shampoo,76.65,1,20.0,15.33,61.32,56.03,5.29,8.63,2.0,True
+ORD-10586,2023-07-12,South,Wholesale,Premium,Home & Garden,Coffee Maker,44.72,1,15.0,6.71,38.01,29.35,8.66,22.78,4.0,False
+ORD-10931,2023-07-12,North,Online,Premium,Electronics,Smart Watch,725.26,2,0.0,0.0,1450.52,1003.32,447.2,30.83,3.0,False
+ORD-11077,2023-07-13,East,Retail,Budget,Beauty,Perfume,47.68,1,5.0,2.38,45.3,32.66,12.64,27.9,2.0,False
+ORD-10058,2023-07-14,West,Retail,Premium,Books,Python Guide,57.02,4,10.0,22.81,205.27,165.23,40.04,19.51,3.0,False
+ORD-11199,2023-07-14,Central,Wholesale,Budget,Electronics,Smart Watch,257.62,1,25.0,64.41,193.21,188.0,5.21,2.7,2.0,False
+ORD-10003,2023-07-14,South,Wholesale,Premium,Home & Garden,Blender,171.22,1,0.0,0.0,171.22,104.0,67.22,39.26,3.0,True
+ORD-10038,2023-07-15,East,Retail,Budget,Books,Python Guide,21.88,1,0.0,0.0,21.88,12.26,9.62,43.97,4.0,False
+ORD-10298,2023-07-15,East,Wholesale,Standard,Electronics,Laptop,342.37,1,0.0,0.0,342.37,217.56,124.81,36.45,4.0,False
+ORD-10612,2023-07-16,West,Direct Sales,Budget,Sports,Yoga Mat,76.34,1,25.0,19.09,57.25,45.66,11.59,20.24,5.0,False
+ORD-10718,2023-07-16,North,Online,Standard,Sports,Tennis Racket,259.69,1,0.0,0.0,259.69,162.27,97.42,37.51,3.0,False
+ORD-10940,2023-07-16,West,Online,Premium,Electronics,Laptop,1346.22,2,15.0,403.87,2288.57,1451.73,836.84,36.57,3.0,False
+ORD-11149,2023-07-16,South,Retail,Premium,Books,Self Help,28.6,2,0.0,0.0,57.2,31.55,25.65,44.84,4.0,False
+ORD-10621,2023-07-16,Central,Retail,Standard,Electronics,Smartphone,548.66,1,20.0,109.73,438.93,354.16,84.77,19.31,5.0,False
+ORD-10937,2023-07-17,West,Direct Sales,Budget,Electronics,Tablet,512.04,1,0.0,0.0,512.04,293.16,218.88,42.75,3.0,False
+ORD-10884,2023-07-17,North,Retail,Premium,Sports,Bicycle,403.73,3,0.0,0.0,1211.19,843.34,367.85,30.37,5.0,False
+ORD-10011,2023-07-17,South,Direct Sales,Budget,Electronics,Smartphone,852.09,1,0.0,0.0,852.09,430.69,421.4,49.45,4.0,False
+ORD-10944,2023-07-18,East,Online,Budget,Sports,Running Shoes,71.71,5,5.0,17.93,340.62,178.15,162.47,47.7,4.0,False
+ORD-11052,2023-07-18,South,Direct Sales,Premium,Home & Garden,Lamp,595.97,1,5.0,29.8,566.17,355.47,210.7,37.21,3.0,False
+ORD-10333,2023-07-18,West,Direct Sales,Standard,Books,Self Help,35.78,1,15.0,5.37,30.41,23.26,7.15,23.51,,False
+ORD-10255,2023-07-19,East,Retail,Standard,Electronics,Laptop,388.31,1,,0.0,388.31,196.46,191.85,49.41,3.0,False
+ORD-10886,2023-07-19,Central,Direct Sales,Standard,Electronics,Smartphone,164.59,2,0.0,0.0,329.18,227.23,101.95,30.97,3.0,False
+ORD-10635,2023-07-20,West,Wholesale,Premium,Electronics,Laptop,558.94,1,15.0,83.84,475.1,289.79,185.31,39.0,3.0,False
+ORD-10307,2023-07-20,North,Retail,Premium,Electronics,Tablet,1018.83,1,15.0,152.82,866.01,682.08,183.93,21.24,4.0,False
+ORD-10882,2023-07-20,Central,Direct Sales,Standard,Home & Garden,Plant Pot,488.98,1,5.0,24.45,464.53,244.16,220.37,47.44,3.0,True
+ORD-11079,2023-07-20,North,Direct Sales,Standard,Clothing,T-Shirt,31.24,1,5.0,1.56,29.68,15.08,14.6,49.19,2.0,True
+ORD-10302,2023-07-20,East,Retail,Budget,Beauty,Face Cream,122.08,1,5.0,6.1,115.98,61.07,54.91,47.34,4.0,False
+ORD-11085,2023-07-21,East,Retail,Premium,Books,Python Guide,43.12,2,10.0,8.62,77.62,59.81,17.81,22.95,4.0,False
+ORD-10565,2023-07-21,Central,Online,Premium,Books,Business Strategy,54.42,1,0.0,0.0,54.42,37.99,16.43,30.19,3.0,False
+ORD-10801,2023-07-21,West,Retail,Standard,Home & Garden,Sofa,792.82,2,0.0,0.0,1585.64,923.93,661.71,41.73,5.0,False
+ORD-10322,2023-07-21,South,Wholesale,Standard,Books,Python Guide,42.84,1,15.0,6.43,36.41,29.22,7.19,19.75,2.0,False
+ORD-11146,2023-07-21,South,Wholesale,Budget,Home & Garden,Lamp,124.9,1,10.0,12.49,112.41,90.9,21.51,19.14,4.0,False
+ORD-10750,2023-07-21,North,Direct Sales,Standard,Home & Garden,Blender,157.63,2,0.0,0.0,315.26,164.71,150.55,47.75,3.0,False
+ORD-10057,2023-07-21,South,Direct Sales,Premium,Beauty,Shampoo,13.4,1,0.0,0.0,13.4,6.74,6.66,49.7,4.0,False
+ORD-10351,2023-07-21,East,Retail,Premium,Home & Garden,Sofa,292.76,1,0.0,0.0,292.76,166.77,125.99,43.04,3.0,False
+ORD-10561,2023-07-21,Central,Direct Sales,Budget,Books,Business Strategy,17.03,1,15.0,2.55,14.48,7.8,6.68,46.13,3.0,False
+ORD-10833,2023-07-22,South,Online,Standard,Home & Garden,Coffee Maker,588.25,1,0.0,0.0,588.25,382.46,205.79,34.98,1.0,False
+ORD-10135,2023-07-22,West,Wholesale,Premium,Home & Garden,Plant Pot,129.24,1,5.0,6.46,122.78,64.05,58.73,47.83,3.0,False
+ORD-10437,2023-07-22,North,Wholesale,Standard,Home & Garden,Plant Pot,421.44,1,20.0,84.29,337.15,261.08,76.07,22.56,4.0,False
+ORD-10246,2023-07-23,Central,Wholesale,Standard,Clothing,Sneakers,158.09,1,10.0,15.81,142.28,93.9,48.38,34.0,4.0,False
+ORD-10923,2023-07-23,North,Online,Premium,Beauty,Perfume,12.32,1,20.0,2.46,9.86,7.77,2.09,21.2,3.0,False
+ORD-11088,2023-07-23,East,Direct Sales,Standard,Electronics,Smart Watch,1328.61,1,15.0,199.29,1129.32,619.25,510.07,45.17,3.0,True
+ORD-11108,2023-07-23,East,Direct Sales,Premium,Sports,Running Shoes,441.32,3,0.0,0.0,1323.96,766.79,557.17,42.08,3.0,False
+ORD-10637,2023-07-25,Central,Wholesale,Standard,Books,Business Strategy,57.89,3,10.0,17.37,156.3,119.06,37.24,23.83,3.0,True
+ORD-10406,2023-07-26,Central,Retail,Budget,Home & Garden,Coffee Maker,622.36,1,20.0,124.47,497.89,357.76,140.13,28.14,3.0,False
+ORD-10385,2023-07-26,South,Direct Sales,Budget,Books,Business Strategy,47.76,1,,9.55,38.21,33.33,4.88,12.77,3.0,False
+ORD-10600,2023-07-27,East,Retail,Budget,Clothing,Jacket,196.22,1,0.0,0.0,196.22,109.36,86.86,44.27,3.0,False
+ORD-10326,2023-07-27,East,Wholesale,Premium,Sports,Running Shoes,46.09,1,0.0,0.0,46.09,29.92,16.17,35.08,4.0,False
+ORD-10978,2023-07-27,South,Direct Sales,Standard,Books,Cook Book,39.14,2,0.0,0.0,78.28,42.9,35.38,45.2,3.0,True
+ORD-10023,2023-07-28,North,Online,Premium,Beauty,Sunscreen,25.1,1,0.0,0.0,25.1,16.09,9.01,35.9,3.0,False
+ORD-10825,2023-07-28,East,Online,Premium,Clothing,Jeans,163.69,1,10.0,16.37,147.32,88.36,58.96,40.02,3.0,False
+ORD-10476,2023-07-28,West,Online,Standard,Clothing,Dress,114.21,1,0.0,0.0,114.21,80.87,33.34,29.19,3.0,False
+ORD-11179,2023-07-29,North,Wholesale,Standard,Electronics,Headphones,1236.99,1,5.0,61.85,1175.14,588.18,586.96,49.95,3.0,True
+ORD-10224,2023-07-29,North,Direct Sales,Premium,Sports,Running Shoes,191.0,1,10.0,19.1,171.9,127.15,44.75,26.03,4.0,False
+ORD-10350,2023-07-29,North,Wholesale,Premium,Clothing,T-Shirt,88.36,2,5.0,8.84,167.88,107.04,60.84,36.24,3.0,False
+ORD-10079,2023-07-29,Central,Online,Premium,Clothing,Jeans,37.61,1,0.0,0.0,37.61,22.27,15.34,40.79,5.0,False
+ORD-10086,2023-07-30,East,Online,Premium,Books,Self Help,19.79,1,15.0,2.97,16.82,9.5,7.32,43.52,3.0,False
+ORD-10904,2023-07-30,East,Online,Premium,Beauty,Sunscreen,124.05,1,5.0,6.2,117.85,69.72,48.13,40.84,3.0,False
+ORD-10555,2023-07-30,South,Online,Standard,Clothing,Jacket,124.8,1,20.0,24.96,99.84,78.66,21.18,21.21,3.0,False
+ORD-10492,2023-07-30,East,Wholesale,Standard,Home & Garden,Sofa,138.35,1,0.0,0.0,138.35,69.9,68.45,49.48,4.0,False
+ORD-10382,2023-07-31,North,Direct Sales,Budget,Clothing,Sneakers,156.11,1,10.0,15.61,140.5,101.39,39.11,27.84,3.0,True
+ORD-10125,2023-07-31,South,Direct Sales,Standard,Electronics,Smart Watch,1056.62,1,5.0,52.83,1003.79,720.29,283.5,28.24,3.0,False
+ORD-10559,2023-07-31,North,Direct Sales,Premium,Clothing,Jeans,32.91,1,10.0,3.29,29.62,17.88,11.74,39.64,4.0,False
+ORD-10836,2023-07-31,North,Online,Budget,Sports,Bicycle,137.22,1,0.0,0.0,137.22,92.28,44.94,32.75,1.0,False
+ORD-10689,2023-08-01,North,Direct Sales,Budget,Books,Business Strategy,33.09,3,10.0,9.93,89.34,65.36,23.98,26.84,4.0,False
+ORD-10114,2023-08-01,East,Direct Sales,Budget,Books,Novel,33.18,1,0.0,0.0,33.18,20.74,12.44,37.49,2.0,False
+ORD-10158,2023-08-01,South,Direct Sales,Standard,Books,Business Strategy,58.47,2,0.0,0.0,116.94,81.29,35.65,30.49,3.0,True
+ORD-10091,2023-08-01,West,Wholesale,Budget,Electronics,Smartphone,1198.16,1,10.0,119.82,1078.34,873.73,204.61,18.97,2.0,False
+ORD-10365,2023-08-02,East,Direct Sales,Standard,Clothing,Jeans,182.0,1,10.0,18.2,163.8,94.83,68.97,42.11,3.0,False
+ORD-10535,2023-08-02,North,Wholesale,Standard,Books,Business Strategy,38.6,1,20.0,7.72,30.88,20.77,10.11,32.74,3.0,False
+ORD-10790,2023-08-02,South,Wholesale,Budget,Beauty,Shampoo,14.71,2,20.0,5.88,23.54,15.39,8.15,34.62,3.0,False
+ORD-10234,2023-08-02,West,Online,Budget,Beauty,Perfume,122.92,1,20.0,24.58,98.34,80.84,17.5,17.8,3.0,False
+ORD-10695,2023-08-03,South,Online,Standard,Clothing,Jacket,62.3,1,15.0,9.35,52.95,43.31,9.64,18.21,4.0,False
+ORD-10655,2023-08-03,South,Direct Sales,Budget,Electronics,Laptop,1119.75,1,15.0,167.96,951.79,719.09,232.7,24.45,2.0,False
+ORD-10201,2023-08-03,South,Online,Standard,Beauty,Face Cream,19.2,2,15.0,5.76,32.64,22.5,10.14,31.07,2.0,False
+ORD-10880,2023-08-03,West,Wholesale,Standard,Beauty,Face Cream,70.19,2,5.0,7.02,133.36,68.22,65.14,48.85,3.0,False
+ORD-10569,2023-08-03,South,Retail,Premium,Beauty,Perfume,52.33,1,0.0,0.0,52.33,26.6,25.73,49.17,4.0,False
+ORD-11132,2023-08-04,West,Wholesale,Standard,Beauty,Lipstick,59.33,1,25.0,14.83,44.5,29.89,14.61,32.83,4.0,False
+ORD-10505,2023-08-05,West,Retail,Standard,Clothing,Dress,196.24,1,0.0,0.0,196.24,95.74,100.5,51.21,4.0,False
+ORD-10279,2023-08-05,West,Retail,Budget,Sports,Bicycle,39.14,1,20.0,7.83,31.31,21.41,9.9,31.62,3.0,False
+ORD-11109,2023-08-05,North,Online,Budget,Home & Garden,Sofa,298.6,1,20.0,59.72,238.88,190.03,48.85,20.45,2.0,False
+ORD-10856,2023-08-05,North,Retail,Budget,Beauty,Perfume,57.66,1,0.0,0.0,57.66,36.59,21.07,36.54,3.0,False
+ORD-10915,2023-08-05,West,Retail,Standard,Home & Garden,Lamp,402.7,1,25.0,100.67,302.03,218.48,83.55,27.66,3.0,False
+ORD-10806,2023-08-05,North,Wholesale,Premium,Clothing,T-Shirt,101.86,1,10.0,10.19,91.67,66.54,25.13,27.41,4.0,False
+ORD-10284,2023-08-06,North,Direct Sales,Budget,Home & Garden,Plant Pot,362.9,3,5.0,54.43,1034.27,627.0,407.27,39.38,2.0,True
+ORD-10921,2023-08-06,East,Online,Budget,Beauty,Shampoo,86.5,1,20.0,17.3,69.2,43.08,26.12,37.75,2.0,False
+ORD-10687,2023-08-06,West,Direct Sales,Standard,Clothing,Dress,148.6,2,0.0,0.0,297.2,142.88,154.32,51.92,4.0,False
+ORD-10397,2023-08-07,North,Wholesale,Standard,Electronics,Smartphone,733.87,1,15.0,110.08,623.79,441.67,182.12,29.2,3.0,False
+ORD-10902,2023-08-08,South,Retail,Budget,Home & Garden,Plant Pot,501.85,3,20.0,301.11,1204.44,976.4,228.04,18.93,3.0,False
+ORD-10722,2023-08-08,North,Wholesale,Standard,Beauty,Sunscreen,46.22,1,0.0,0.0,46.22,30.83,15.39,33.3,3.0,False
+ORD-10349,2023-08-09,Central,Direct Sales,Budget,Electronics,Tablet,1052.09,1,0.0,0.0,1052.09,619.73,432.36,41.1,3.0,False
+ORD-11126,2023-08-09,North,Direct Sales,Standard,Sports,Running Shoes,535.71,1,0.0,0.0,535.71,286.74,248.97,46.47,3.0,False
+ORD-11162,2023-08-09,West,Retail,Budget,Electronics,Laptop,490.43,1,15.0,73.56,416.87,238.86,178.01,42.7,4.0,False
+ORD-10083,2023-08-10,West,Direct Sales,Premium,Sports,Tennis Racket,361.82,3,0.0,0.0,1085.46,675.85,409.61,37.74,3.0,False
+ORD-11123,2023-08-10,North,Wholesale,Budget,Home & Garden,Blender,449.37,1,0.0,0.0,449.37,331.02,118.35,26.34,3.0,False
+ORD-10435,2023-08-10,West,Direct Sales,Standard,Clothing,Jacket,150.68,2,20.0,60.27,241.09,154.92,86.17,35.74,3.0,False
+ORD-10729,2023-08-10,North,Wholesale,Budget,Clothing,Jacket,131.02,1,10.0,13.1,117.92,87.96,29.96,25.41,3.0,False
+ORD-11140,2023-08-10,Central,Direct Sales,Budget,Sports,Dumbbell Set,370.54,1,0.0,0.0,370.54,207.04,163.5,44.12,,False
+ORD-10606,2023-08-11,East,Wholesale,Budget,Clothing,Jeans,133.32,1,10.0,13.33,119.99,89.94,30.05,25.04,3.0,False
+ORD-10602,2023-08-11,East,Retail,Budget,Books,Business Strategy,39.29,1,20.0,7.86,31.43,18.53,12.9,41.04,2.0,False
+ORD-10732,2023-08-11,South,Retail,Budget,Books,Python Guide,54.77,1,10.0,5.48,49.29,37.58,11.71,23.76,5.0,False
+ORD-11152,2023-08-11,South,Retail,Budget,Books,Self Help,31.19,1,0.0,0.0,31.19,23.03,8.16,26.16,3.0,False
+ORD-10783,2023-08-12,West,Retail,Budget,Electronics,Smartphone,666.78,2,5.0,66.68,1266.88,863.95,402.93,31.8,3.0,False
+ORD-10041,2023-08-12,North,Direct Sales,Standard,Home & Garden,Coffee Maker,42.77,1,15.0,6.42,36.35,22.15,14.2,39.06,4.0,False
+ORD-10017,2023-08-13,East,Direct Sales,Budget,Sports,Yoga Mat,444.18,2,15.0,133.25,755.11,419.5,335.61,44.45,4.0,False
+ORD-10147,2023-08-13,South,Online,Premium,Electronics,Smart Watch,754.01,1,25.0,188.5,565.51,394.15,171.36,30.3,3.0,False
+ORD-10398,2023-08-13,South,Retail,Standard,Electronics,Laptop,743.34,1,15.0,111.5,631.84,477.41,154.43,24.44,4.0,False
+ORD-10285,2023-08-13,West,Wholesale,Standard,Home & Garden,Coffee Maker,241.15,5,0.0,0.0,1205.75,690.65,515.1,42.72,5.0,False
+ORD-10795,2023-08-13,Central,Online,Budget,Beauty,Sunscreen,149.67,1,0.0,0.0,149.67,69.16,80.51,53.79,4.0,False
+ORD-10299,2023-08-14,North,Online,Budget,Beauty,Perfume,11.37,1,0.0,0.0,11.37,6.88,4.49,39.49,5.0,False
+ORD-10542,2023-08-14,East,Direct Sales,Budget,Home & Garden,Blender,520.03,1,0.0,0.0,520.03,274.2,245.83,47.27,3.0,True
+ORD-10169,2023-08-14,North,Wholesale,Standard,Home & Garden,Sofa,156.02,1,20.0,31.2,124.82,108.34,16.48,13.2,4.0,False
+ORD-11150,2023-08-15,North,Online,Budget,Sports,Dumbbell Set,572.44,1,0.0,0.0,572.44,360.2,212.24,37.08,3.0,False
+ORD-11011,2023-08-15,West,Wholesale,Budget,Sports,Running Shoes,48.16,1,5.0,2.41,45.75,29.13,16.62,36.33,3.0,False
+ORD-10499,2023-08-15,South,Retail,Budget,Books,Self Help,52.91,2,10.0,10.58,95.24,64.79,30.45,31.97,4.0,False
+ORD-10022,2023-08-15,East,Direct Sales,Premium,Books,Python Guide,48.55,1,0.0,0.0,48.55,29.46,19.09,39.32,3.0,False
+ORD-10952,2023-08-15,West,Retail,Budget,Beauty,Lipstick,27.63,4,0.0,0.0,110.52,72.08,38.44,34.78,3.0,False
+ORD-10674,2023-08-16,South,Direct Sales,Standard,Beauty,Sunscreen,80.97,1,20.0,16.19,64.78,56.13,8.65,13.35,,False
+ORD-10537,2023-08-17,South,Online,Budget,Sports,Yoga Mat,223.5,1,20.0,44.7,178.8,159.19,19.61,10.97,4.0,False
+ORD-10354,2023-08-17,East,Direct Sales,Standard,Books,Python Guide,19.79,1,0.0,0.0,19.79,12.75,7.04,35.57,3.0,True
+ORD-10634,2023-08-17,North,Online,Premium,Home & Garden,Coffee Maker,721.89,2,10.0,144.38,1299.4,987.71,311.69,23.99,1.0,True
+ORD-10469,2023-08-17,South,Online,Budget,Home & Garden,Lamp,78.24,2,5.0,7.82,148.66,76.95,71.71,48.24,3.0,False
+ORD-10788,2023-08-18,West,Online,Standard,Home & Garden,Lamp,615.86,1,15.0,92.38,523.48,293.47,230.01,43.94,,False
+ORD-11197,2023-08-18,North,Online,Premium,Sports,Tennis Racket,514.93,1,15.0,77.24,437.69,311.24,126.45,28.89,2.0,False
+ORD-10519,2023-08-19,Central,Retail,Premium,Books,Self Help,39.92,1,0.0,0.0,39.92,21.56,18.36,45.99,3.0,False
+ORD-10145,2023-08-19,Central,Direct Sales,Standard,Beauty,Face Cream,114.65,1,0.0,0.0,114.65,60.28,54.37,47.42,2.0,False
+ORD-10413,2023-08-19,North,Direct Sales,Premium,Clothing,Jacket,98.77,1,0.0,0.0,98.77,69.36,29.41,29.78,2.0,False
+ORD-10443,2023-08-19,North,Retail,Standard,Home & Garden,Plant Pot,34.03,2,25.0,17.02,51.04,31.35,19.69,38.58,4.0,False
+ORD-10663,2023-08-20,West,Direct Sales,Budget,Books,Cook Book,47.71,3,0.0,0.0,143.13,105.24,37.89,26.47,2.0,False
+ORD-10144,2023-08-20,Central,Online,Standard,Electronics,Tablet,650.14,1,25.0,162.53,487.61,413.15,74.46,15.27,3.0,True
+ORD-10671,2023-08-20,West,Online,Standard,Home & Garden,Lamp,396.78,1,10.0,39.68,357.1,202.91,154.19,43.18,3.0,False
+ORD-10605,2023-08-20,North,Retail,Budget,Clothing,Sneakers,109.41,1,0.0,0.0,109.41,53.63,55.78,50.98,4.0,False
+ORD-10121,2023-08-20,West,Wholesale,Budget,Electronics,Headphones,1317.38,2,0.0,0.0,2634.76,1975.85,658.91,25.01,3.0,False
+ORD-10024,2023-08-21,West,Online,Standard,Electronics,Smartphone,574.38,1,10.0,57.44,516.94,414.86,102.08,19.75,3.0,False
+ORD-10290,2023-08-21,West,Wholesale,Budget,Electronics,Laptop,327.18,1,,49.08,278.1,237.62,40.48,14.56,4.0,False
+ORD-11047,2023-08-21,East,Online,Standard,Electronics,Smartphone,803.13,1,0.0,0.0,803.13,447.62,355.51,44.27,2.0,False
+ORD-10124,2023-08-21,East,Direct Sales,Budget,Sports,Tennis Racket,156.47,1,10.0,15.65,140.82,99.43,41.39,29.39,3.0,False
+ORD-10132,2023-08-21,North,Retail,Standard,Clothing,T-Shirt,175.23,3,20.0,105.14,420.55,259.76,160.79,38.23,3.0,False
+ORD-10460,2023-08-21,Central,Wholesale,Premium,Sports,Yoga Mat,38.91,2,15.0,11.67,66.15,41.39,24.76,37.43,2.0,False
+ORD-11076,2023-08-21,North,Direct Sales,Premium,Beauty,Sunscreen,69.85,1,0.0,0.0,69.85,47.05,22.8,32.64,3.0,False
+ORD-10094,2023-08-22,West,Wholesale,Standard,Books,Cook Book,26.0,2,20.0,10.4,41.6,29.47,12.13,29.16,3.0,False
+ORD-10399,2023-08-22,South,Online,Standard,Home & Garden,Sofa,530.65,1,20.0,106.13,424.52,248.56,175.96,41.45,2.0,False
+ORD-10222,2023-08-22,North,Direct Sales,Premium,Sports,Bicycle,265.79,1,20.0,53.16,212.63,160.98,51.65,24.29,3.0,False
+ORD-10396,2023-08-22,North,Online,Standard,Electronics,Smart Watch,688.2,1,5.0,34.41,653.79,385.57,268.22,41.03,4.0,False
+ORD-10611,2023-08-22,South,Online,Premium,Books,Novel,55.5,1,20.0,11.1,44.4,41.03,3.37,7.59,4.0,False
+ORD-10293,2023-08-22,North,Online,Premium,Beauty,Shampoo,91.48,1,25.0,22.87,68.61,63.05,5.56,8.1,3.0,True
+ORD-10485,2023-08-23,Central,Wholesale,Standard,Sports,Running Shoes,547.8,1,0.0,0.0,547.8,328.32,219.48,40.07,3.0,False
+ORD-10029,2023-08-23,West,Wholesale,Premium,Beauty,Lipstick,25.41,1,0.0,0.0,25.41,14.69,10.72,42.19,4.0,False
+ORD-10532,2023-08-24,East,Retail,Premium,Home & Garden,Coffee Maker,225.88,1,0.0,0.0,225.88,133.66,92.22,40.83,3.0,False
+ORD-10264,2023-08-25,Central,Retail,Budget,Sports,Yoga Mat,514.44,1,0.0,0.0,514.44,305.67,208.77,40.58,4.0,False
+ORD-10324,2023-08-26,East,Retail,Standard,Electronics,Smart Watch,604.95,2,10.0,120.99,1088.91,700.85,388.06,35.64,4.0,False
+ORD-10269,2023-08-26,South,Direct Sales,Standard,Sports,Tennis Racket,531.5,2,20.0,212.6,850.4,487.68,362.72,42.65,4.0,False
+ORD-10851,2023-08-26,South,Online,Standard,Sports,Bicycle,48.03,1,20.0,9.61,38.42,24.6,13.82,35.97,3.0,False
+ORD-10956,2023-08-26,South,Direct Sales,Budget,Beauty,Sunscreen,97.55,1,0.0,0.0,97.55,50.3,47.25,48.44,4.0,False
+ORD-11142,2023-08-26,West,Direct Sales,Budget,Home & Garden,Sofa,114.59,2,0.0,0.0,229.18,126.71,102.47,44.71,2.0,False
+ORD-10050,2023-08-26,South,Online,Standard,Electronics,Smart Watch,156.83,1,0.0,0.0,156.83,96.39,60.44,38.54,4.0,False
+ORD-10217,2023-08-27,East,Retail,Premium,Electronics,Tablet,1277.16,5,0.0,0.0,6385.8,3880.7,2505.1,39.23,3.0,False
+ORD-11124,2023-08-27,North,Online,Standard,Home & Garden,Sofa,220.16,2,0.0,0.0,440.32,220.44,219.88,49.94,5.0,False
+ORD-10859,2023-08-27,North,Retail,Budget,Books,Python Guide,12.48,1,5.0,0.62,11.86,6.03,5.83,49.16,3.0,False
+ORD-10614,2023-08-27,West,Online,Premium,Electronics,Smart Watch,1112.61,1,10.0,111.26,1001.35,823.12,178.23,17.8,2.0,False
+ORD-10708,2023-08-27,West,Online,Standard,Sports,Yoga Mat,63.81,1,0.0,0.0,63.81,32.15,31.66,49.62,5.0,False
+ORD-10668,2023-08-27,North,Online,Standard,Beauty,Lipstick,131.35,1,15.0,19.7,111.65,96.56,15.09,13.52,2.0,False
+ORD-10238,2023-08-27,Central,Wholesale,Standard,Books,Python Guide,56.22,4,20.0,44.98,179.9,164.9,15.0,8.34,4.0,False
+ORD-10872,2023-08-28,Central,Wholesale,Standard,Books,Cook Book,28.63,3,25.0,21.47,64.42,40.24,24.18,37.53,2.0,False
+ORD-11084,2023-08-28,South,Online,Standard,Home & Garden,Lamp,122.36,1,10.0,12.24,110.12,84.52,25.6,23.25,3.0,False
+ORD-10082,2023-08-28,Central,Wholesale,Standard,Home & Garden,Plant Pot,417.41,2,0.0,0.0,834.82,540.64,294.18,35.24,3.0,False
+ORD-10867,2023-08-29,West,Retail,Budget,Sports,Tennis Racket,512.66,3,0.0,0.0,1537.98,1100.36,437.62,28.45,4.0,False
+ORD-10143,2023-08-29,East,Retail,Standard,Sports,Dumbbell Set,455.25,1,0.0,0.0,455.25,233.45,221.8,48.72,3.0,False
+ORD-10756,2023-08-29,Central,Direct Sales,Premium,Clothing,Jacket,176.69,1,0.0,0.0,176.69,107.74,68.95,39.02,4.0,False
+ORD-10544,2023-08-30,East,Online,Standard,Home & Garden,Coffee Maker,381.3,1,25.0,95.33,285.97,185.43,100.54,35.16,5.0,False
+ORD-10745,2023-08-30,North,Wholesale,Premium,Beauty,Shampoo,130.23,1,25.0,32.56,97.67,91.34,6.33,6.48,3.0,False
+ORD-10623,2023-08-31,South,Direct Sales,Budget,Books,Cook Book,19.96,2,20.0,7.98,31.94,21.41,10.53,32.97,3.0,False
+ORD-10798,2023-08-31,West,Direct Sales,Premium,Electronics,Smartphone,463.22,1,5.0,23.16,440.06,314.67,125.39,28.49,4.0,False
+ORD-10070,2023-08-31,West,Retail,Standard,Home & Garden,Blender,663.4,1,15.0,99.51,563.89,323.82,240.07,42.57,5.0,False
+ORD-10198,2023-09-01,Central,Direct Sales,Budget,Sports,Dumbbell Set,74.08,5,10.0,37.04,333.36,222.48,110.88,33.26,3.0,False
+ORD-10491,2023-09-01,South,Online,Premium,Books,Business Strategy,55.31,1,10.0,5.53,49.78,41.21,8.57,17.22,3.0,False
+ORD-10297,2023-09-02,North,Direct Sales,Budget,Beauty,Lipstick,24.69,1,0.0,0.0,24.69,18.42,6.27,25.39,3.0,True
+ORD-11043,2023-09-02,North,Retail,Premium,Beauty,Sunscreen,29.6,1,20.0,5.92,23.68,18.19,5.49,23.18,3.0,False
+ORD-10237,2023-09-03,North,Retail,Premium,Home & Garden,Sofa,56.14,1,0.0,0.0,56.14,30.27,25.87,46.08,3.0,False
+ORD-10262,2023-09-03,East,Wholesale,Budget,Sports,Yoga Mat,239.3,1,5.0,11.96,227.34,159.62,67.72,29.79,3.0,False
+ORD-10445,2023-09-03,East,Wholesale,Premium,Beauty,Shampoo,30.84,1,15.0,4.63,26.21,21.99,4.22,16.1,2.0,False
+ORD-10682,2023-09-03,Central,Direct Sales,Standard,Sports,Yoga Mat,212.04,1,0.0,0.0,212.04,147.37,64.67,30.5,3.0,False
+ORD-10853,2023-09-04,South,Wholesale,Standard,Clothing,Sneakers,47.81,1,20.0,9.56,38.25,27.68,10.57,27.63,3.0,False
+ORD-10459,2023-09-04,North,Retail,Standard,Electronics,Tablet,639.02,1,25.0,159.75,479.27,292.58,186.69,38.95,4.0,False
+ORD-10478,2023-09-04,West,Direct Sales,Budget,Clothing,Jacket,102.49,1,0.0,0.0,102.49,51.22,51.27,50.02,3.0,True
+ORD-10456,2023-09-04,West,Wholesale,Budget,Electronics,Smartphone,1497.77,3,0.0,0.0,4493.31,2888.16,1605.15,35.72,5.0,False
+ORD-11059,2023-09-04,South,Retail,Standard,Home & Garden,Sofa,489.65,2,20.0,195.86,783.44,566.92,216.52,27.64,3.0,False
+ORD-11139,2023-09-05,North,Online,Standard,Books,Novel,21.87,1,20.0,4.37,17.5,14.06,3.44,19.66,3.0,False
+ORD-10104,2023-09-05,West,Wholesale,Premium,Beauty,Lipstick,62.68,1,20.0,12.54,50.14,42.82,7.32,14.6,2.0,True
+ORD-10620,2023-09-06,East,Retail,Standard,Beauty,Shampoo,76.12,2,5.0,7.61,144.63,78.36,66.27,45.82,4.0,False
+ORD-10714,2023-09-06,East,Direct Sales,Budget,Beauty,Shampoo,100.79,1,20.0,20.16,80.63,45.81,34.82,43.18,4.0,False
+ORD-10991,2023-09-06,West,Direct Sales,Standard,Beauty,Face Cream,87.91,1,10.0,8.79,79.12,63.59,15.53,19.63,3.0,True
+ORD-10734,2023-09-06,North,Retail,Standard,Clothing,Jeans,99.66,1,25.0,24.91,74.75,72.84,1.91,2.56,3.0,False
+ORD-10812,2023-09-06,West,Retail,Premium,Beauty,Shampoo,144.53,1,0.0,0.0,144.53,86.22,58.31,40.34,2.0,False
+ORD-10639,2023-09-07,East,Direct Sales,Premium,Beauty,Perfume,41.55,1,15.0,6.23,35.32,20.45,14.87,42.1,3.0,True
+ORD-10490,2023-09-07,West,Direct Sales,Premium,Electronics,Smartphone,363.24,1,15.0,54.49,308.75,249.9,58.85,19.06,4.0,False
+ORD-10454,2023-09-07,South,Direct Sales,Standard,Home & Garden,Lamp,368.95,1,,55.34,313.61,202.35,111.26,35.48,3.0,False
+ORD-11116,2023-09-08,East,Direct Sales,Budget,Electronics,Smart Watch,466.92,2,0.0,0.0,933.84,514.73,419.11,44.88,2.0,False
+ORD-10353,2023-09-08,North,Wholesale,Standard,Electronics,Headphones,1119.47,4,25.0,1119.47,3358.41,2039.54,1318.87,39.27,4.0,False
+ORD-10014,2023-09-08,South,Online,Budget,Clothing,Jacket,28.14,1,15.0,4.22,23.92,15.94,7.98,33.36,4.0,True
+ORD-10640,2023-09-08,South,Online,Budget,Clothing,T-Shirt,132.03,2,5.0,13.2,250.86,164.64,86.22,34.37,4.0,False
+ORD-10823,2023-09-09,Central,Wholesale,Standard,Books,Business Strategy,15.05,1,0.0,0.0,15.05,7.44,7.61,50.56,,False
+ORD-10719,2023-09-09,South,Wholesale,Budget,Electronics,Laptop,1442.73,1,0.0,0.0,1442.73,1012.71,430.02,29.81,2.0,False
+ORD-10632,2023-09-09,East,Retail,Standard,Electronics,Tablet,1193.74,1,0.0,0.0,1193.74,661.84,531.9,44.56,4.0,False
+ORD-10709,2023-09-10,Central,Online,Premium,Beauty,Lipstick,108.64,1,15.0,16.3,92.34,60.18,32.16,34.83,3.0,True
+ORD-10827,2023-09-10,South,Retail,Budget,Electronics,Laptop,234.46,1,5.0,11.72,222.74,162.41,60.33,27.09,2.0,False
+ORD-10483,2023-09-10,West,Wholesale,Budget,Sports,Running Shoes,529.75,2,15.0,158.93,900.57,753.49,147.08,16.33,3.0,False
+ORD-10113,2023-09-10,South,Online,Premium,Books,Business Strategy,41.01,1,10.0,4.1,36.91,20.77,16.14,43.73,4.0,False
+ORD-10579,2023-09-10,Central,Direct Sales,Budget,Clothing,Sneakers,175.44,1,25.0,43.86,131.58,98.7,32.88,24.99,4.0,False
+ORD-10192,2023-09-11,East,Online,Premium,Clothing,Sneakers,164.51,1,10.0,16.45,148.06,90.49,57.57,38.88,4.0,False
+ORD-10763,2023-09-11,South,Direct Sales,Standard,Books,Self Help,34.25,1,0.0,0.0,34.25,23.55,10.7,31.24,4.0,False
+ORD-10186,2023-09-12,Central,Direct Sales,Budget,Home & Garden,Blender,747.73,1,0.0,0.0,747.73,492.75,254.98,34.1,3.0,False
+ORD-10331,2023-09-13,Central,Retail,Budget,Clothing,T-Shirt,46.7,5,10.0,23.35,210.15,172.68,37.47,17.83,3.0,False
+ORD-11061,2023-09-13,North,Retail,Standard,Beauty,Lipstick,37.81,1,0.0,0.0,37.81,20.49,17.32,45.81,3.0,False
+ORD-10176,2023-09-13,North,Online,Budget,Home & Garden,Blender,507.46,1,0.0,0.0,507.46,364.44,143.02,28.18,3.0,False
+ORD-11092,2023-09-13,South,Retail,Premium,Home & Garden,Sofa,668.76,1,25.0,167.19,501.57,322.09,179.48,35.78,4.0,False
+ORD-10918,2023-09-14,South,Retail,Premium,Books,Python Guide,57.34,1,0.0,0.0,57.34,39.28,18.06,31.5,3.0,False
+ORD-10924,2023-09-14,South,Direct Sales,Standard,Clothing,Dress,49.34,1,10.0,4.93,44.41,22.55,21.86,49.22,3.0,False
+ORD-10670,2023-09-15,South,Wholesale,Standard,Sports,Yoga Mat,187.44,1,10.0,18.74,168.7,134.62,34.08,20.2,4.0,False
+ORD-10357,2023-09-15,East,Online,Standard,Clothing,Dress,75.31,2,0.0,0.0,150.62,92.14,58.48,38.83,3.0,False
+ORD-10182,2023-09-15,Central,Retail,Premium,Clothing,Sneakers,144.91,1,20.0,28.98,115.93,76.16,39.77,34.31,2.0,False
+ORD-11068,2023-09-15,Central,Online,Budget,Books,Cook Book,46.01,1,25.0,11.5,34.51,32.85,1.66,4.81,3.0,False
+ORD-10387,2023-09-15,East,Retail,Premium,Beauty,Lipstick,60.42,1,20.0,12.08,48.34,44.17,4.17,8.63,3.0,False
+ORD-10705,2023-09-16,East,Retail,Budget,Sports,Dumbbell Set,394.0,1,5.0,19.7,374.3,252.04,122.26,32.66,3.0,False
+ORD-10758,2023-09-16,East,Online,Premium,Clothing,Dress,144.57,1,10.0,14.46,130.11,82.05,48.06,36.94,3.0,False
+ORD-10528,2023-09-16,South,Retail,Budget,Books,Business Strategy,40.35,1,20.0,8.07,32.28,25.32,6.96,21.56,2.0,False
+ORD-10378,2023-09-17,Central,Direct Sales,Budget,Home & Garden,Blender,286.41,1,15.0,42.96,243.45,214.3,29.15,11.97,4.0,False
+ORD-10582,2023-09-17,East,Online,Standard,Beauty,Lipstick,147.3,1,10.0,14.73,132.57,102.85,29.72,22.42,4.0,False
+ORD-11070,2023-09-17,West,Online,Standard,Books,Novel,35.0,1,5.0,1.75,33.25,18.26,14.99,45.08,4.0,False
+ORD-10720,2023-09-17,West,Direct Sales,Standard,Electronics,Smart Watch,404.53,1,0.0,0.0,404.53,300.61,103.92,25.69,3.0,True
+ORD-10796,2023-09-17,Central,Online,Budget,Electronics,Smart Watch,705.11,1,0.0,0.0,705.11,322.04,383.07,54.33,4.0,False
+ORD-10408,2023-09-18,North,Online,Premium,Books,Novel,36.77,1,10.0,3.68,33.09,16.68,16.41,49.59,3.0,False
+ORD-10046,2023-09-19,West,Direct Sales,Standard,Beauty,Lipstick,23.03,2,5.0,2.3,43.76,33.17,10.59,24.2,2.0,False
+ORD-10140,2023-09-19,South,Wholesale,Premium,Home & Garden,Sofa,188.88,1,0.0,0.0,188.88,113.52,75.36,39.9,3.0,False
+ORD-10805,2023-09-19,Central,Wholesale,Premium,Books,Python Guide,45.76,1,0.0,0.0,45.76,21.32,24.44,53.41,4.0,False
+ORD-10854,2023-09-20,South,Wholesale,Budget,Electronics,Laptop,955.83,5,20.0,955.83,3823.32,3253.81,569.51,14.9,4.0,False
+ORD-10371,2023-09-20,South,Wholesale,Budget,Clothing,Jeans,109.42,5,20.0,109.42,437.68,268.59,169.09,38.63,2.0,True
+ORD-10431,2023-09-21,East,Wholesale,Premium,Electronics,Headphones,1251.53,2,15.0,375.46,2127.6,1762.04,365.56,17.18,4.0,False
+ORD-11195,2023-09-21,North,Retail,Premium,Electronics,Headphones,1398.27,1,0.0,0.0,1398.27,832.94,565.33,40.43,2.0,False
+ORD-10980,2023-09-21,South,Online,Standard,Sports,Yoga Mat,101.6,1,0.0,0.0,101.6,49.63,51.97,51.15,5.0,False
+ORD-10809,2023-09-22,West,Retail,Premium,Sports,Yoga Mat,369.6,1,15.0,55.44,314.16,244.51,69.65,22.17,2.0,False
+ORD-10458,2023-09-22,North,Retail,Standard,Sports,Yoga Mat,507.89,1,0.0,0.0,507.89,315.68,192.21,37.84,2.0,False
+ORD-10403,2023-09-23,Central,Retail,Budget,Beauty,Sunscreen,97.35,1,15.0,14.6,82.75,56.25,26.5,32.02,4.0,False
+ORD-10088,2023-09-23,West,Direct Sales,Premium,Electronics,Smart Watch,1249.53,1,5.0,62.48,1187.05,606.58,580.47,48.9,4.0,False
+ORD-10320,2023-09-24,East,Online,Premium,Electronics,Smartphone,751.16,1,5.0,37.56,713.6,418.97,294.63,41.29,2.0,False
+ORD-10673,2023-09-24,South,Direct Sales,Premium,Home & Garden,Coffee Maker,84.79,1,5.0,4.24,80.55,62.09,18.46,22.92,,False
+ORD-10660,2023-09-25,Central,Retail,Premium,Sports,Yoga Mat,271.5,1,20.0,54.3,217.2,161.34,55.86,25.72,3.0,False
+ORD-10077,2023-09-25,Central,Direct Sales,Budget,Clothing,T-Shirt,130.11,1,5.0,6.51,123.6,68.22,55.38,44.81,5.0,False
+ORD-11036,2023-09-25,West,Retail,Standard,Home & Garden,Blender,212.43,1,0.0,0.0,212.43,107.0,105.43,49.63,4.0,False
+ORD-10627,2023-09-26,North,Online,Standard,Beauty,Face Cream,66.6,1,0.0,0.0,66.6,41.86,24.74,37.15,1.0,True
+ORD-10536,2023-09-26,North,Direct Sales,Premium,Beauty,Sunscreen,140.45,1,10.0,14.04,126.41,66.87,59.54,47.1,3.0,True
+ORD-10501,2023-09-26,South,Direct Sales,Budget,Beauty,Sunscreen,60.09,1,20.0,12.02,48.07,41.97,6.1,12.69,4.0,False
+ORD-10688,2023-09-26,South,Retail,Standard,Sports,Running Shoes,320.47,1,25.0,80.12,240.35,179.71,60.64,25.23,4.0,False
+ORD-10242,2023-09-26,South,Direct Sales,Premium,Home & Garden,Blender,445.41,2,0.0,0.0,890.82,486.05,404.77,45.44,4.0,False
+ORD-10765,2023-09-27,East,Retail,Budget,Clothing,Sneakers,33.63,1,0.0,0.0,33.63,23.24,10.39,30.9,4.0,False
+ORD-11033,2023-09-28,South,Direct Sales,Budget,Books,Python Guide,10.21,1,0.0,0.0,10.21,6.56,3.65,35.75,3.0,False
+ORD-10226,2023-09-28,North,Retail,Budget,Clothing,Jacket,151.86,1,20.0,30.37,121.49,69.76,51.73,42.58,4.0,False
+ORD-10276,2023-09-28,West,Online,Standard,Home & Garden,Blender,108.93,3,25.0,81.7,245.09,214.49,30.6,12.49,3.0,False
+ORD-10787,2023-09-28,West,Direct Sales,Premium,Books,Novel,43.1,2,0.0,0.0,86.2,58.91,27.29,31.66,4.0,True
+ORD-11022,2023-09-29,Central,Retail,Premium,Electronics,Laptop,230.44,1,20.0,46.09,184.35,156.49,27.86,15.11,2.0,False
+ORD-10666,2023-09-29,North,Online,Standard,Home & Garden,Lamp,177.53,3,15.0,79.89,452.7,255.93,196.77,43.47,2.0,True
+ORD-10549,2023-09-29,West,Online,Premium,Clothing,Sneakers,45.58,1,5.0,2.28,43.3,26.28,17.02,39.31,3.0,False
+ORD-10651,2023-09-29,North,Retail,Premium,Home & Garden,Lamp,229.85,1,0.0,0.0,229.85,144.36,85.49,37.19,4.0,False
+ORD-11175,2023-10-01,North,Direct Sales,Budget,Books,Business Strategy,28.99,1,10.0,2.9,26.09,21.48,4.61,17.67,4.0,False
+ORD-10266,2023-10-01,West,Direct Sales,Budget,Books,Business Strategy,23.35,2,20.0,9.34,37.36,32.19,5.17,13.84,4.0,False
+ORD-10356,2023-10-02,Central,Online,Standard,Sports,Yoga Mat,227.18,1,20.0,45.44,181.74,135.35,46.39,25.53,3.0,False
+ORD-11082,2023-10-02,East,Online,Premium,Clothing,Sneakers,46.41,1,0.0,0.0,46.41,34.04,12.37,26.65,2.0,True
+ORD-10584,2023-10-02,South,Direct Sales,Premium,Books,Business Strategy,52.7,1,25.0,13.18,39.52,37.11,2.41,6.1,3.0,False
+ORD-10235,2023-10-02,North,Direct Sales,Standard,Clothing,Jacket,108.1,1,0.0,0.0,108.1,80.68,27.42,25.37,4.0,False
+ORD-10446,2023-10-03,South,Online,Standard,Sports,Running Shoes,597.89,1,0.0,0.0,597.89,349.52,248.37,41.54,4.0,False
+ORD-10233,2023-10-03,South,Wholesale,Standard,Books,Novel,37.1,2,0.0,0.0,74.2,49.69,24.51,33.03,3.0,False
+ORD-11027,2023-10-03,West,Direct Sales,Budget,Clothing,Jeans,32.81,1,25.0,8.2,24.61,20.34,4.27,17.35,3.0,False
+ORD-10654,2023-10-03,West,Online,Premium,Home & Garden,Plant Pot,431.52,4,0.0,0.0,1726.08,1168.89,557.19,32.28,3.0,False
+ORD-10684,2023-10-03,East,Retail,Premium,Sports,Yoga Mat,458.69,1,0.0,0.0,458.69,287.69,171.0,37.28,3.0,False
+ORD-10706,2023-10-03,South,Retail,Standard,Electronics,Smart Watch,418.64,1,0.0,0.0,418.64,282.7,135.94,32.47,3.0,True
+ORD-11010,2023-10-03,East,Retail,Standard,Home & Garden,Blender,243.34,3,0.0,0.0,730.02,355.74,374.28,51.27,4.0,False
+ORD-10432,2023-10-03,East,Online,Premium,Beauty,Perfume,138.65,1,0.0,0.0,138.65,93.8,44.85,32.35,4.0,False
+ORD-11188,2023-10-03,North,Retail,Budget,Beauty,Face Cream,90.75,1,20.0,18.15,72.6,41.83,30.77,42.38,4.0,False
+ORD-10207,2023-10-03,East,Direct Sales,Premium,Home & Garden,Lamp,167.48,1,5.0,8.37,159.11,87.33,71.78,45.11,3.0,False
+ORD-10981,2023-10-04,North,Wholesale,Budget,Clothing,Jacket,146.11,2,5.0,14.61,277.61,208.02,69.59,25.07,4.0,False
+ORD-10500,2023-10-04,East,Wholesale,Standard,Electronics,Laptop,1108.83,1,25.0,277.21,831.62,655.71,175.91,21.15,3.0,False
+ORD-10108,2023-10-04,West,Retail,Premium,Home & Garden,Sofa,250.0,2,0.0,0.0,500.0,258.54,241.46,48.29,3.0,False
+ORD-10636,2023-10-04,West,Direct Sales,Budget,Books,Novel,22.33,1,0.0,0.0,22.33,15.06,7.27,32.56,3.0,False
+ORD-11065,2023-10-05,West,Direct Sales,Standard,Beauty,Shampoo,121.81,3,15.0,54.81,310.62,166.65,143.97,46.35,4.0,False
+ORD-11066,2023-10-05,West,Wholesale,Premium,Clothing,Dress,47.68,2,0.0,0.0,95.36,56.03,39.33,41.24,5.0,False
+ORD-11158,2023-10-07,East,Direct Sales,Budget,Sports,Tennis Racket,283.95,1,0.0,0.0,283.95,158.19,125.76,44.29,2.0,False
+ORD-11164,2023-10-09,South,Direct Sales,Budget,Books,Novel,46.41,1,20.0,9.28,37.13,31.07,6.06,16.32,2.0,False
+ORD-10441,2023-10-09,South,Online,Premium,Sports,Dumbbell Set,142.32,1,0.0,0.0,142.32,95.34,46.98,33.01,3.0,False
+ORD-11161,2023-10-10,North,Direct Sales,Budget,Electronics,Tablet,1362.24,1,0.0,0.0,1362.24,902.05,460.19,33.78,1.0,False
+ORD-10423,2023-10-10,West,Direct Sales,Standard,Beauty,Face Cream,63.47,1,15.0,9.52,53.95,30.87,23.08,42.78,4.0,False
+ORD-10004,2023-10-10,Central,Online,Standard,Electronics,Headphones,733.13,1,0.0,0.0,733.13,464.48,268.65,36.64,3.0,False
+ORD-10776,2023-10-10,South,Direct Sales,Standard,Clothing,Jacket,45.26,1,0.0,0.0,45.26,28.79,16.47,36.39,3.0,True
+ORD-11194,2023-10-11,South,Online,Standard,Books,Business Strategy,32.78,1,10.0,3.28,29.5,22.2,7.3,24.75,3.0,False
+ORD-10977,2023-10-11,Central,Online,Premium,Electronics,Smartphone,868.03,2,,173.61,1562.45,1299.74,262.71,16.81,4.0,False
+ORD-10892,2023-10-11,North,Retail,Standard,Sports,Dumbbell Set,422.91,1,20.0,84.58,338.33,219.05,119.28,35.26,2.0,False
+ORD-11035,2023-10-11,North,Direct Sales,Standard,Sports,Yoga Mat,443.98,1,25.0,111.0,332.98,252.16,80.82,24.27,4.0,False
+ORD-10585,2023-10-12,Central,Wholesale,Budget,Beauty,Face Cream,81.46,1,15.0,12.22,69.24,59.3,9.94,14.36,4.0,False
+ORD-10068,2023-10-12,East,Wholesale,Standard,Clothing,Jacket,124.09,1,10.0,12.41,111.68,73.17,38.51,34.48,2.0,True
+ORD-10581,2023-10-14,West,Online,Standard,Sports,Bicycle,308.09,1,15.0,46.21,261.88,218.64,43.24,16.51,1.0,False
+ORD-10468,2023-10-14,Central,Direct Sales,Premium,Clothing,Dress,68.95,2,15.0,20.68,117.22,80.66,36.56,31.19,3.0,False
+ORD-10409,2023-10-14,North,Retail,Standard,Home & Garden,Sofa,451.93,1,15.0,67.79,384.14,317.85,66.29,17.26,3.0,False
+ORD-11037,2023-10-14,North,Retail,Standard,Books,Cook Book,37.35,1,0.0,0.0,37.35,27.14,10.21,27.34,4.0,False
+ORD-10850,2023-10-14,North,Online,Budget,Sports,Bicycle,288.54,1,0.0,0.0,288.54,137.96,150.58,52.19,4.0,False
+ORD-10917,2023-10-15,East,Direct Sales,Standard,Books,Novel,27.29,1,20.0,5.46,21.83,18.87,2.96,13.56,3.0,False
+ORD-10429,2023-10-15,East,Retail,Budget,Home & Garden,Sofa,501.96,3,,376.47,1129.41,786.38,343.03,30.37,2.0,False
+ORD-10281,2023-10-15,West,Retail,Premium,Home & Garden,Coffee Maker,797.79,1,20.0,159.56,638.23,467.04,171.19,26.82,3.0,False
+ORD-10374,2023-10-15,Central,Online,Premium,Sports,Bicycle,441.49,1,15.0,66.22,375.27,234.98,140.29,37.38,2.0,False
+ORD-10202,2023-10-15,North,Retail,Budget,Sports,Bicycle,326.52,1,5.0,16.33,310.19,186.19,124.0,39.98,2.0,False
+ORD-10679,2023-10-15,East,Wholesale,Premium,Clothing,Dress,74.71,1,5.0,3.74,70.97,33.65,37.32,52.59,2.0,False
+ORD-11160,2023-10-16,North,Retail,Standard,Sports,Dumbbell Set,192.85,1,0.0,0.0,192.85,114.7,78.15,40.52,3.0,False
+ORD-10467,2023-10-17,East,Wholesale,Budget,Books,Cook Book,22.35,2,20.0,8.94,35.76,23.46,12.3,34.4,3.0,False
+ORD-10693,2023-10-17,Central,Wholesale,Budget,Books,Business Strategy,34.81,1,25.0,8.7,26.11,17.37,8.74,33.47,3.0,False
+ORD-10105,2023-10-17,North,Direct Sales,Standard,Home & Garden,Sofa,727.89,1,0.0,0.0,727.89,435.12,292.77,40.22,5.0,False
+ORD-10101,2023-10-17,South,Retail,Budget,Home & Garden,Lamp,662.83,1,20.0,132.57,530.26,314.45,215.81,40.7,3.0,False
+ORD-10731,2023-10-17,West,Wholesale,Budget,Books,Python Guide,36.92,1,20.0,7.38,29.54,20.69,8.85,29.96,4.0,False
+ORD-10251,2023-10-18,East,Retail,Budget,Books,Business Strategy,43.98,1,5.0,2.2,41.78,32.32,9.46,22.64,2.0,False
+ORD-10676,2023-10-18,Central,Direct Sales,Standard,Beauty,Sunscreen,31.22,2,10.0,6.24,56.2,38.2,18.0,32.03,3.0,False
+ORD-10881,2023-10-18,East,Wholesale,Budget,Beauty,Sunscreen,50.31,1,0.0,0.0,50.31,27.17,23.14,45.99,5.0,False
+ORD-10212,2023-10-18,East,Online,Premium,Books,Python Guide,22.97,1,10.0,2.3,20.67,14.4,6.27,30.33,4.0,False
+ORD-10821,2023-10-19,Central,Online,Premium,Beauty,Face Cream,141.32,1,0.0,0.0,141.32,79.94,61.38,43.43,4.0,False
+ORD-11154,2023-10-20,South,Direct Sales,Premium,Electronics,Tablet,1178.94,2,5.0,117.89,2239.99,1302.86,937.13,41.84,4.0,False
+ORD-10362,2023-10-20,West,Wholesale,Standard,Sports,Dumbbell Set,488.45,1,25.0,122.11,366.34,226.16,140.18,38.26,4.0,False
+ORD-10533,2023-10-20,South,Wholesale,Standard,Sports,Yoga Mat,137.76,1,0.0,0.0,137.76,73.59,64.17,46.58,2.0,False
+ORD-10488,2023-10-20,West,Wholesale,Standard,Home & Garden,Sofa,251.1,2,0.0,0.0,502.2,313.01,189.19,37.67,4.0,False
+ORD-10258,2023-10-20,West,Online,Budget,Home & Garden,Lamp,658.19,1,5.0,32.91,625.28,340.38,284.9,45.56,5.0,False
+ORD-10820,2023-10-20,North,Retail,Budget,Beauty,Lipstick,56.94,1,0.0,0.0,56.94,42.28,14.66,25.75,4.0,False
+ORD-10283,2023-10-21,Central,Direct Sales,Budget,Clothing,Dress,69.19,4,0.0,0.0,276.76,137.08,139.68,50.47,4.0,False
+ORD-10552,2023-10-21,Central,Retail,Standard,Electronics,Headphones,1084.87,1,5.0,54.24,1030.63,707.22,323.41,31.38,3.0,False
+ORD-10457,2023-10-21,North,Retail,Premium,Beauty,Shampoo,119.99,1,0.0,0.0,119.99,68.75,51.24,42.7,2.0,False
+ORD-11091,2023-10-21,North,Wholesale,Budget,Sports,Yoga Mat,372.48,1,0.0,0.0,372.48,260.22,112.26,30.14,5.0,False
+ORD-10943,2023-10-21,Central,Retail,Budget,Electronics,Tablet,636.64,1,0.0,0.0,636.64,338.18,298.46,46.88,3.0,False
+ORD-10175,2023-10-21,East,Wholesale,Standard,Beauty,Shampoo,56.89,1,0.0,0.0,56.89,39.15,17.74,31.18,4.0,False
+ORD-10275,2023-10-23,South,Wholesale,Budget,Electronics,Smartphone,611.53,1,0.0,0.0,611.53,446.18,165.35,27.04,3.0,True
+ORD-10230,2023-10-23,East,Retail,Budget,Clothing,Sneakers,64.35,2,15.0,19.3,109.4,88.78,20.62,18.85,2.0,False
+ORD-10289,2023-10-23,South,Direct Sales,Standard,Beauty,Lipstick,128.27,2,0.0,0.0,256.54,163.64,92.9,36.21,4.0,False
+ORD-10084,2023-10-23,Central,Online,Budget,Clothing,Sneakers,89.87,1,10.0,8.99,80.88,52.8,28.08,34.72,4.0,False
+ORD-10190,2023-10-23,West,Retail,Premium,Books,Cook Book,16.23,3,15.0,7.3,41.39,34.62,6.77,16.36,5.0,False
+ORD-10484,2023-10-23,South,Wholesale,Standard,Home & Garden,Lamp,213.87,1,5.0,10.69,203.18,159.44,43.74,21.53,3.0,False
+ORD-10027,2023-10-24,South,Direct Sales,Premium,Sports,Running Shoes,526.09,2,5.0,52.61,999.57,532.37,467.2,46.74,4.0,False
+ORD-10223,2023-10-24,West,Wholesale,Premium,Home & Garden,Coffee Maker,494.43,1,5.0,24.72,469.71,280.24,189.47,40.34,3.0,True
+ORD-10617,2023-10-24,East,Online,Budget,Home & Garden,Plant Pot,382.43,1,25.0,95.61,286.82,214.39,72.43,25.25,3.0,False
+ORD-10786,2023-10-24,North,Direct Sales,Standard,Home & Garden,Coffee Maker,177.01,1,25.0,44.25,132.76,91.27,41.49,31.25,2.0,False
+ORD-10553,2023-10-25,Central,Retail,Premium,Home & Garden,Lamp,637.52,1,0.0,0.0,637.52,439.58,197.94,31.05,2.0,False
+ORD-10165,2023-10-25,North,Wholesale,Premium,Electronics,Tablet,1070.03,2,0.0,0.0,2140.06,1345.44,794.62,37.13,4.0,False
+ORD-10694,2023-10-25,East,Online,Standard,Beauty,Face Cream,120.07,1,0.0,0.0,120.07,67.88,52.19,43.47,3.0,True
+ORD-11187,2023-10-26,Central,Wholesale,Premium,Sports,Tennis Racket,315.32,2,20.0,126.13,504.51,295.51,209.0,41.43,3.0,True
+ORD-10419,2023-10-26,North,Wholesale,Budget,Beauty,Lipstick,51.51,1,25.0,12.88,38.63,35.15,3.48,9.01,4.0,False
+ORD-10334,2023-10-27,North,Direct Sales,Budget,Electronics,Tablet,338.53,1,15.0,50.78,287.75,183.61,104.14,36.19,3.0,False
+ORD-10414,2023-10-27,Central,Online,Budget,Books,Business Strategy,11.92,2,20.0,4.77,19.07,14.03,5.04,26.43,4.0,False
+ORD-10236,2023-10-28,Central,Online,Premium,Beauty,Sunscreen,142.17,1,5.0,7.11,135.06,94.07,40.99,30.35,4.0,False
+ORD-10496,2023-10-28,West,Wholesale,Standard,Home & Garden,Plant Pot,518.7,1,15.0,77.81,440.89,370.65,70.24,15.93,2.0,False
+ORD-10093,2023-10-28,North,Wholesale,Budget,Sports,Dumbbell Set,543.97,1,10.0,54.4,489.57,379.66,109.91,22.45,4.0,False
+ORD-10887,2023-10-28,West,Direct Sales,Premium,Clothing,Jacket,103.52,1,10.0,10.35,93.17,77.04,16.13,17.31,3.0,False
+ORD-10789,2023-10-28,East,Direct Sales,Premium,Clothing,Dress,97.82,1,5.0,4.89,92.93,51.64,41.29,44.43,4.0,False
+ORD-10571,2023-10-29,North,Direct Sales,Premium,Books,Cook Book,27.36,1,5.0,1.37,25.99,13.45,12.54,48.25,4.0,False
+ORD-11198,2023-10-29,West,Retail,Budget,Books,Self Help,14.98,1,0.0,0.0,14.98,11.07,3.91,26.1,4.0,False
+ORD-11147,2023-10-29,South,Wholesale,Premium,Books,Cook Book,37.33,2,15.0,11.2,63.46,46.01,17.45,27.5,3.0,False
+ORD-10448,2023-10-29,South,Wholesale,Standard,Sports,Bicycle,424.98,1,5.0,21.25,403.73,270.23,133.5,33.07,4.0,False
+ORD-11186,2023-10-30,East,Online,Standard,Electronics,Smartphone,251.11,1,0.0,0.0,251.11,176.09,75.02,29.88,3.0,True
+ORD-10317,2023-10-30,Central,Retail,Standard,Sports,Dumbbell Set,146.13,1,15.0,21.92,124.21,93.45,30.76,24.76,3.0,False
+ORD-10447,2023-10-30,North,Online,Budget,Beauty,Face Cream,93.03,1,20.0,18.61,74.42,53.38,21.04,28.27,4.0,False
+ORD-10723,2023-10-31,South,Retail,Budget,Beauty,Perfume,95.86,1,10.0,9.59,86.27,50.1,36.17,41.93,3.0,True
+ORD-10296,2023-10-31,South,Direct Sales,Premium,Electronics,Laptop,1088.23,2,,0.0,2176.46,1488.6,687.86,31.6,3.0,False
+ORD-10958,2023-10-31,Central,Direct Sales,Standard,Clothing,T-Shirt,106.14,3,0.0,0.0,318.42,175.0,143.42,45.04,3.0,False
+ORD-10066,2023-10-31,Central,Direct Sales,Standard,Beauty,Lipstick,121.76,1,20.0,24.35,97.41,80.43,16.98,17.43,3.0,False
+ORD-10260,2023-11-01,East,Retail,Budget,Electronics,Tablet,508.56,1,25.0,127.14,381.42,364.45,16.97,4.45,4.0,False
+ORD-10916,2023-11-01,West,Direct Sales,Premium,Books,Business Strategy,38.65,1,10.0,3.87,34.78,17.85,16.93,48.68,5.0,False
+ORD-10534,2023-11-01,West,Retail,Standard,Beauty,Lipstick,38.98,1,0.0,0.0,38.98,17.61,21.37,54.82,4.0,False
+ORD-10390,2023-11-01,West,Wholesale,Budget,Home & Garden,Coffee Maker,793.96,2,0.0,0.0,1587.92,813.89,774.03,48.74,3.0,False
+ORD-11078,2023-11-02,Central,Online,Premium,Clothing,T-Shirt,183.67,1,25.0,45.92,137.75,124.05,13.7,9.95,2.0,False
+ORD-10257,2023-11-02,North,Online,Standard,Books,Business Strategy,47.91,1,0.0,0.0,47.91,23.77,24.14,50.39,2.0,False
+ORD-11086,2023-11-02,West,Direct Sales,Standard,Clothing,Jeans,190.23,1,20.0,38.05,152.18,134.6,17.58,11.55,4.0,False
+ORD-10153,2023-11-02,North,Wholesale,Budget,Beauty,Sunscreen,89.91,1,0.0,0.0,89.91,67.07,22.84,25.4,2.0,False
+ORD-10905,2023-11-04,Central,Retail,Standard,Electronics,Smart Watch,629.11,1,0.0,0.0,629.11,410.65,218.46,34.73,3.0,False
+ORD-10754,2023-11-04,West,Retail,Standard,Home & Garden,Lamp,350.15,1,5.0,17.51,332.64,214.39,118.25,35.55,4.0,False
+ORD-11015,2023-11-05,Central,Retail,Budget,Books,Business Strategy,42.2,1,0.0,0.0,42.2,19.68,22.52,53.36,2.0,True
+ORD-10888,2023-11-06,South,Direct Sales,Premium,Clothing,T-Shirt,58.65,1,20.0,11.73,46.92,36.86,10.06,21.44,4.0,False
+ORD-11054,2023-11-06,East,Online,Standard,Clothing,Dress,71.87,1,15.0,10.78,61.09,43.04,18.05,29.55,4.0,False
+ORD-10156,2023-11-06,West,Direct Sales,Premium,Books,Self Help,18.67,2,5.0,1.87,35.47,17.7,17.77,50.1,1.0,False
+ORD-11191,2023-11-06,East,Online,Standard,Home & Garden,Coffee Maker,112.1,1,25.0,28.02,84.08,53.79,30.29,36.03,2.0,False
+ORD-11167,2023-11-07,East,Retail,Standard,Electronics,Tablet,789.14,2,0.0,0.0,1578.28,871.21,707.07,44.8,5.0,False
+ORD-10997,2023-11-07,South,Wholesale,Standard,Electronics,Tablet,690.95,1,10.0,69.09,621.86,494.02,127.84,20.56,3.0,True
+ORD-11192,2023-11-07,South,Direct Sales,Budget,Clothing,Sneakers,157.99,4,0.0,0.0,631.96,468.3,163.66,25.9,4.0,False
+ORD-10896,2023-11-07,East,Retail,Premium,Clothing,Dress,104.0,1,0.0,0.0,104.0,73.04,30.96,29.77,3.0,True
+ORD-10979,2023-11-07,Central,Wholesale,Premium,Electronics,Headphones,1057.88,1,0.0,0.0,1057.88,576.09,481.79,45.54,2.0,False
+ORD-10130,2023-11-08,Central,Retail,Standard,Electronics,Tablet,679.53,1,0.0,0.0,679.53,490.11,189.42,27.88,3.0,False
+ORD-10123,2023-11-08,West,Online,Premium,Electronics,Headphones,324.37,4,15.0,194.62,1102.86,819.82,283.04,25.66,2.0,False
+ORD-11172,2023-11-09,East,Online,Premium,Sports,Bicycle,573.04,1,10.0,57.3,515.74,417.77,97.97,19.0,,False
+ORD-10650,2023-11-10,North,Retail,Budget,Clothing,Sneakers,191.26,5,25.0,239.07,717.23,634.52,82.71,11.53,3.0,False
+ORD-10521,2023-11-10,South,Direct Sales,Budget,Sports,Bicycle,366.1,2,0.0,0.0,732.2,370.2,362.0,49.44,4.0,False
+ORD-10761,2023-11-10,East,Direct Sales,Standard,Books,Self Help,44.43,1,10.0,4.44,39.99,20.13,19.86,49.66,4.0,False
+ORD-10839,2023-11-11,East,Wholesale,Premium,Clothing,T-Shirt,55.36,4,0.0,0.0,221.44,111.31,110.13,49.73,4.0,False
+ORD-10274,2023-11-11,South,Direct Sales,Standard,Books,Python Guide,48.99,1,0.0,0.0,48.99,33.23,15.76,32.17,4.0,False
+ORD-10172,2023-11-11,West,Online,Budget,Books,Self Help,33.13,1,15.0,4.97,28.16,22.34,5.82,20.67,2.0,False
+ORD-10184,2023-11-11,South,Wholesale,Premium,Electronics,Tablet,773.71,3,10.0,232.11,2089.02,1151.29,937.73,44.89,3.0,False
+ORD-10473,2023-11-11,East,Retail,Premium,Beauty,Sunscreen,89.15,1,5.0,4.46,84.69,66.11,18.58,21.94,4.0,False
+ORD-10596,2023-11-12,West,Direct Sales,Premium,Electronics,Laptop,1222.6,1,25.0,305.65,916.95,568.59,348.36,37.99,3.0,False
+ORD-10133,2023-11-13,North,Online,Premium,Sports,Tennis Racket,173.49,1,0.0,0.0,173.49,129.08,44.41,25.6,4.0,False
+ORD-10277,2023-11-13,North,Wholesale,Standard,Books,Cook Book,45.41,1,25.0,11.35,34.06,28.37,5.69,16.71,3.0,False
+ORD-11105,2023-11-14,South,Wholesale,Standard,Electronics,Smartphone,1392.93,1,25.0,348.23,1044.7,649.69,395.01,37.81,3.0,False
+ORD-10572,2023-11-14,North,Retail,Budget,Sports,Tennis Racket,280.33,1,10.0,28.03,252.3,167.26,85.04,33.71,4.0,False
+ORD-10667,2023-11-14,Central,Retail,Budget,Sports,Tennis Racket,47.38,1,0.0,0.0,47.38,23.81,23.57,49.75,3.0,False
+ORD-10520,2023-11-14,West,Retail,Premium,Electronics,Smart Watch,1153.31,1,15.0,173.0,980.31,831.38,148.93,15.19,4.0,False
+ORD-10570,2023-11-15,North,Retail,Premium,Home & Garden,Blender,74.39,1,0.0,0.0,74.39,39.51,34.88,46.89,,False
+ORD-10545,2023-11-15,Central,Wholesale,Budget,Clothing,Sneakers,32.78,1,25.0,8.2,24.58,18.24,6.34,25.79,3.0,False
+ORD-10043,2023-11-16,East,Direct Sales,Premium,Beauty,Perfume,29.25,1,15.0,4.39,24.86,14.16,10.7,43.04,3.0,False
+ORD-10580,2023-11-17,North,Online,Premium,Home & Garden,Blender,250.05,1,25.0,62.51,187.54,169.67,17.87,9.53,3.0,False
+ORD-10013,2023-11-17,Central,Retail,Budget,Beauty,Lipstick,139.06,1,0.0,0.0,139.06,70.75,68.31,49.12,4.0,False
+ORD-11074,2023-11-18,South,Online,Budget,Clothing,T-Shirt,90.84,1,20.0,18.17,72.67,59.18,13.49,18.56,4.0,False
+ORD-10332,2023-11-19,South,Direct Sales,Premium,Home & Garden,Lamp,33.8,4,,6.76,128.44,86.76,41.68,32.45,3.0,False
+ORD-10747,2023-11-19,North,Online,Budget,Home & Garden,Lamp,548.71,1,,0.0,548.71,361.15,187.56,34.18,4.0,False
+ORD-11002,2023-11-19,East,Wholesale,Standard,Books,Cook Book,16.34,1,25.0,4.08,12.26,8.15,4.11,33.52,3.0,False
+ORD-10048,2023-11-19,West,Online,Standard,Electronics,Smartphone,1347.57,2,20.0,539.03,2156.11,1731.92,424.19,19.67,3.0,False
+ORD-10148,2023-11-20,West,Wholesale,Budget,Home & Garden,Lamp,237.32,1,0.0,0.0,237.32,108.22,129.1,54.4,2.0,False
+ORD-10166,2023-11-20,South,Direct Sales,Budget,Sports,Dumbbell Set,296.16,1,25.0,74.04,222.12,164.27,57.85,26.04,3.0,False
+ORD-10162,2023-11-20,North,Online,Standard,Sports,Bicycle,91.03,1,0.0,0.0,91.03,48.85,42.18,46.34,2.0,False
+ORD-11193,2023-11-20,West,Retail,Budget,Electronics,Headphones,1096.17,1,25.0,274.04,822.13,700.71,121.42,14.77,4.0,False
+ORD-11008,2023-11-20,South,Online,Premium,Beauty,Perfume,115.72,1,15.0,17.36,98.36,80.83,17.53,17.82,3.0,False
+ORD-10381,2023-11-21,West,Online,Standard,Sports,Dumbbell Set,333.1,1,0.0,0.0,333.1,194.9,138.2,41.49,4.0,False
+ORD-10967,2023-11-21,South,Online,Budget,Clothing,Sneakers,20.2,1,10.0,2.02,18.18,10.41,7.77,42.74,4.0,False
+ORD-11080,2023-11-21,South,Direct Sales,Standard,Books,Business Strategy,22.43,1,15.0,3.36,19.07,15.54,3.53,18.51,3.0,False
+ORD-10567,2023-11-21,North,Online,Budget,Beauty,Face Cream,57.65,1,25.0,14.41,43.24,28.61,14.63,33.83,2.0,False
+ORD-10253,2023-11-21,Central,Direct Sales,Standard,Sports,Tennis Racket,121.04,5,0.0,0.0,605.2,314.4,290.8,48.05,3.0,False
+ORD-11062,2023-11-21,Central,Online,Standard,Books,Self Help,37.76,1,0.0,0.0,37.76,21.82,15.94,42.21,3.0,False
+ORD-10529,2023-11-21,East,Wholesale,Standard,Books,Self Help,35.62,1,20.0,7.12,28.5,20.14,8.36,29.33,4.0,False
+ORD-10112,2023-11-22,Central,Retail,Budget,Sports,Dumbbell Set,51.13,1,0.0,0.0,51.13,37.59,13.54,26.48,3.0,False
+ORD-10344,2023-11-22,South,Wholesale,Standard,Beauty,Face Cream,55.78,1,0.0,0.0,55.78,38.62,17.16,30.76,4.0,False
+ORD-10368,2023-11-22,East,Wholesale,Standard,Beauty,Perfume,92.13,1,20.0,18.43,73.7,61.82,11.88,16.12,3.0,False
+ORD-10914,2023-11-22,East,Wholesale,Budget,Sports,Yoga Mat,273.0,1,25.0,68.25,204.75,197.79,6.96,3.4,4.0,False
+ORD-10834,2023-11-22,South,Wholesale,Budget,Home & Garden,Lamp,628.33,2,15.0,188.5,1068.16,683.83,384.33,35.98,4.0,False
+ORD-10898,2023-11-22,South,Direct Sales,Budget,Beauty,Sunscreen,74.28,1,0.0,0.0,74.28,54.21,20.07,27.02,4.0,False
+ORD-10470,2023-11-22,East,Online,Premium,Sports,Bicycle,331.14,1,20.0,66.23,264.91,183.52,81.39,30.72,3.0,True
+ORD-10085,2023-11-22,East,Retail,Budget,Beauty,Shampoo,64.05,4,20.0,51.24,204.96,184.88,20.08,9.8,3.0,False
+ORD-10865,2023-11-22,West,Wholesale,Standard,Clothing,Sneakers,25.42,4,20.0,20.34,81.34,66.13,15.21,18.7,2.0,False
+ORD-11151,2023-11-23,North,Direct Sales,Standard,Clothing,Jacket,60.86,1,0.0,0.0,60.86,44.17,16.69,27.42,2.0,False
+ORD-10869,2023-11-23,West,Wholesale,Budget,Beauty,Shampoo,97.18,5,20.0,97.18,388.72,264.12,124.6,32.05,4.0,False
+ORD-10074,2023-11-23,Central,Wholesale,Budget,Electronics,Laptop,1223.5,1,0.0,0.0,1223.5,711.7,511.8,41.83,3.0,False
+ORD-10321,2023-11-23,Central,Online,Budget,Beauty,Face Cream,64.75,4,0.0,0.0,259.0,136.61,122.39,47.25,4.0,False
+ORD-10527,2023-11-23,Central,Direct Sales,Budget,Clothing,Sneakers,128.35,2,0.0,0.0,256.7,149.66,107.04,41.7,3.0,False
+ORD-10303,2023-11-23,West,Online,Premium,Clothing,Dress,147.17,1,25.0,36.79,110.38,107.56,2.82,2.55,3.0,False
+ORD-11055,2023-11-24,North,Retail,Standard,Home & Garden,Lamp,48.44,1,0.0,0.0,48.44,35.48,12.96,26.75,3.0,False
+ORD-10343,2023-11-24,South,Wholesale,Budget,Sports,Running Shoes,449.61,2,5.0,44.96,854.26,513.67,340.59,39.87,4.0,False
+ORD-10649,2023-11-24,West,Retail,Premium,Home & Garden,Lamp,216.32,4,0.0,0.0,865.28,440.49,424.79,49.09,4.0,False
+ORD-10919,2023-11-25,East,Direct Sales,Standard,Books,Novel,42.98,1,10.0,4.3,38.68,20.89,17.79,45.99,3.0,False
+ORD-10241,2023-11-25,Central,Wholesale,Standard,Clothing,Dress,150.46,1,25.0,37.62,112.84,81.94,30.9,27.38,4.0,False
+ORD-10181,2023-11-25,West,Online,Premium,Sports,Bicycle,440.3,1,15.0,66.05,374.25,282.82,91.43,24.43,3.0,True
+ORD-10232,2023-11-26,Central,Direct Sales,Premium,Clothing,Dress,185.12,1,15.0,27.77,157.35,136.08,21.27,13.52,2.0,False
+ORD-10150,2023-11-26,South,Online,Standard,Home & Garden,Lamp,487.07,1,20.0,97.41,389.66,334.5,55.16,14.16,3.0,False
+ORD-10440,2023-11-27,South,Wholesale,Premium,Electronics,Tablet,1130.72,5,20.0,1130.72,4522.88,2712.33,1810.55,40.03,4.0,False
+ORD-10069,2023-11-27,West,Retail,Budget,Beauty,Shampoo,92.72,1,,23.18,69.54,42.76,26.78,38.51,4.0,False
+ORD-10248,2023-11-27,South,Online,Standard,Beauty,Face Cream,68.99,1,20.0,13.8,55.19,35.99,19.2,34.79,3.0,False
+ORD-10638,2023-11-28,East,Online,Standard,Home & Garden,Plant Pot,793.32,1,10.0,79.33,713.99,586.13,127.86,17.91,3.0,False
+ORD-10774,2023-11-28,East,Direct Sales,Budget,Electronics,Smart Watch,890.37,1,5.0,44.52,845.85,605.41,240.44,28.43,4.0,False
+ORD-10433,2023-11-28,West,Online,Premium,Beauty,Perfume,111.99,2,20.0,44.8,179.18,144.88,34.3,19.14,3.0,False
+ORD-10681,2023-11-28,East,Retail,Premium,Clothing,Dress,172.72,1,15.0,25.91,146.81,93.42,53.39,36.37,4.0,False
+ORD-10159,2023-11-29,South,Online,Standard,Electronics,Tablet,1052.67,3,0.0,0.0,3158.01,1948.58,1209.43,38.3,3.0,False
+ORD-10807,2023-11-30,Central,Wholesale,Premium,Home & Garden,Sofa,158.86,1,0.0,0.0,158.86,104.41,54.45,34.28,3.0,False
+ORD-11185,2023-11-30,East,Wholesale,Standard,Clothing,T-Shirt,62.59,1,20.0,12.52,50.07,36.22,13.85,27.66,4.0,False
+ORD-10831,2023-12-01,North,Direct Sales,Budget,Books,Business Strategy,34.39,1,10.0,3.44,30.95,20.22,10.73,34.67,,False
+ORD-10288,2023-12-02,South,Direct Sales,Premium,Beauty,Face Cream,145.55,1,10.0,14.55,131.0,103.43,27.57,21.05,4.0,False
+ORD-10675,2023-12-02,Central,Wholesale,Standard,Electronics,Smartphone,1086.38,2,15.0,325.91,1846.85,1404.46,442.39,23.95,4.0,False
+ORD-10294,2023-12-02,East,Retail,Standard,Beauty,Perfume,53.45,1,0.0,0.0,53.45,24.24,29.21,54.65,3.0,False
+ORD-10415,2023-12-03,South,Retail,Premium,Clothing,Sneakers,181.12,1,20.0,36.22,144.9,114.86,30.04,20.73,4.0,False
+ORD-10985,2023-12-03,North,Direct Sales,Premium,Clothing,Dress,117.45,1,0.0,0.0,117.45,54.86,62.59,53.29,3.0,False
+ORD-10267,2023-12-03,East,Online,Premium,Sports,Running Shoes,523.69,1,5.0,26.18,497.51,367.16,130.35,26.2,4.0,False
+ORD-10986,2023-12-03,South,Wholesale,Premium,Home & Garden,Lamp,111.22,1,25.0,27.8,83.42,68.21,15.21,18.23,4.0,False
+ORD-10963,2023-12-04,South,Wholesale,Premium,Beauty,Face Cream,22.58,1,10.0,2.26,20.32,12.47,7.85,38.63,3.0,False
+ORD-10462,2023-12-04,Central,Online,Premium,Sports,Running Shoes,526.82,2,25.0,263.41,790.23,532.96,257.27,32.56,3.0,False
+ORD-11173,2023-12-04,South,Retail,Standard,Books,Business Strategy,12.64,1,0.0,0.0,12.64,6.15,6.49,51.34,3.0,False
+ORD-10039,2023-12-04,East,Retail,Premium,Books,Self Help,36.79,1,0.0,0.0,36.79,25.77,11.02,29.95,4.0,False
+ORD-10841,2023-12-04,Central,Direct Sales,Premium,Home & Garden,Plant Pot,455.55,1,5.0,22.78,432.77,295.42,137.35,31.74,4.0,False
+ORD-10376,2023-12-05,South,Retail,Premium,Home & Garden,Blender,82.06,2,20.0,32.82,131.3,85.36,45.94,34.99,4.0,False
+ORD-10119,2023-12-05,Central,Wholesale,Premium,Clothing,Jeans,88.56,4,0.0,0.0,354.24,248.9,105.34,29.74,2.0,False
+ORD-10717,2023-12-05,West,Direct Sales,Premium,Beauty,Sunscreen,92.26,1,10.0,9.23,83.03,60.34,22.69,27.33,4.0,False
+ORD-11107,2023-12-05,South,Wholesale,Premium,Electronics,Headphones,376.55,1,25.0,94.14,282.41,177.08,105.33,37.3,4.0,False
+ORD-10630,2023-12-05,South,Wholesale,Standard,Clothing,T-Shirt,113.83,4,25.0,113.83,341.49,222.04,119.45,34.98,3.0,False
+ORD-11101,2023-12-05,North,Retail,Budget,Books,Novel,39.77,1,25.0,9.94,29.83,22.93,6.9,23.13,3.0,False
+ORD-10964,2023-12-06,East,Retail,Budget,Home & Garden,Plant Pot,736.3,1,0.0,0.0,736.3,362.98,373.32,50.7,3.0,False
+ORD-10547,2023-12-06,North,Online,Standard,Electronics,Headphones,163.68,1,10.0,16.37,147.31,118.5,28.81,19.56,2.0,False
+ORD-10031,2023-12-06,Central,Online,Budget,Sports,Dumbbell Set,152.71,1,10.0,15.27,137.44,84.19,53.25,38.74,4.0,False
+ORD-10449,2023-12-06,West,Wholesale,Budget,Sports,Running Shoes,78.47,1,0.0,0.0,78.47,46.63,31.84,40.58,3.0,False
+ORD-10609,2023-12-06,West,Direct Sales,Standard,Beauty,Shampoo,24.26,1,5.0,1.21,23.05,12.88,10.17,44.12,4.0,False
+ORD-11118,2023-12-06,West,Wholesale,Budget,Home & Garden,Lamp,457.77,1,,45.78,411.99,263.32,148.67,36.09,4.0,False
+ORD-10392,2023-12-06,East,Direct Sales,Budget,Beauty,Face Cream,120.6,1,0.0,0.0,120.6,57.2,63.4,52.57,2.0,False
+ORD-10906,2023-12-08,East,Retail,Budget,Beauty,Perfume,102.14,1,15.0,15.32,86.82,58.07,28.75,33.11,3.0,False
+ORD-10685,2023-12-08,South,Direct Sales,Standard,Sports,Bicycle,338.09,1,0.0,0.0,338.09,169.11,168.98,49.98,3.0,False
+ORD-10791,2023-12-08,Central,Retail,Standard,Books,Python Guide,43.34,1,0.0,0.0,43.34,31.18,12.16,28.06,3.0,False
+ORD-10028,2023-12-09,Central,Wholesale,Standard,Sports,Tennis Racket,538.22,1,5.0,26.91,511.31,372.57,138.74,27.13,3.0,False
+ORD-10208,2023-12-09,Central,Retail,Premium,Electronics,Smart Watch,284.25,1,0.0,0.0,284.25,189.5,94.75,33.33,3.0,False
+ORD-10215,2023-12-09,West,Wholesale,Premium,Beauty,Shampoo,121.98,1,20.0,24.4,97.58,55.71,41.87,42.91,3.0,True
+ORD-10474,2023-12-09,North,Wholesale,Standard,Electronics,Smartphone,971.51,1,15.0,145.73,825.78,470.43,355.35,43.03,3.0,False
+ORD-10837,2023-12-10,North,Online,Budget,Books,Cook Book,51.91,1,0.0,0.0,51.91,36.75,15.16,29.2,2.0,False
+ORD-11134,2023-12-10,North,Direct Sales,Premium,Sports,Dumbbell Set,589.22,1,20.0,117.84,471.38,402.18,69.2,14.68,4.0,True
+ORD-10711,2023-12-11,South,Online,Budget,Beauty,Lipstick,50.24,1,25.0,12.56,37.68,37.21,0.47,1.25,3.0,True
+ORD-10047,2023-12-11,East,Wholesale,Premium,Clothing,T-Shirt,82.86,1,5.0,4.14,78.72,59.59,19.13,24.3,4.0,False
+ORD-10574,2023-12-11,North,Direct Sales,Premium,Electronics,Laptop,683.44,1,0.0,0.0,683.44,405.05,278.39,40.73,2.0,False
+ORD-10930,2023-12-11,Central,Retail,Standard,Home & Garden,Coffee Maker,239.05,2,25.0,119.53,358.57,268.89,89.68,25.01,,False
+ORD-10154,2023-12-13,West,Online,Standard,Sports,Yoga Mat,373.32,1,15.0,56.0,317.32,179.39,137.93,43.47,3.0,False
+ORD-10482,2023-12-13,South,Online,Premium,Sports,Dumbbell Set,119.71,1,,0.0,119.71,81.05,38.66,32.29,2.0,False
+ORD-10203,2023-12-13,West,Wholesale,Budget,Home & Garden,Blender,170.08,2,15.0,51.02,289.14,249.62,39.52,13.67,3.0,False
+ORD-10626,2023-12-13,Central,Retail,Budget,Beauty,Perfume,57.23,1,15.0,8.58,48.65,27.89,20.76,42.67,3.0,False
+ORD-11129,2023-12-14,East,Wholesale,Premium,Electronics,Tablet,1148.28,1,20.0,229.66,918.62,570.39,348.23,37.91,3.0,False
+ORD-10953,2023-12-14,North,Wholesale,Budget,Clothing,Jeans,141.77,1,0.0,0.0,141.77,89.45,52.32,36.9,4.0,False
+ORD-10922,2023-12-15,South,Wholesale,Budget,Home & Garden,Coffee Maker,161.62,1,25.0,40.41,121.21,109.45,11.76,9.7,3.0,False
+ORD-10843,2023-12-15,South,Online,Budget,Sports,Dumbbell Set,130.13,2,10.0,26.03,234.23,139.42,94.81,40.48,3.0,False
+ORD-11184,2023-12-15,South,Wholesale,Budget,Electronics,Smartphone,896.3,1,15.0,134.44,761.86,533.75,228.11,29.94,5.0,False
+ORD-10802,2023-12-15,Central,Wholesale,Standard,Sports,Running Shoes,431.75,1,20.0,86.35,345.4,223.93,121.47,35.17,4.0,False
+ORD-10142,2023-12-15,South,Direct Sales,Standard,Beauty,Face Cream,132.3,3,25.0,99.22,297.68,185.88,111.8,37.56,4.0,False
+ORD-10766,2023-12-15,North,Wholesale,Premium,Clothing,Dress,182.32,1,10.0,18.23,164.09,85.71,78.38,47.77,3.0,False
+ORD-10932,2023-12-16,East,Direct Sales,Standard,Books,Novel,21.22,1,15.0,3.18,18.04,14.75,3.29,18.24,2.0,False
+ORD-11163,2023-12-16,North,Online,Premium,Clothing,T-Shirt,171.04,1,20.0,34.21,136.83,84.83,52.0,38.0,,False
+ORD-10998,2023-12-16,East,Online,Premium,Home & Garden,Sofa,349.42,1,0.0,0.0,349.42,226.39,123.03,35.21,5.0,False
+ORD-10401,2023-12-17,South,Direct Sales,Standard,Sports,Bicycle,94.8,1,0.0,0.0,94.8,45.53,49.27,51.97,3.0,False
+ORD-10063,2023-12-17,North,Retail,Premium,Beauty,Perfume,113.71,1,10.0,11.37,102.34,75.13,27.21,26.59,3.0,False
+ORD-10969,2023-12-17,North,Wholesale,Premium,Sports,Yoga Mat,345.03,1,0.0,0.0,345.03,169.19,175.84,50.96,2.0,False
+ORD-11020,2023-12-18,East,Wholesale,Premium,Books,Python Guide,30.71,4,20.0,24.57,98.27,75.22,23.05,23.46,2.0,False
+ORD-11119,2023-12-18,East,Direct Sales,Premium,Home & Garden,Sofa,727.08,1,10.0,72.71,654.37,399.2,255.17,38.99,3.0,False
+ORD-10466,2023-12-19,North,Direct Sales,Budget,Electronics,Smart Watch,1164.36,1,5.0,58.22,1106.14,858.12,248.02,22.42,3.0,False
+ORD-10560,2023-12-19,South,Direct Sales,Budget,Clothing,T-Shirt,141.88,1,25.0,35.47,106.41,79.36,27.05,25.42,5.0,False
+ORD-10503,2023-12-19,East,Wholesale,Standard,Sports,Yoga Mat,225.07,1,0.0,0.0,225.07,151.84,73.23,32.54,3.0,False
+ORD-10692,2023-12-19,East,Direct Sales,Premium,Books,Business Strategy,52.83,1,25.0,13.21,39.62,35.3,4.32,10.9,,False
+ORD-10421,2023-12-20,East,Wholesale,Premium,Home & Garden,Blender,618.57,1,0.0,0.0,618.57,282.24,336.33,54.37,3.0,False
+ORD-10781,2023-12-20,West,Wholesale,Budget,Books,Cook Book,22.08,1,15.0,3.31,18.77,12.75,6.02,32.07,2.0,False
+ORD-10564,2023-12-20,South,Direct Sales,Standard,Home & Garden,Lamp,252.72,2,0.0,0.0,505.44,245.06,260.38,51.52,3.0,False
+ORD-11190,2023-12-21,South,Direct Sales,Standard,Clothing,Jacket,100.83,1,0.0,0.0,100.83,62.64,38.19,37.88,2.0,False
+ORD-11112,2023-12-21,West,Direct Sales,Premium,Sports,Bicycle,413.46,1,5.0,20.67,392.79,292.91,99.88,25.43,3.0,False
+ORD-10566,2023-12-21,West,Online,Standard,Sports,Yoga Mat,590.81,1,15.0,88.62,502.19,436.22,65.97,13.14,2.0,False
+ORD-11026,2023-12-22,East,Direct Sales,Standard,Books,Self Help,29.14,2,25.0,14.57,43.71,28.77,14.94,34.18,3.0,False
+ORD-10477,2023-12-22,Central,Wholesale,Budget,Home & Garden,Coffee Maker,575.03,1,10.0,57.5,517.53,272.86,244.67,47.28,3.0,False
+ORD-10857,2023-12-22,East,Retail,Budget,Clothing,T-Shirt,110.23,1,25.0,27.56,82.67,50.76,31.91,38.6,4.0,False
+ORD-11003,2023-12-23,Central,Online,Premium,Books,Cook Book,12.93,1,10.0,1.29,11.64,8.13,3.51,30.15,4.0,False
+ORD-11096,2023-12-23,West,Online,Standard,Sports,Dumbbell Set,566.68,1,10.0,56.67,510.01,386.85,123.16,24.15,2.0,False
+ORD-10509,2023-12-23,East,Direct Sales,Standard,Home & Garden,Lamp,752.49,2,25.0,376.25,1128.73,1023.11,105.62,9.36,2.0,False
+ORD-10044,2023-12-23,East,Direct Sales,Standard,Home & Garden,Plant Pot,742.01,2,20.0,296.8,1187.22,782.65,404.57,34.08,4.0,False
+ORD-10463,2023-12-24,Central,Direct Sales,Standard,Beauty,Shampoo,77.62,1,0.0,0.0,77.62,36.81,40.81,52.58,4.0,False
+ORD-10089,2023-12-24,East,Retail,Standard,Electronics,Smartphone,1334.59,1,25.0,333.65,1000.94,922.26,78.68,7.86,,False
+ORD-10934,2023-12-25,Central,Online,Budget,Clothing,T-Shirt,155.44,1,10.0,15.54,139.9,92.92,46.98,33.58,2.0,False
+ORD-10295,2023-12-25,North,Direct Sales,Budget,Beauty,Perfume,77.19,1,10.0,7.72,69.47,41.49,27.98,40.28,3.0,False
+ORD-10740,2023-12-25,North,Direct Sales,Budget,Home & Garden,Plant Pot,115.03,1,15.0,17.25,97.78,62.45,35.33,36.13,3.0,False
+ORD-10803,2023-12-25,North,Wholesale,Budget,Home & Garden,Sofa,745.44,1,0.0,0.0,745.44,453.45,291.99,39.17,3.0,False
+ORD-11051,2023-12-25,Central,Online,Budget,Beauty,Face Cream,107.29,1,5.0,5.36,101.93,73.91,28.02,27.49,,False
+ORD-10479,2023-12-25,East,Direct Sales,Standard,Clothing,Jeans,94.12,1,0.0,0.0,94.12,57.75,36.37,38.64,5.0,False
+ORD-11136,2023-12-26,North,Online,Budget,Beauty,Lipstick,138.47,2,0.0,0.0,276.94,176.59,100.35,36.24,2.0,False
+ORD-11028,2023-12-26,Central,Direct Sales,Budget,Books,Business Strategy,53.9,1,5.0,2.69,51.21,39.77,11.44,22.34,5.0,False
+ORD-10516,2023-12-26,North,Wholesale,Budget,Beauty,Face Cream,12.52,4,0.0,0.0,50.08,33.45,16.63,33.21,4.0,False
+ORD-10342,2023-12-26,South,Retail,Budget,Beauty,Lipstick,146.8,1,0.0,0.0,146.8,104.41,42.39,28.88,4.0,False
+ORD-10594,2023-12-27,East,Wholesale,Standard,Clothing,Sneakers,165.48,3,0.0,0.0,496.44,234.17,262.27,52.83,3.0,False
+ORD-10336,2023-12-27,East,Wholesale,Budget,Clothing,Sneakers,141.07,1,0.0,0.0,141.07,100.22,40.85,28.96,4.0,False
+ORD-10767,2023-12-29,South,Online,Premium,Electronics,Tablet,881.38,4,25.0,881.38,2644.14,1656.89,987.25,37.34,4.0,False
+ORD-10974,2023-12-29,West,Wholesale,Premium,Clothing,Jeans,192.37,1,15.0,28.86,163.51,116.26,47.25,28.9,3.0,False
+ORD-10065,2023-12-29,West,Wholesale,Budget,Books,Business Strategy,55.66,1,25.0,13.91,41.75,33.42,8.33,19.95,4.0,False
+ORD-10587,2023-12-30,Central,Online,Standard,Books,Python Guide,16.72,1,15.0,2.51,14.21,9.32,4.89,34.41,4.0,False
+ORD-10178,2023-12-30,North,Wholesale,Budget,Beauty,Shampoo,14.69,1,15.0,2.2,12.49,9.97,2.52,20.18,3.0,True
+ORD-10418,2023-12-30,East,Wholesale,Budget,Clothing,Sneakers,148.94,1,0.0,0.0,148.94,70.21,78.73,52.86,3.0,False
+ORD-10417,2023-12-31,Central,Wholesale,Budget,Books,Cook Book,44.01,1,15.0,6.6,37.41,20.92,16.49,44.08,5.0,False

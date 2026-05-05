@@ -1,0 +1,659 @@
+{
+  "session_id": "20260505_182258",
+  "created_at": "2026-05-05T18:22:58.308895",
+  "user_query": "Which category drives the most profit?",
+  "dataset_path": "data/sample_sales.csv",
+  "dataset_metadata": {
+    "dataset_path": "data/sample_sales.csv",
+    "filename": "sample_sales.csv",
+    "query": "Which category drives the most profit?",
+    "shape": {
+      "rows": 1200,
+      "columns": 17
+    },
+    "column_names": [
+      "order_id",
+      "date",
+      "region",
+      "sales_channel",
+      "customer_segment",
+      "category",
+      "product_name",
+      "unit_price",
+      "quantity",
+      "discount_pct",
+      "discount_amount",
+      "revenue",
+      "cost",
+      "profit",
+      "profit_margin_pct",
+      "customer_satisfaction",
+      "returned"
+    ],
+    "dtypes": {
+      "order_id": "str",
+      "date": "str",
+      "region": "str",
+      "sales_channel": "str",
+      "customer_segment": "str",
+      "category": "str",
+      "product_name": "str",
+      "unit_price": "float64",
+      "quantity": "int64",
+      "discount_pct": "float64",
+      "discount_amount": "float64",
+      "revenue": "float64",
+      "cost": "float64",
+      "profit": "float64",
+      "profit_margin_pct": "float64",
+      "customer_satisfaction": "float64",
+      "returned": "bool"
+    },
+    "missing_values": {
+      "order_id": 0,
+      "date": 0,
+      "region": 0,
+      "sales_channel": 0,
+      "customer_segment": 0,
+      "category": 0,
+      "product_name": 0,
+      "unit_price": 0,
+      "quantity": 0,
+      "discount_pct": 23,
+      "discount_amount": 0,
+      "revenue": 0,
+      "cost": 0,
+      "profit": 0,
+      "profit_margin_pct": 0,
+      "customer_satisfaction": 26,
+      "returned": 0
+    },
+    "columns": [
+      {
+        "name": "order_id",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1200,
+        "cardinality": "high",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "date",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 349,
+        "cardinality": "high",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "region",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "cardinality": "low",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "sales_channel",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 4,
+        "cardinality": "low",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "customer_segment",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "cardinality": "low",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "category",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 6,
+        "cardinality": "low",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "product_name",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 30,
+        "cardinality": "medium",
+        "analysis_type": "categorical"
+      },
+      {
+        "name": "unit_price",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1179,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "quantity",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "cardinality": "low",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "discount_pct",
+        "dtype": "float64",
+        "missing_count": 23,
+        "missing_pct": 1.92,
+        "unique_values": 6,
+        "cardinality": "low",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "discount_amount",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 718,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "revenue",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1178,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "cost",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1176,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "profit",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1158,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "profit_margin_pct",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1062,
+        "cardinality": "high",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "customer_satisfaction",
+        "dtype": "float64",
+        "missing_count": 26,
+        "missing_pct": 2.17,
+        "unique_values": 5,
+        "cardinality": "low",
+        "analysis_type": "numeric"
+      },
+      {
+        "name": "returned",
+        "dtype": "bool",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2,
+        "cardinality": "low",
+        "analysis_type": "boolean"
+      }
+    ],
+    "numeric_summary": {
+      "unit_price": {
+        "mean": 301.8971,
+        "std": 340.6924,
+        "min": 10.21,
+        "max": 1497.77,
+        "median": 146.12,
+        "q1": 52.9325,
+        "q3": 466.2,
+        "iqr": 413.2675,
+        "skewness": 1.5344,
+        "outlier_count": 65
+      },
+      "quantity": {
+        "mean": 1.4067,
+        "std": 0.8575,
+        "min": 1.0,
+        "max": 5.0,
+        "median": 1.0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "iqr": 0.0,
+        "skewness": 2.4778,
+        "outlier_count": 297
+      },
+      "discount_pct": {
+        "mean": 9.4138,
+        "std": 9.0912,
+        "min": 0.0,
+        "max": 25.0,
+        "median": 10.0,
+        "q1": 0.0,
+        "q3": 20.0,
+        "iqr": 20.0,
+        "skewness": 0.3896,
+        "outlier_count": 0
+      },
+      "discount_amount": {
+        "mean": 42.3483,
+        "std": 115.2728,
+        "min": 0.0,
+        "max": 1785.99,
+        "median": 7.14,
+        "q1": 0.0,
+        "q3": 37.56,
+        "iqr": 37.56,
+        "skewness": 8.2566,
+        "outlier_count": 154
+      },
+      "revenue": {
+        "mean": 389.2045,
+        "std": 583.2005,
+        "min": 7.96,
+        "max": 6385.8,
+        "median": 159.535,
+        "q1": 58.26,
+        "q3": 491.35,
+        "iqr": 433.09,
+        "skewness": 3.9739,
+        "outlier_count": 88
+      },
+      "cost": {
+        "mean": 257.7839,
+        "std": 398.877,
+        "min": 5.5,
+        "max": 4829.41,
+        "median": 107.815,
+        "q1": 39.18,
+        "q3": 315.8325,
+        "iqr": 276.6525,
+        "skewness": 4.4381,
+        "outlier_count": 99
+      },
+      "profit": {
+        "mean": 131.4207,
+        "std": 208.7851,
+        "min": 0.3,
+        "max": 2505.1,
+        "median": 50.745,
+        "q1": 17.385,
+        "q3": 166.4425,
+        "iqr": 149.0575,
+        "skewness": 4.1273,
+        "outlier_count": 93
+      },
+      "profit_margin_pct": {
+        "mean": 33.267,
+        "std": 11.7404,
+        "min": 0.7,
+        "max": 54.82,
+        "median": 34.145,
+        "q1": 25.4675,
+        "q3": 42.2675,
+        "iqr": 16.8,
+        "skewness": -0.3395,
+        "outlier_count": 0
+      },
+      "customer_satisfaction": {
+        "mean": 3.2683,
+        "std": 0.8353,
+        "min": 1.0,
+        "max": 5.0,
+        "median": 3.0,
+        "q1": 3.0,
+        "q3": 4.0,
+        "iqr": 1.0,
+        "skewness": -0.0183,
+        "outlier_count": 12
+      }
+    },
+    "categorical_summary": {
+      "order_id": {
+        "top_values": {
+          "ORD-10042": 1,
+          "ORD-10410": 1,
+          "ORD-11005": 1,
+          "ORD-10816": 1,
+          "ORD-10935": 1,
+          "ORD-11153": 1,
+          "ORD-10209": 1,
+          "ORD-10439": 1,
+          "ORD-10465": 1,
+          "ORD-10136": 1
+        }
+      },
+      "date": {
+        "top_values": {
+          "2023-04-02": 12,
+          "2023-10-03": 10,
+          "2023-05-16": 9,
+          "2023-07-21": 9,
+          "2023-11-22": 9,
+          "2023-01-15": 8,
+          "2023-05-22": 8,
+          "2023-07-08": 8,
+          "2023-01-21": 7,
+          "2023-01-28": 7
+        }
+      },
+      "region": {
+        "top_values": {
+          "South": 249,
+          "North": 248,
+          "East": 244,
+          "West": 241,
+          "Central": 218
+        }
+      },
+      "sales_channel": {
+        "top_values": {
+          "Direct Sales": 332,
+          "Retail": 310,
+          "Wholesale": 280,
+          "Online": 278
+        }
+      },
+      "customer_segment": {
+        "top_values": {
+          "Standard": 420,
+          "Budget": 406,
+          "Premium": 374
+        }
+      },
+      "category": {
+        "top_values": {
+          "Sports": 212,
+          "Books": 212,
+          "Home & Garden": 204,
+          "Beauty": 202,
+          "Electronics": 197,
+          "Clothing": 173
+        }
+      },
+      "product_name": {
+        "top_values": {
+          "Business Strategy": 55,
+          "Tablet": 54,
+          "Yoga Mat": 53,
+          "Face Cream": 50,
+          "Bicycle": 50,
+          "Lamp": 49,
+          "Sofa": 48,
+          "Cook Book": 44,
+          "Python Guide": 43,
+          "Sunscreen": 41
+        }
+      },
+      "returned": {
+        "top_values": {
+          "False": 1085,
+          "True": 115
+        }
+      }
+    },
+    "sample_data": [
+      {
+        "order_id": "ORD-10042",
+        "date": "2023-01-01",
+        "region": "East",
+        "sales_channel": "Online",
+        "customer_segment": "Budget",
+        "category": "Sports",
+        "product_name": "Yoga Mat",
+        "unit_price": 395.97,
+        "quantity": 1,
+        "discount_pct": 20.0,
+        "discount_amount": 79.19,
+        "revenue": 316.78,
+        "cost": 260.26,
+        "profit": 56.52,
+        "profit_margin_pct": 17.84,
+        "customer_satisfaction": 4.0,
+        "returned": false
+      },
+      {
+        "order_id": "ORD-10410",
+        "date": "2023-01-02",
+        "region": "North",
+        "sales_channel": "Online",
+        "customer_segment": "Budget",
+        "category": "Home & Garden",
+        "product_name": "Lamp",
+        "unit_price": 105.52,
+        "quantity": 1,
+        "discount_pct": 5.0,
+        "discount_amount": 5.28,
+        "revenue": 100.24,
+        "cost": 52.23,
+        "profit": 48.01,
+        "profit_margin_pct": 47.9,
+        "customer_satisfaction": 4.0,
+        "returned": false
+      },
+      {
+        "order_id": "ORD-11005",
+        "date": "2023-01-02",
+        "region": "Central",
+        "sales_channel": "Wholesale",
+        "customer_segment": "Premium",
+        "category": "Books",
+        "product_name": "Novel",
+        "unit_price": 13.96,
+        "quantity": 1,
+        "discount_pct": 0.0,
+        "discount_amount": 0.0,
+        "revenue": 13.96,
+        "cost": 10.08,
+        "profit": 3.88,
+        "profit_margin_pct": 27.79,
+        "customer_satisfaction": 4.0,
+        "returned": false
+      },
+      {
+        "order_id": "ORD-10816",
+        "date": "2023-01-02",
+        "region": "South",
+        "sales_channel": "Retail",
+        "customer_segment": "Budget",
+        "category": "Home & Garden",
+        "product_name": "Sofa",
+        "unit_price": 537.46,
+        "quantity": 1,
+        "discount_pct": 25.0,
+        "discount_amount": 134.37,
+        "revenue": 403.09,
+        "cost": 381.0,
+        "profit": 22.09,
+        "profit_margin_pct": 5.48,
+        "customer_satisfaction": 3.0,
+        "returned": false
+      },
+      {
+        "order_id": "ORD-10935",
+        "date": "2023-01-02",
+        "region": "Central",
+        "sales_channel": "Direct Sales",
+        "customer_segment": "Budget",
+        "category": "Beauty",
+        "product_name": "Shampoo",
+        "unit_price": 65.24,
+        "quantity": 1,
+        "discount_pct": 5.0,
+        "discount_amount": 3.26,
+        "revenue": 61.98,
+        "cost": 32.52,
+        "profit": 29.46,
+        "profit_margin_pct": 47.53,
+        "customer_satisfaction": 3.0,
+        "returned": false
+      }
+    ],
+    "is_large_dataset": false,
+    "sample_size": 1200,
+    "has_datetime_columns": false,
+    "inferred_domain": "e-commerce / sales",
+    "top_correlations": [
+      {
+        "col1": "revenue",
+        "col2": "cost",
+        "correlation": 0.9793
+      },
+      {
+        "col1": "revenue",
+        "col2": "profit",
+        "correlation": 0.9223
+      },
+      {
+        "col1": "cost",
+        "col2": "profit",
+        "correlation": 0.8251
+      },
+      {
+        "col1": "unit_price",
+        "col2": "revenue",
+        "correlation": 0.7873
+      },
+      {
+        "col1": "unit_price",
+        "col2": "cost",
+        "correlation": 0.7719
+      }
+    ]
+  },
+  "analysis_plan": [
+    "Assess data quality: identify missing values, duplicate rows, and incorrect data types; apply necessary corrections",
+    "Compute descriptive statistics (mean, median, std, min, max) for all numeric columns and review distributions",
+    "Visualize distributions of key numeric variables using histograms and box plots to detect outliers",
+    "Examine relationships between variables using a correlation heatmap and scatter plots",
+    "Perform group-by aggregations relevant to the user query and visualize comparisons",
+    "Identify top-performing and bottom-performing segments based on key metrics",
+    "Generate business insights and actionable recommendations based on all findings"
+  ],
+  "steps": [
+    {
+      "step_id": 1,
+      "description": "Assess data quality: identify missing values, duplicate rows, and incorrect data types; apply necessary corrections",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Assess data quality: identify missing values, duplicate rows, and incorrect data types; apply necessary corrections\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:03.058173",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 2,
+      "description": "Compute descriptive statistics (mean, median, std, min, max) for all numeric columns and review distributions",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Compute descriptive statistics (mean, median, std, min, max) for all numeric columns and review distributions\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:04.710962",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 3,
+      "description": "Visualize distributions of key numeric variables using histograms and box plots to detect outliers",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Visualize distributions of key numeric variables using histograms and box plots to detect outliers\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:06.384349",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 4,
+      "description": "Examine relationships between variables using a correlation heatmap and scatter plots",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Examine relationships between variables using a correlation heatmap and scatter plots\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:07.937575",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 5,
+      "description": "Perform group-by aggregations relevant to the user query and visualize comparisons",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Perform group-by aggregations relevant to the user query and visualize comparisons\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:09.352310",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 6,
+      "description": "Identify top-performing and bottom-performing segments based on key metrics",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Identify top-performing and bottom-performing segments based on key metrics\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:10.983616",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    },
+    {
+      "step_id": 7,
+      "description": "Generate business insights and actionable recommendations based on all findings",
+      "code": "import warnings\nwarnings.filterwarnings('ignore')\n\n# Fallback code for: Generate business insights and actionable recommendations based on all findings\nprint('=== Data Overview ===')\nprint(df.shape)\nprint(df.dtypes)\nprint(df.isnull().sum())\n\nprint('\\n=== unit_price Statistics ===')\nprint(df['unit_price'].describe())\n\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10, 4))\ndf['unit_price'].dropna().hist(bins=30, edgecolor='black')\nplt.title('Distribution of unit_price')\nplt.xlabel('unit_price')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.show()",
+      "output": "=== Data Overview ===\n(1200, 17)\norder_id                     str\ndate                         str\nregion                       str\nsales_channel                str\ncustomer_segment             str\ncategory                     str\nproduct_name                 str\nunit_price               float64\nquantity                   int64\ndiscount_pct             float64\ndiscount_amount          float64\nrevenue                  float64\ncost                     float64\nprofit                   float64\nprofit_margin_pct        float64\ncustomer_satisfaction    float64\nreturned                    bool\ndtype: object\norder_id                  0\ndate                      0\nregion                    0\nsales_channel             0\ncustomer_segment          0\ncategory                  0\nproduct_name              0\nunit_price                0\nquantity                  0\ndiscount_pct             23\ndiscount_amount           0\nrevenue                   0\ncost                      0\nprofit                    0\nprofit_margin_pct         0\ncustomer_satisfaction    26\nreturned                  0\ndtype: int64\n\n=== unit_price Statistics ===\ncount    1200.000000\nmean      301.897108\nstd       340.692385\nmin        10.210000\n25%        52.932500\n50%       146.120000\n75%       466.200000\nmax      1497.770000\nName: unit_price, dtype: float64\n\nERROR:\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception",
+      "critic_score": 0.1,
+      "critic_feedback": "The code raised a Python exception during execution.",
+      "status": "failed",
+      "timestamp": "2026-05-05T18:23:12.676436",
+      "retry_count": 3,
+      "visualizations": [],
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3537, in show\n    manager.show()  # Emits a warning for non-interactive backend.\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 2719, in show\n    raise NonGuiException(\n        f\"{type(self.canvas).__name__} is non-interactive, and thus cannot be \"\n        f\"shown\")\nmatplotlib.backend_bases.NonGuiException: FigureCanvasAgg is non-interactive, and thus cannot be shown\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\W T\\Desktop\\autonomous-data-analyst\\autonomous-data-analyst\\tools\\python_executor.py\", line 106, in execute\n    exec(compile(code, \"<analyst_code>\", \"exec\"), self._namespace)   # noqa: S102\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<analyst_code>\", line 20, in <module>\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\pyplot.py\", line 613, in show\n    return _get_backend_mod().show(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\backend_bases.py\", line 3539, in show\n    _api.warn_external(str(exc))\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\W T\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\matplotlib\\_api\\__init__.py\", line 405, in warn_external\n    warnings.warn(message, category, **kwargs)\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: _suppress_pydantic_deprecation_warnings.<locals>.filtered_warn() got an unexpected keyword argument 'skip_file_prefixes'\n"
+    }
+  ],
+  "final_insights": "Final insight generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}\n\nPlease review the individual step outputs above.",
+  "all_visualizations": [],
+  "summary": {
+    "total_steps": 7,
+    "completed": 0,
+    "failed": 7,
+    "avg_critic_score": 0.0
+  }
+}
