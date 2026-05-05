@@ -4,7 +4,7 @@ A **production-grade multi-agent AI system** that behaves like a mid-level data 
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@ A **production-grade multi-agent AI system** that behaves like a mid-level data 
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -107,203 +107,6 @@ autonomous-data-analyst/
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Prerequisites
-
-- Python 3.10 or 3.11 (recommended)
-- An [Anthropic API key](https://console.anthropic.com/)
-- VS Code (optional but recommended)
-
-### 2. Clone / Download the Project
-
-```bash
-# If using git
-git clone <your-repo-url>
-cd autonomous-data-analyst
-
-# Or just navigate to the project folder
-cd autonomous-data-analyst
-```
-
-### 3. Create a Virtual Environment
-
-```bash
-# Create venv
-python -m venv venv
-
-# Activate — Windows
-venv\Scripts\activate
-
-# Activate — macOS / Linux
-source venv/bin/activate
-```
-
-### 4. Install Dependencies
-
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 5. Configure Environment
-
-```bash
-# Copy the example env file
-cp .env.example .env
-```
-
-Open `.env` and set your Anthropic API key:
-
-```env
-ANTHROPIC_API_KEY=sk-ant-your-actual-key-here
-
-# Optional overrides (defaults shown)
-LLM_MODEL=claude-sonnet-4-20250514
-LLM_TEMPERATURE=0.2
-MAX_RETRIES=3
-CRITIC_SCORE_THRESHOLD=0.65
-MAX_PLAN_STEPS=8
-OUTPUT_DIR=outputs
-LOG_DIR=logs
-API_HOST=0.0.0.0
-API_PORT=8000
-```
-
-### 6. Generate Sample Dataset
-
-```bash
-python data/generate_sample.py
-```
-
-This creates `data/sample_sales.csv` — a 1,200-row e-commerce sales dataset with realistic columns: revenue, profit, region, category, channel, date, customer satisfaction, etc.
-
----
-
-## 🚀 Running the Project
-
-### Option A: CLI (Recommended for Development)
-
-```bash
-# Basic usage
-python run.py --csv data/sample_sales.csv --query "Which product category drives the most profit?"
-
-# More queries to try
-python run.py --csv data/sample_sales.csv --query "Identify seasonal revenue trends over the year"
-python run.py --csv data/sample_sales.csv --query "Which sales channel has the highest customer satisfaction?"
-python run.py --csv data/sample_sales.csv --query "Analyze return rates by category and their business impact"
-python run.py --csv data/sample_sales.csv --query "What discount strategy maximizes profit margin?"
-
-# Custom settings
-python run.py --csv data/sample_sales.csv --query "..." --max-retries 2 --threshold 0.7 --max-steps 6
-```
-
-**What you'll see:**
-```
-────────────────────────────────────────────────────
-  ▶  PIPELINE START
-     Query: Which category drives the most profit? | Dataset: data/sample_sales.csv
-────────────────────────────────────────────────────
-
-  ▶  PLANNING
-  ▶  STEP 1/7: Assess data quality...
-  Critic score: 0.82 | Approved: True
-  ✅ Step 1 completed | score=0.82 | retries=0
-
-  ... (continues for all steps)
-
-  ┌─ Final Insights & Recommendations ─────────────┐
-  │ ## Executive Summary                            │
-  │ Electronics leads profit at 34% share...        │
-  └────────────────────────────────────────────────┘
-```
-
----
-
-### Option B: FastAPI Server
-
-```bash
-# Start the server
-python run.py --server
-
-# Or directly with uvicorn
-uvicorn api.main:app --reload --port 8000
-```
-
-**API Endpoints:**
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `POST` | `/analyze` | Upload CSV + query → returns `job_id` |
-| `GET` | `/jobs/{job_id}` | Poll for status and results |
-| `GET` | `/sessions` | List all saved sessions |
-| `GET` | `/sessions/{id}` | Get a specific session |
-| `GET` | `/visualizations/{file}` | Download a chart PNG |
-| `GET` | `/health` | Health check |
-| `GET` | `/docs` | Swagger UI |
-
-**Example API Call (curl):**
-
-```bash
-# Submit analysis job
-curl -X POST http://localhost:8000/analyze \
-  -F "file=@data/sample_sales.csv" \
-  -F "query=Which product category drives the most profit?" \
-  -F "max_retries=3" \
-  -F "score_threshold=0.65"
-
-# Response: { "job_id": "abc-123...", "status": "queued" }
-
-# Poll for results
-curl http://localhost:8000/jobs/abc-123...
-```
-
-**Example API Call (Python):**
-
-```python
-import requests, time
-
-# Submit
-with open("data/sample_sales.csv", "rb") as f:
-    resp = requests.post(
-        "http://localhost:8000/analyze",
-        files={"file": f},
-        data={"query": "Which category drives the most profit?"}
-    )
-job_id = resp.json()["job_id"]
-
-# Poll until done
-while True:
-    status = requests.get(f"http://localhost:8000/jobs/{job_id}").json()
-    if status["status"] in ("completed", "failed"):
-        break
-    print(f"Status: {status['status']} ...")
-    time.sleep(5)
-
-print(status["final_insights"])
-```
-
----
-
-### Option C: VS Code (Development)
-
-1. Open the project folder in VS Code
-2. Install the Python extension
-3. Select the `venv` interpreter (`Ctrl+Shift+P` → "Python: Select Interpreter")
-4. Open the integrated terminal and run:
-   ```bash
-   python run.py --csv data/sample_sales.csv --query "Which category is most profitable?"
-   ```
-5. For API development, install the REST Client extension and use the Swagger UI at `http://localhost:8000/docs`
-
-**Recommended VS Code extensions:**
-- Python (Microsoft)
-- Pylance
-- REST Client
-- Thunder Client (API testing)
-
----
-
 ## 🧠 Agent Roles
 
 ### 🗓️ Planner Agent
@@ -335,7 +138,7 @@ print(status["final_insights"])
 
 ---
 
-## 📊 Output Files
+##  Output Files
 
 After each run, the `outputs/` directory contains:
 
@@ -373,51 +176,7 @@ The JSON session file has this structure:
 }
 ```
 
----
-
-## 🔧 Configuration Reference
-
-| Variable | Default | Description |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | *(required)* | Your Anthropic API key |
-| `LLM_MODEL` | `claude-sonnet-4-20250514` | Claude model to use |
-| `LLM_TEMPERATURE` | `0.2` | Lower = more deterministic code |
-| `MAX_RETRIES` | `3` | Max retries per step if critic rejects |
-| `CRITIC_SCORE_THRESHOLD` | `0.65` | Min score for step approval |
-| `MAX_PLAN_STEPS` | `8` | Max analysis steps per session |
-| `MIN_PLAN_STEPS` | `4` | Min analysis steps per session |
-| `OUTPUT_DIR` | `outputs` | Where PNGs and JSON are saved |
-| `LOG_DIR` | `logs` | Log file location |
-| `MAX_DATASET_ROWS` | `10000` | Rows before sampling kicks in |
-| `SAMPLE_SIZE` | `5000` | Rows to sample for large datasets |
-| `API_HOST` | `0.0.0.0` | FastAPI bind host |
-| `API_PORT` | `8000` | FastAPI port |
-
----
-
-## 🐛 Troubleshooting
-
-**`ANTHROPIC_API_KEY not found`**
-→ Ensure `.env` exists and has your key. Run `cp .env.example .env` first.
-
-**`ModuleNotFoundError: No module named 'crewai'`**
-→ Ensure your venv is activated and run `pip install -r requirements.txt`
-
-**`FileNotFoundError: data/sample_sales.csv`**
-→ Run `python data/generate_sample.py` to create the sample dataset first.
-
-**Analysis takes too long**
-→ Reduce `MAX_PLAN_STEPS=4` and `MAX_RETRIES=1` in `.env`.
-
-**Critic always rejects**
-→ Lower `CRITIC_SCORE_THRESHOLD=0.5` or raise `LLM_TEMPERATURE=0.4`.
-
-**Charts not saved**
-→ Ensure `outputs/` directory is writable. Check `LOG_DIR/cli.log` for errors.
-
----
-
-## 🏛️ Technology Stack
+##  Technology Stack
 
 | Layer | Technology |
 |---|---|
@@ -430,11 +189,3 @@ The JSON session file has this structure:
 | **Config** | python-dotenv |
 
 ---
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
-
----
-
-*Built with Claude Sonnet · CrewAI · FastAPI · pandas*
